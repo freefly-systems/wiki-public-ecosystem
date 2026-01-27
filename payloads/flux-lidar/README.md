@@ -7,7 +7,7 @@ description: Start mapping with the most efficient LiDAR!
 | | |
 |---|---|
 | **Description** | Survey-grade LiDAR for 3D mapping applications |
-| **Compatibility** | Astro ✓ · Alta X Gen1 ✓ · Alta X Gen2 (coming soon) |
+| **Compatibility** | Astro ✓ · Alta X Gen2 (coming soon) |
 | **Weight** | 663–715g (varies by variant) |
 | **NDAA Compliant** | Flux O1 only |
 | **Offered By** | Freefly |
