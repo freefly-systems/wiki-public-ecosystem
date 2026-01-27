@@ -1,2 +1,0 @@
-# Wiris Pro Thermal
-
