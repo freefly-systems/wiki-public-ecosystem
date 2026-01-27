@@ -18,7 +18,7 @@ Verify that the camera is oriented correctly (downward when taking photos and fo
 
 Verify that the aircraft is taking photos by looking for photo icons on AMC Fly view map or the incrementing photo counter on the live video camera control panel.&#x20;
 
-![Camera counter is visible while previewing the video feed on the Herelink](<../../../../.gitbook/assets/image (133).png>)
+![Camera counter is visible while previewing the video feed on the Herelink](<../../../.gitbook/assets/image (133).png>)
 
 ### Landing
 

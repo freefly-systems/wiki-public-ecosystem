@@ -82,14 +82,6 @@
   * [Sentera 6X/65R](payloads/third-party-payloads/sentera-6x-65r.md)
 * [Payload Maintenance](payloads/payload-maintenance/README.md)
   * [Installing/Removing Payloads](payloads/payload-maintenance/installing-removing-payloads.md)
-  * [Mapping Workflow and Output](payloads/payload-maintenance/mapping-workflow-and-output/README.md)
-    * [Pre-flight Planning](payloads/payload-maintenance/mapping-workflow-and-output/pre-flight-planning.md)
-    * [Mapping Efficiency Tips](payloads/payload-maintenance/mapping-workflow-and-output/mapping-efficiency-tips.md)
-    * [Mapping Flight and Post Processing](payloads/payload-maintenance/mapping-workflow-and-output/mapping-flight-and-post-processing.md)
-    * [PPK Software](payloads/payload-maintenance/mapping-workflow-and-output/ppk-software.md)
-    * [Output Specification](payloads/payload-maintenance/mapping-workflow-and-output/output-specification.md)
-    * [Sample Mapping Data](payloads/payload-maintenance/mapping-workflow-and-output/sample-mapping-data.md)
-  * [Inspection Workflow](payloads/payload-maintenance/inspection-workflow.md)
   * [Gimbal Firmware](payloads/payload-maintenance/gimbal-firmware.md)
   * [Gimbal Logs](payloads/payload-maintenance/gimbal-logs.md)
   * [USB Formatting](payloads/payload-maintenance/usb-formatting.md)
@@ -98,9 +90,15 @@
 
 ## Workflows
 
-* [Photogrammetry Mapping](workflows/photogrammetry-mapping.md)
+* [Photogrammetry Mapping](workflows/photogrammetry-mapping/README.md)
+  * [Pre-flight Planning](workflows/photogrammetry-mapping/pre-flight-planning.md)
+  * [Mapping Efficiency Tips](workflows/photogrammetry-mapping/mapping-efficiency-tips.md)
+  * [Mapping Flight and Post Processing](workflows/photogrammetry-mapping/mapping-flight-and-post-processing.md)
+  * [PPK Software](workflows/photogrammetry-mapping/ppk-software.md)
+  * [Output Specification](workflows/photogrammetry-mapping/output-specification.md)
+  * [Sample Mapping Data](workflows/photogrammetry-mapping/sample-mapping-data.md)
 * [Lidar Mapping](workflows/lidar-mapping.md)
-* [Power Line Inspection](workflows/power-line-inspection.md)
+* [Infrastructure Inspection](workflows/infrastructure-inspection.md)
 * [Gas Inspection](workflows/gas-inspection.md)
 * [Filming](workflows/filming.md)
 

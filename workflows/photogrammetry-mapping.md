@@ -1,2 +1,0 @@
-# Photogrammetry Mapping
-

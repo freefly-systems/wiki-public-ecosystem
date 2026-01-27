@@ -2,14 +2,14 @@
 
 ## Mapping Workflow
 
-{% content-ref url="../payload-maintenance/mapping-workflow-and-output/" %}
-[mapping-workflow-and-output](../payload-maintenance/mapping-workflow-and-output/)
+{% content-ref url="../../workflows/photogrammetry-mapping/" %}
+[photogrammetry-mapping](../../workflows/photogrammetry-mapping/)
 {% endcontent-ref %}
 
 ## Inspection Workflow
 
-{% content-ref url="../payload-maintenance/inspection-workflow.md" %}
-[inspection-workflow.md](../payload-maintenance/inspection-workflow.md)
+{% content-ref url="../../workflows/infrastructure-inspection.md" %}
+[infrastructure-inspection.md](../../workflows/infrastructure-inspection.md)
 {% endcontent-ref %}
 
 ## Video Workflow

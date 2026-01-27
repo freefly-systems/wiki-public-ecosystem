@@ -4,8 +4,8 @@
 
 Similar to photogrammetry missions, you can plan a mission inside AMC and upload it to Astro. The process is very similar to planning a mission for the a7R IV Payload:&#x20;
 
-{% content-ref url="../../payload-maintenance/mapping-workflow-and-output/" %}
-[mapping-workflow-and-output](../../payload-maintenance/mapping-workflow-and-output/)
+{% content-ref url="../../../workflows/photogrammetry-mapping/" %}
+[photogrammetry-mapping](../../../workflows/photogrammetry-mapping/)
 {% endcontent-ref %}
 
 Hovermap ST-X and ST specific notes:

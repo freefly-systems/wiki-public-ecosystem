@@ -4,8 +4,8 @@ description: Put Astro Map to work!
 
 # A7R4 Payload
 
-{% content-ref url="../payload-maintenance/mapping-workflow-and-output/sample-mapping-data.md" %}
-[sample-mapping-data.md](../payload-maintenance/mapping-workflow-and-output/sample-mapping-data.md)
+{% content-ref url="../../workflows/photogrammetry-mapping/sample-mapping-data.md" %}
+[sample-mapping-data.md](../../workflows/photogrammetry-mapping/sample-mapping-data.md)
 {% endcontent-ref %}
 
 {% content-ref url="/broken/pages/7ya55E0xQfeFG6pfp2CU" %}

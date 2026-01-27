@@ -8,9 +8,9 @@ The LR1 and A7R4 can easily be configured to perform inspections on power lines,
 How to use LR1 + Astro for inspection
 {% endembed %}
 
-<figure><img src="../../../.gitbook/assets/DSC00891.JPG" alt="" width="563"><figcaption><p>Sample Inspection Image (75mm Lens)</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/DSC00891.JPG" alt="" width="563"><figcaption><p>Sample Inspection Image (75mm Lens)</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (35) (1).png" alt="" width="563"><figcaption><p>Cropped detail section of above photo</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (35) (1).png" alt="" width="563"><figcaption><p>Cropped detail section of above photo</p></figcaption></figure>
 
 ## Gimbal Setup&#x20;
 
