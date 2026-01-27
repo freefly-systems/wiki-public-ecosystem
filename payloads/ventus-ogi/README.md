@@ -7,7 +7,7 @@
 {% endcontent-ref %}
 
 {% content-ref url="../payload-maintenance/" %}
-[workflows-maintenance-updates](../payload-maintenance/)
+[Payload Maintenance](../payload-maintenance/)
 {% endcontent-ref %}
 
 {% content-ref url="protips-limitations-and-troubleshooting.md" %}
