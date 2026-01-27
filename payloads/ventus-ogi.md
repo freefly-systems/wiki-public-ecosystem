@@ -1,2 +1,0 @@
-# Ventus OGI
-
