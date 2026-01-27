@@ -9,7 +9,7 @@ description: Get your payload up and running here!
 | **Description** | 61MP camera system for mapping and inspections |
 | **Compatibility** | Astro ✓ · Alta X Gen2 ✓ |
 | **Weight** | 970g (with default lens) |
-| **NDAA Compliant** | No |
+| **NDAA Compliant** | Yes |
 | **Offered By** | Freefly |
 
 {% embed url="https://www.youtube.com/watch?v=ycIz4kCDKPQ" %}

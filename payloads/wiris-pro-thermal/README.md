@@ -5,7 +5,7 @@
 | **Description** | Thermal imaging payload for inspections |
 | **Compatibility** | Astro ✓ |
 | **Weight** | 940g |
-| **NDAA Compliant** | No |
+| **NDAA Compliant** | Yes |
 | **Offered By** | Freefly |
 
 {% embed url="https://www.youtube.com/watch?v=vP9H6iSNR3E" %}

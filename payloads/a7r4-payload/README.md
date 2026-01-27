@@ -9,7 +9,7 @@ description: Put Astro Map to work!
 | **Description** | 61MP camera payload for photogrammetry |
 | **Compatibility** | Astro ✓ |
 | **Weight** | 1,390g (with default lens) |
-| **NDAA Compliant** | No |
+| **NDAA Compliant** | Yes |
 | **Offered By** | Freefly |
 
 {% content-ref url="../../workflows/photogrammetry-mapping/sample-mapping-data.md" %}

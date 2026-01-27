@@ -13,11 +13,11 @@ Alta X Gen1 uses a different payload architecture and is not compatible with the
 | Payload | Description | Astro | Alta X Gen2 | Weight | NDAA |
 |---------|-------------|:-----:|:-----------:|--------|:----:|
 | [Flux LiDAR](flux-lidar/) | Survey-grade LiDAR for 3D mapping | ✓ | (coming soon) | 663–715g | O1 only |
-| [LR1 Payload](lr1-payload/) | 61MP camera for mapping/inspections | ✓ | ✓ | 970g | – |
-| [A7R4 Payload](a7r4-payload/) | 61MP camera for photogrammetry | ✓ | – | 1,390g | – |
-| [Wiris Pro](wiris-pro-thermal/) | Thermal imaging for inspections | ✓ | – | 940g | – |
-| [Ventus OGI](ventus-ogi/) | Optical gas imaging for leak detection | ✓ | – | 1,350g | – |
-| [FPV Camera](fpv-camera.md) | First-person view camera module | ✓ | Built-in | 85g | – |
+| [LR1 Payload](lr1-payload/) | 61MP camera for mapping/inspections | ✓ | ✓ | 970g | ✓ |
+| [A7R4 Payload](a7r4-payload/) | 61MP camera for photogrammetry | ✓ | – | 1,390g | ✓ |
+| [Wiris Pro](wiris-pro-thermal/) | Thermal imaging for inspections | ✓ | – | 940g | ✓ |
+| [Ventus OGI](ventus-ogi/) | Optical gas imaging for leak detection | ✓ | – | 1,350g | ✓ |
+| [FPV Camera](fpv-camera.md) | First-person view camera module | ✓ | Built-in | 85g | [See Note](fpv-camera.md#fpv-module-variants) |
 
 ## Third-Party Payloads
 
