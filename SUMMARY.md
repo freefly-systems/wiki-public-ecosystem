@@ -35,7 +35,21 @@
 * [FPV Camera](payloads/fpv-camera.md)
 * [Third-Party Payloads](payloads/third-party-payloads/README.md)
   * [Hovermap](payloads/third-party-payloads/hovermap.md)
-* [Payload Maintenance](payloads/payload-maintenance.md)
+* [Payload Maintenance](payloads/payload-maintenance/README.md)
+  * [Installing/Removing Payloads](payloads/payload-maintenance/installing-removing-payloads.md)
+  * [Mapping Workflow and Output](payloads/payload-maintenance/mapping-workflow-and-output/README.md)
+    * [Pre-flight Planning](payloads/payload-maintenance/mapping-workflow-and-output/pre-flight-planning.md)
+    * [Mapping Efficiency Tips](payloads/payload-maintenance/mapping-workflow-and-output/mapping-efficiency-tips.md)
+    * [Mapping Flight and Post Processing](payloads/payload-maintenance/mapping-workflow-and-output/mapping-flight-and-post-processing.md)
+    * [PPK Software](payloads/payload-maintenance/mapping-workflow-and-output/ppk-software.md)
+    * [Output Specification](payloads/payload-maintenance/mapping-workflow-and-output/output-specification.md)
+    * [Sample Mapping Data](payloads/payload-maintenance/mapping-workflow-and-output/sample-mapping-data.md)
+  * [Inspection Workflow](payloads/payload-maintenance/inspection-workflow.md)
+  * [Gimbal Firmware](payloads/payload-maintenance/gimbal-firmware.md)
+  * [Gimbal Logs](payloads/payload-maintenance/gimbal-logs.md)
+  * [USB Formatting](payloads/payload-maintenance/usb-formatting.md)
+  * [Isolation System](payloads/payload-maintenance/isolation-system.md)
+  * [Precise/Smooth Gimbal Control](payloads/payload-maintenance/precise-smooth-gimbal-control.md)
 
 ## Workflows
 

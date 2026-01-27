@@ -2,14 +2,14 @@
 
 ## Mapping Workflow
 
-{% content-ref url="../workflows-maintenance-updates/mapping-workflow-and-output/" %}
-[mapping-workflow-and-output](../workflows-maintenance-updates/mapping-workflow-and-output/)
+{% content-ref url="../payload-maintenance/mapping-workflow-and-output/" %}
+[mapping-workflow-and-output](../payload-maintenance/mapping-workflow-and-output/)
 {% endcontent-ref %}
 
 ## Inspection Workflow&#x20;
 
-{% content-ref url="../workflows-maintenance-updates/inspection-workflow.md" %}
-[inspection-workflow.md](../workflows-maintenance-updates/inspection-workflow.md)
+{% content-ref url="../payload-maintenance/inspection-workflow.md" %}
+[inspection-workflow.md](../payload-maintenance/inspection-workflow.md)
 {% endcontent-ref %}
 
 ## Video Workflow&#x20;
@@ -20,8 +20,8 @@ The LR1 Payload was primary designed for photography applications (mapping, insp
 Smoother gimbal control and additional parameters were added in Astro FW 2.0! Check it out here:&#x20;
 {% endhint %}
 
-{% content-ref url="../workflows-maintenance-updates/precise-smooth-gimbal-control.md" %}
-[precise-smooth-gimbal-control.md](../workflows-maintenance-updates/precise-smooth-gimbal-control.md)
+{% content-ref url="../payload-maintenance/precise-smooth-gimbal-control.md" %}
+[precise-smooth-gimbal-control.md](../payload-maintenance/precise-smooth-gimbal-control.md)
 {% endcontent-ref %}
 
 ## Video Settings
