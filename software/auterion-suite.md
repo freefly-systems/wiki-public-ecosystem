@@ -22,8 +22,8 @@ Freefly aircraft are built to easily integrate into the Auterion Suite and many 
 {% hint style="info" %}
 **Platform-Specific Notes**
 
-* **Astro**: IO panel is on the underside of the aircraft. Use one SL8 battery.
-* **Alta X Gen2**: IO panel location varies. Use one SL12 battery.
+* **Astro**: IO panel is on the underside of the aircraft. Power on with one SL8 battery.
+* **Alta X Gen2**: IO panel is on the bottom side of the aircraft near the nose. Power on with one battery and the fused cable.
 
 Using only one battery prevents the danger of accidentally arming the aircraft during USB setup.
 {% endhint %}
