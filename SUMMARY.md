@@ -28,7 +28,16 @@
     * [LR1 Sample Mapping Data](payloads/lr1-payload/lr1-sample-mapping-data.md)
 
 
-* [Flux Lidar](payloads/flux-lidar.md)
+* [Flux Lidar](payloads/flux-lidar/README.md)
+  * [Payload Overview](payloads/flux-lidar/payload-overview.md)
+  * [Mapping Workflow with Flux](payloads/flux-lidar/mapping-workflow-with-flux/README.md)
+    * [Installation on Astro](payloads/flux-lidar/mapping-workflow-with-flux/installation-on-astro.md)
+    * [Mission Planning and Data Capture](payloads/flux-lidar/mapping-workflow-with-flux/mission-planning-and-data-capture.md)
+    * [Processing LiDAR data on an iPad](payloads/flux-lidar/mapping-workflow-with-flux/processing-lidar-data-on-an-ipad.md)
+  * [Flux Sample Mapping Data](payloads/flux-lidar/flux-sample-mapping-data.md)
+  * [Safety Information and Technical Specifications](payloads/flux-lidar/safety-information-and-technical-specifications.md)
+  * [Flux Software](payloads/flux-lidar/flux-software.md)
+  * [Maintenance](payloads/flux-lidar/maintenance.md)
 * [A7R4 Payload](payloads/a7r4-payload.md)
 * [Wiris Pro Thermal](payloads/wiris-pro-thermal.md)
 * [Ventus OGI](payloads/ventus-ogi.md)
