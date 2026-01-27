@@ -3,7 +3,7 @@
 | | |
 |---|---|
 | **Description** | LiDAR with SLAM for GPS-denied environments |
-| **Compatibility** | Astro ✓ |
+| **Compatibility** | ST-X: Astro ✓ · Astro Max ✓ · ST: Astro Max only |
 | **Weight** | 1,570g |
 | **NDAA Compliant** | No |
 | **Offered By** | Emesent |
