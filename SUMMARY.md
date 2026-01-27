@@ -4,7 +4,35 @@
 
 ## Controller
 
-* [Pilot Pro](controller/pilot-pro.md)
+* [Pilot Pro](controller/pilot-pro/README.md)
+  * [Getting Started](controller/pilot-pro/getting-started.md)
+  * [Operating Handbook](controller/pilot-pro/operating-handbook/README.md)
+    * [User Interface](controller/pilot-pro/operating-handbook/user-interface.md)
+    * [Ecosystem](controller/pilot-pro/operating-handbook/ecosystem/README.md)
+      * [RTK](controller/pilot-pro/operating-handbook/ecosystem/rtk.md)
+    * [Power and Charging](controller/pilot-pro/operating-handbook/power-and-charging.md)
+    * [Radio Modules](controller/pilot-pro/operating-handbook/radio-modules/README.md)
+      * [Herelink Radio](controller/pilot-pro/operating-handbook/radio-modules/herelink-radio.md)
+      * [Doodle Labs Radio Module](controller/pilot-pro/operating-handbook/radio-modules/doodle-labs-radio-module/README.md)
+        * [Doodle Pro Tips](controller/pilot-pro/operating-handbook/radio-modules/doodle-labs-radio-module/doodle-pro-tips.md)
+        * [Doodle Channel Selection](controller/pilot-pro/operating-handbook/radio-modules/doodle-labs-radio-module/doodle-channel-selection.md)
+        * [Doodle RJ45 Ethernet Port](controller/pilot-pro/operating-handbook/radio-modules/doodle-labs-radio-module/doodle-rj45-ethernet-port.md)
+        * [Doodle Binding / Pairing](controller/pilot-pro/operating-handbook/radio-modules/doodle-labs-radio-module/doodle-binding-pairing.md)
+    * [Input Output Mapping](controller/pilot-pro/operating-handbook/input-output-mapping/README.md)
+      * [Advanced Input Mapping](controller/pilot-pro/operating-handbook/input-output-mapping/advanced-input-mapping.md)
+  * [Maintenance](controller/pilot-pro/maintenance/README.md)
+    * [Troubleshooting](controller/pilot-pro/maintenance/troubleshooting.md)
+    * [Software and Firmware Updates](controller/pilot-pro/maintenance/software-and-firmware-updates/README.md)
+      * [Software Release Notes](controller/pilot-pro/maintenance/software-and-firmware-updates/software-release-notes.md)
+  * [Specs](controller/pilot-pro/specs/README.md)
+    * [Technical Specs](controller/pilot-pro/specs/technical-specs.md)
+    * [Radio Technical Specs](controller/pilot-pro/specs/radio-technical-specs.md)
+    * [Testing and Certification](controller/pilot-pro/specs/testing-and-certification.md)
+    * [Compliance](controller/pilot-pro/specs/compliance.md)
+  * [Interfaces](controller/pilot-pro/interfaces/README.md)
+    * [Electrical Interfaces](controller/pilot-pro/interfaces/electrical-interfaces.md)
+    * [Mechanical Interfaces](controller/pilot-pro/interfaces/mechanical-interfaces.md)
+    * [Software Interfaces](controller/pilot-pro/interfaces/software-interfaces.md)
 
 ## Power
 

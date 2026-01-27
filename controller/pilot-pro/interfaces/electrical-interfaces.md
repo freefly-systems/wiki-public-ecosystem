@@ -1,0 +1,11 @@
+# Electrical Interfaces
+
+<figure><img src="../../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+
+| Connector                             | Information / Pinout                                                                                                                                                                                                                                                  |
+| ------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1: USB C Charge Input                 | <p>USB C PD Supports up to 100W input<br>No Data</p>                                                                                                                                                                                                                  |
+| 2: Molex External Power Input and CAN | <p>5-26V up to 100W input<br>(12V-26V recommended for powering while in use or fast charging)<br><img src="../../../.gitbook/assets/image (3).png" alt=""><br>1 - GND</p><p>2 - Power In</p><p>3 - CAN High</p><p>4 - CAN Low<br><br>Mating Connector: Molex 0430250400</p> |
+| 3 and 4: JST GH 6-pin                 | <p><img src="../../../.gitbook/assets/image (1).png" alt=""><br>1 - GND<br>2 - 5V (1A) Output<br>3 - UART TX (output from Pilot Pro)<br>4 - UART RX (input to Pilot Pro)<br>5 - GPIO<br>6 - GPIO<br><br>Mating Connector: JST GHR-06V-S</p>                                 |
+| 5: Micro SD Slot                      | Recommended: SanDisk Ultra microSD or faster                                                                                                                                                                                                                          |
+| 6 and 7: USB C 3.0 Data and Power Out | <p>USB type C Connector<br>5Gbps SuperSpeed<br>5V at 1.5A power output per port</p>                                                                                                                                                                                   |
