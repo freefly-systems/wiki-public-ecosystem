@@ -4,7 +4,7 @@
 |---|---|
 | **Description** | Optical gas imaging for leak detection |
 | **Compatibility** | Astro ✓ |
-| **Weight** | 1,350g |
+| **Weight** | 1,320g |
 | **NDAA Compliant** | Yes |
 | **Offered By** | Freefly |
 
