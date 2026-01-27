@@ -1,5 +1,13 @@
 # Gremsy Pixy PE
 
+| | |
+|---|---|
+| **Description** | Gimbal for custom payloads |
+| **Compatibility** | Astro ✓ |
+| **Weight** | Varies by camera |
+| **NDAA Compliant** | No |
+| **Offered By** | Gremsy |
+
 <figure><img src="../../.gitbook/assets/pixype (2).png" alt=""><figcaption></figcaption></figure>
 
 The Gremsy Pixy PE is compatible with the Pixhawk Payload Bus standard and can be integrated with Astro to fly custom payloads. The dovetail mount of the Pixy PE fits into the dovetail mount on Astro and can communicate via Mavlink.&#x20;

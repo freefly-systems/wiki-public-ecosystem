@@ -4,6 +4,14 @@ description: First Person View for Astro!
 
 # FPV Camera
 
+| | |
+|---|---|
+| **Description** | First-person view camera module |
+| **Compatibility** | Astro ✓ |
+| **Weight** | 85g |
+| **NDAA Compliant** | No |
+| **Offered By** | Freefly |
+
 {% embed url="https://store.freeflysystems.com/products/optional-fpv-system-for-astro" %}
 
 {% embed url="https://youtu.be/Pk__ezWykjc" %}

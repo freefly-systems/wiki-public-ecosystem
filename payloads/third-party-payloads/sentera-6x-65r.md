@@ -1,6 +1,12 @@
 # Sentera 6X/65R
 
-
+| | |
+|---|---|
+| **Description** | Multispectral sensors for agriculture |
+| **Compatibility** | Astro ✓ |
+| **Weight** | 515–588g (with Smart Dovetail) |
+| **NDAA Compliant** | Yes |
+| **Offered By** | Sentera |
 
 <figure><img src="../../.gitbook/assets/Astro-6X.png" alt=""><figcaption></figcaption></figure>
 

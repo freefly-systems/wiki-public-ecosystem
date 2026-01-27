@@ -1,5 +1,13 @@
 # Hovermap ST-X and ST Lidar
 
+| | |
+|---|---|
+| **Description** | LiDAR with SLAM for GPS-denied environments |
+| **Compatibility** | Astro ✓ |
+| **Weight** | 1,570g |
+| **NDAA Compliant** | No |
+| **Offered By** | Emesent |
+
 The Emesent Hovermap ST-X and ST lidars are excellent payloads for creating detailed, accurate lidar point clouds, while enabling operations in challenging, GPS-denied environments.
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2023-12-13 at 10.08.05 AM.jpg" alt=""><figcaption><p>Astro + Hovermap ST-X flying inside Alcatraz Cell House </p></figcaption></figure>

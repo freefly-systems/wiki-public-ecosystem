@@ -4,12 +4,16 @@ description: Put Astro Map to work!
 
 # A7R4 Payload
 
+| | |
+|---|---|
+| **Description** | 61MP camera payload for photogrammetry |
+| **Compatibility** | Astro ✓ |
+| **Weight** | 1,390g (with default lens) |
+| **NDAA Compliant** | No |
+| **Offered By** | Freefly |
+
 {% content-ref url="../../workflows/photogrammetry-mapping/sample-mapping-data.md" %}
 [sample-mapping-data.md](../../workflows/photogrammetry-mapping/sample-mapping-data.md)
-{% endcontent-ref %}
-
-{% content-ref url="/broken/pages/7ya55E0xQfeFG6pfp2CU" %}
-[Broken link](/broken/pages/7ya55E0xQfeFG6pfp2CU)
 {% endcontent-ref %}
 
 {% content-ref url="technical-specs-and-lenses.md" %}

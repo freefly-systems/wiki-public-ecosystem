@@ -1,5 +1,13 @@
 # Gremsy Vio
 
+| | |
+|---|---|
+| **Description** | Camera gimbal with video streaming |
+| **Compatibility** | Astro ✓ |
+| **Weight** | 1,100g (varies by camera) |
+| **NDAA Compliant** | No |
+| **Offered By** | Gremsy |
+
 <figure><img src="../../.gitbook/assets/thumbnail_image001.jpg" alt=""><figcaption></figcaption></figure>
 
 The Gremsy VIO with the Smart Dovetail adaptor is compatible with the Pixhawk Payload Bus standard and can be integrated to work on Astro.

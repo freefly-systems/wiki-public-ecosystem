@@ -1,6 +1,12 @@
 # Wiris Pro Payload
 
-
+| | |
+|---|---|
+| **Description** | Thermal imaging payload for inspections |
+| **Compatibility** | Astro ✓ |
+| **Weight** | 940g |
+| **NDAA Compliant** | No |
+| **Offered By** | Freefly |
 
 {% embed url="https://www.youtube.com/watch?v=vP9H6iSNR3E" %}
 
