@@ -131,6 +131,6 @@ If you're experiencing a limp gimbal upon powering on or during flight, this cou
 
 **Firmware Changes:** Starting with Astro firmware version 1.6, the baud rate for communication between the Astro system and the gimbal was updated. In Astro firmware 1.5 and earlier, the baud rate was set to **921600 8N1**. However, with the release of firmware 1.6, the baud rate was increased to **230400 8N1**. This should update automatically by applying firmware 1.6 or later
 
-**How to Check Gimbal Baud Rate:** To verify your gimbal's baud rate, [access the advanced parameters](https://freefly.gitbook.io/astro-public/pilots-operating-handbook/essential-software/auterion-mission-control/amc-vehicle-setup/parameters#accessing-advanced-parameters) in your system and locate the **SER\_EXT2\_BAUD** parameter. This will indicate the current baud rate setting on your gimbal.
+**How to Check Gimbal Baud Rate:** To verify your gimbal's baud rate, [access the advanced parameters](../../software/auterion-mission-control/amc-vehicle-setup/parameters.md#accessing-advanced-parameters) in your system and locate the **SER\_EXT2\_BAUD** parameter. This will indicate the current baud rate setting on your gimbal.
 
 By ensuring that both your gimbal and Astro firmware are using compatible baud rates, you can prevent any communication issues and maintain proper gimbal functionality.

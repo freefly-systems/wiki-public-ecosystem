@@ -49,7 +49,7 @@ We have had issues where the gimbal sometimes incorrectly reports a successful c
 This will allow tilt control by using the wheel on the Herelink after rebooting the gimbal.
 
 {% hint style="info" %}
-If tilt control is not working, check that the SER\_EXT2\_BAUD parameter is set correctly to 230400 baud rate. This can be found by going to [**Advanced mode** ](https://freefly.gitbook.io/astro-public/astro/pilots-operating-handbook/software/auterion-mission-control/amc-vehicle-setup/advanced-vehicle-setup#activating-advanced-mode)--> Parameters
+If tilt control is not working, check that the SER\_EXT2\_BAUD parameter is set correctly to 230400 baud rate. This can be found by going to [**Advanced mode**](../../software/auterion-mission-control/amc-vehicle-setup/advanced-vehicle-setup.md#activating-advanced-mode) --> Parameters
 {% endhint %}
 
 {% hint style="warning" %}

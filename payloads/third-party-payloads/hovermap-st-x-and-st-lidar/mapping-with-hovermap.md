@@ -26,7 +26,7 @@ If you see several rotated, intersecting versions of your scan after processing 
 
 
 
-* [Download terrain data ](https://freefly.gitbook.io/astro-public/other-user-manuals/payloads/astro-mapping-payload/operating-handbook/pre-flight-planning#download-maps-for-offline-use)and enable Terrain Following on the Plan screen of AMC.
+* [Download terrain data](../../../software/auterion-mission-control/amc-plan/offline-maps.md) and enable [Terrain Following](../../../software/auterion-mission-control/amc-plan/terrain-follow.md) on the Plan screen of AMC.
 
 <figure><img src="../../../.gitbook/assets/IMG_7608.jpg" alt="" width="375"><figcaption></figcaption></figure>
 

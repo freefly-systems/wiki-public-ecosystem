@@ -41,7 +41,7 @@ The latest supported version with Astro is:&#x20;
 Astro and AMC need to updated to the latest version, at least Astro software version 2.0 or later
 {% endhint %}
 
-The following parameters need to be configured for Astro to communicate with the VIO. Click [here](https://freefly.gitbook.io/astro-public/pilots-operating-handbook/essential-software/auterion-mission-control/amc-vehicle-setup/parameters) to learn to set parameters on Astro.&#x20;
+The following parameters need to be configured for Astro to communicate with the VIO. Click [here](../../software/auterion-mission-control/amc-vehicle-setup/parameters.md) to learn to set parameters.&#x20;
 
 * #### MNT\_RATE\_YAW = 0
   * You will need to check 'force save'
@@ -51,7 +51,7 @@ The following parameters need to be configured for Astro to communicate with the
 * Reboot Astro
 
 {% hint style="info" %}
-If switching back to other Smart Dovetail payloads like the LR1 Payload or Sentera 6X, perform a [parameter reset](https://freefly.gitbook.io/astro-public/pilots-operating-handbook/essential-software/auterion-mission-control/amc-vehicle-setup/parameters#resetting-parameters-to-factory-defaults) on Astro.
+If switching back to other Smart Dovetail payloads like the LR1 Payload or Sentera 6X, perform a [parameter reset](../../software/auterion-mission-control/amc-vehicle-setup/parameters.md#resetting-parameters-to-factory-defaults).
 {% endhint %}
 
 ## Connect to Astro
