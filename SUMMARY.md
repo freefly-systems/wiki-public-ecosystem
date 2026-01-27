@@ -135,7 +135,17 @@
 * [ESRI ArcGIS Flight Site Scan](software/esri-arcgis-flight-site-scan.md)
 * [Freefly Flow](software/freefly-flow.md)
 * [Auterion Suite](software/auterion-suite.md)
-* [Auterion Mission Control](software/auterion-mission-control.md)
+* [Auterion Mission Control](software/auterion-mission-control/README.md)
+  * [AMC - Fly](software/auterion-mission-control/amc-fly.md)
+  * [AMC - Plan](software/auterion-mission-control/amc-plan/README.md)
+    * [Offline Maps](software/auterion-mission-control/amc-plan/offline-maps.md)
+    * [Terrain Follow](software/auterion-mission-control/amc-plan/terrain-follow.md)
+    * [Transfer Mission Files](software/auterion-mission-control/amc-plan/transfer-mission-files.md)
+  * [AMC - Settings](software/auterion-mission-control/amc-settings/README.md)
+    * [Advanced Mode](software/auterion-mission-control/amc-settings/advanced-mode.md)
+  * [AMC - Vehicle Setup](software/auterion-mission-control/amc-vehicle-setup/README.md)
+    * [Advanced Vehicle Setup](software/auterion-mission-control/amc-vehicle-setup/advanced-vehicle-setup.md)
+    * [Parameters](software/auterion-mission-control/amc-vehicle-setup/parameters.md)
 
 ## Accessories
 

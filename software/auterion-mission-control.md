@@ -1,2 +1,0 @@
-# Auterion Mission Control
-
