@@ -20,8 +20,8 @@ The LR1 Payload was primary designed for photography applications (mapping, insp
 Smoother gimbal control and additional parameters were added in Astro FW 2.0! Check it out here:&#x20;
 {% endhint %}
 
-{% content-ref url="../payload-maintenance/precise-smooth-gimbal-control.md" %}
-[precise-smooth-gimbal-control.md](../payload-maintenance/precise-smooth-gimbal-control.md)
+{% content-ref url="../../controller/pilot-pro/operating-handbook/rate-controls.md" %}
+[rate-controls.md](../../controller/pilot-pro/operating-handbook/rate-controls.md)
 {% endcontent-ref %}
 
 ## Video Settings

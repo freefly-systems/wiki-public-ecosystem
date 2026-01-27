@@ -18,7 +18,7 @@ Make sure to update AMC to the latest version too!
 Slow speed mode makes the gimbal easier to precisely control when zooming in.
 {% endhint %}
 
-&#x20;Learn about it under the [Precise Gimbal Control](../payload-maintenance/precise-smooth-gimbal-control.md) section
+&#x20;Learn about it under the [Rate Controls](../../controller/pilot-pro/operating-handbook/rate-controls.md) section
 
 {% hint style="success" %}
 If you want images to be geotagged, insert a USB thumbdrive in Astro and set the image storage mode to 'External USB'

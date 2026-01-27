@@ -10,8 +10,8 @@ We recommend clearing out extra photos from your USB drive to reduce the time to
 
 ## Precise Control&#x20;
 
-{% content-ref url="../../payload-maintenance/precise-smooth-gimbal-control.md" %}
-[precise-smooth-gimbal-control.md](../../payload-maintenance/precise-smooth-gimbal-control.md)
+{% content-ref url="../../../controller/pilot-pro/operating-handbook/rate-controls.md" %}
+[rate-controls.md](../../../controller/pilot-pro/operating-handbook/rate-controls.md)
 {% endcontent-ref %}
 
 ## Live Inspection&#x20;

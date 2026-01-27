@@ -46,6 +46,14 @@ Additional settings we recommend:
 * Focus mode: Center or Zone (if not using tap to focus)
 * Overlay: Reticle&#x20;
 
+## Precise Control
+
+For inspection work with longer lenses, use Position Slow Mode with Pilot Pro's rate knobs to get smooth, precise control over aircraft and gimbal movement.
+
+{% content-ref url="../controller/pilot-pro/operating-handbook/rate-controls.md" %}
+[rate-controls.md](../controller/pilot-pro/operating-handbook/rate-controls.md)
+{% endcontent-ref %}
+
 ## #protips&#x20;
 
 {% hint style="warning" %}

@@ -12,10 +12,6 @@ Integrated payloads developed by Freefly share much of the same information for 
 [inspection-workflow.md](inspection-workflow.md)
 {% endcontent-ref %}
 
-{% content-ref url="precise-smooth-gimbal-control.md" %}
-[precise-smooth-gimbal-control.md](precise-smooth-gimbal-control.md)
-{% endcontent-ref %}
-
 ## Maintenance
 
 {% content-ref url="usb-formatting.md" %}

@@ -22,7 +22,7 @@ When powered on, the Ventus OGI may take about 10 minutes to cool down and calib
 Slow speed mode makes the gimbal easier to control when zooming in.
 {% endhint %}
 
-&#x20;Learn about it under the [Precise Gimbal Control](../payload-maintenance/precise-smooth-gimbal-control.md) section
+&#x20;Learn about it under the [Rate Controls](../../controller/pilot-pro/operating-handbook/rate-controls.md) section
 
 {% hint style="warning" %}
 Be careful not to become disoriented when flying with the camera zoomed in. We recommend resetting the camera zoom to 1x before flying to a new inspection location.

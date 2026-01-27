@@ -34,7 +34,7 @@ Astro Max generally does not produce good video with the A7R4 Payload due to inc
 
 For cinematic shots, use **Position Slow Mode** which provides adjustable rates, expo, and smoothing for precise gimbal control.
 
-{% content-ref url="../payloads/payload-maintenance/precise-smooth-gimbal-control.md" %}
-[Precise/Smooth Gimbal Control](../payloads/payload-maintenance/precise-smooth-gimbal-control.md)
+{% content-ref url="../controller/pilot-pro/operating-handbook/rate-controls.md" %}
+[Rate Controls](../controller/pilot-pro/operating-handbook/rate-controls.md)
 {% endcontent-ref %}
 

@@ -20,6 +20,7 @@
         * [Doodle Binding / Pairing](controller/pilot-pro/operating-handbook/radio-modules/doodle-labs-radio-module/doodle-binding-pairing.md)
     * [Input Output Mapping](controller/pilot-pro/operating-handbook/input-output-mapping/README.md)
       * [Advanced Input Mapping](controller/pilot-pro/operating-handbook/input-output-mapping/advanced-input-mapping.md)
+    * [Rate Controls](controller/pilot-pro/operating-handbook/rate-controls.md)
   * [Maintenance](controller/pilot-pro/maintenance/README.md)
     * [Troubleshooting](controller/pilot-pro/maintenance/troubleshooting.md)
     * [Software and Firmware Updates](controller/pilot-pro/maintenance/software-and-firmware-updates/README.md)
@@ -114,7 +115,6 @@
   * [Gimbal Logs](payloads/payload-maintenance/gimbal-logs.md)
   * [USB Formatting](payloads/payload-maintenance/usb-formatting.md)
   * [Isolation System](payloads/payload-maintenance/isolation-system.md)
-  * [Precise/Smooth Gimbal Control](payloads/payload-maintenance/precise-smooth-gimbal-control.md)
 
 ## Workflows
 
