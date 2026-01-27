@@ -17,7 +17,7 @@ Alta X Gen1 uses a different payload architecture and is not compatible with the
 | [A7R4 Payload](a7r4-payload/) | 61MP camera for photogrammetry | ✓ | – | 1,390g | – |
 | [Wiris Pro](wiris-pro-thermal/) | Thermal imaging for inspections | ✓ | – | 940g | – |
 | [Ventus OGI](ventus-ogi/) | Optical gas imaging for leak detection | ✓ | – | 1,350g | – |
-| [FPV Camera](fpv-camera.md) | First-person view camera module | ✓ | – | 85g | – |
+| [FPV Camera](fpv-camera.md) | First-person view camera module | ✓ | Built-in | 85g | – |
 
 ## Third-Party Payloads
 

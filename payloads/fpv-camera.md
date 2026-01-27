@@ -7,7 +7,7 @@ description: First Person View for Astro!
 | | |
 |---|---|
 | **Description** | First-person view camera module |
-| **Compatibility** | Astro ✓ |
+| **Compatibility** | Astro ✓ · Alta X Gen2 (built-in) |
 | **Weight** | 85g |
 | **NDAA Compliant** | No |
 | **Offered By** | Freefly |
