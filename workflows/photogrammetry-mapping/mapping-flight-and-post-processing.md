@@ -4,9 +4,9 @@
 DIU Blue Astros come with stealth logging enabled, which stops GPS data from being written to imagery and logs. [Stealth logging must be disabled](https://freefly.gitbook.io/astro-public/other-user-manuals/ecosystem/diu-blue-suas#logging) to allow GPS data to be written for mapping workflows
 {% endhint %}
 
-### Esri Site Scan
+### Esri ArcGIS Flight
 
-Astro is integrated with Esri's [**Site Scan,**](https://www.esri.com/en-us/cp/site-scan-for-arcgis-3d-drone-mapping-software/overview?gclid=Cj0KCQiAsburBhCIARIsAExmsu6Bz5S-BWpIf-yzE8ZTh0jpWc_7RUE8k6KVhOnPssNdTJuMVpl6zzcaAmWCEALw_wcB\&aduc=Advertising\&aduca=UR-Drone\&aduco=other\&adum=PPC\&adusf=Google\&adut=ppcbrand\&sf_id=7015x000001PMIkAAO\&utm_source=Advertising\&ef_id=Cj0KCQiAsburBhCIARIsAExmsu6Bz5S-BWpIf-yzE8ZTh0jpWc_7RUE8k6KVhOnPssNdTJuMVpl6zzcaAmWCEALw_wcB:G:s\&s_kwcid=AL!8948!3!633156847152!e!!g!!esri%20site%20scan&_bk=esri%20site%20scan&_bt=633156847152&_bm=e&_bn=g&_bg=143683278632\&aducop=esri%20site%20scan-e\&gclsrc=aw.ds) allowing for a very clean end-to-end mapping process that we cover in the [**Site Scan section of our wiki**](../../../ecosystem/esri-arcgis-flight-site-scan/). We strongly recommend using Site Scan if your primary use case for Astro is mapping.&#x20;
+Astro is integrated with Esri's [**ArcGIS Flight**](../../software/esri-arcgis-flight-site-scan.md) (formerly Site Scan), allowing for a very clean end-to-end mapping process. We strongly recommend using ArcGIS Flight if your primary use case for Astro is mapping.&#x20;
 
 ### Flying
 
