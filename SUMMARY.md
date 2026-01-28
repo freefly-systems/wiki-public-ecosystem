@@ -161,6 +161,7 @@
 
 ## Developer
 
+* [Software Interfaces](developer/software-interfaces.md)
 * [Payload Mounting Interfaces](developer/payload-mounting-interfaces.md)
 * [Electrical Interfaces](developer/electrical-interfaces.md)
 * [Onboard Computer](developer/onboard-computer.md)
