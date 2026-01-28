@@ -1,2 +1,0 @@
-# SuperLight Batteries
-

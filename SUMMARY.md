@@ -37,7 +37,16 @@
 
 ## Power
 
-* [SuperLight Batteries](power/superlight-batteries.md)
+* [SuperLight Batteries](power/superlight-batteries/README.md)
+  * [Usage](power/superlight-batteries/usage.md)
+  * [Charging](power/superlight-batteries/charging.md)
+  * [Specifications](power/superlight-batteries/specifications.md)
+  * [Interface](power/superlight-batteries/interface.md)
+  * [Maintenance](power/superlight-batteries/maintenance.md)
+  * [Firmware Updates](power/superlight-batteries/firmware-updates.md)
+  * [SL8 ESD Sticker Application Instructions](power/superlight-batteries/sl8-esd-sticker-application-instructions.md)
+  * [Warranty](power/superlight-batteries/warranty.md)
+  * [Legal](power/superlight-batteries/legal.md)
 
 ## Payloads
 
