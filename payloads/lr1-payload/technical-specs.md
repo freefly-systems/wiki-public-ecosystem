@@ -2,7 +2,7 @@
 
 Performance
 
-The LR1 Payload's high pixel count allows you to cover a large amount of area quickly at low resolution, or collect very high-resolution imagery at lower altitudes. Approximate GSD, coverage per flight, and expected altitude are listed below for reference. This is based on a 70% forward and 65% side overlap, single pass (no crosshatch).&#x20;
+The LR1 Payload's high pixel count allows you to cover a large amount of area quickly at low resolution, or collect very high-resolution imagery at lower altitudes. Approximate GSD, coverage per flight, and expected altitude are listed below for reference. This is based on a 70% forward and 65% side overlap, single pass (no crosshatch).
 
 <table><thead><tr><th>GSD (cm)</th><th width="173.3907504828339">Coverage (acres per flight, single pass)</th><th width="150">Speed (m/s)</th><th>Altitude (m)</th></tr></thead><tbody><tr><td>0.5</td><td>62</td><td>4.75</td><td>31</td></tr><tr><td>1</td><td>98</td><td>9.5</td><td>63</td></tr><tr><td>1.9 (capped by 400ft altitude)</td><td>240</td><td>15</td><td>121</td></tr></tbody></table>
 
@@ -22,7 +22,7 @@ Astro's maximum payload weight is 1500 grams.
 
 ## Ingress
 
-The LR1 Payload is not IP ingress rated, as the ILX-LR1 camera itself is not IP rated. We do not recommend flying in rain or very dusty enviroments.&#x20;
+The LR1 Payload is not IP ingress rated, as the ILX-LR1 camera itself is not IP rated. We do not recommend flying in rain or very dusty enviroments.
 
 ## Gimbal
 
@@ -32,16 +32,14 @@ The LR1 Payload is not IP ingress rated, as the ILX-LR1 camera itself is not IP 
 
 <table><thead><tr><th>Focal Length (mm)</th><th>Model</th><th width="120">Weight (g)</th><th width="150">Compatability</th></tr></thead><tbody><tr><td>24 (ships with)</td><td><a href="https://www.sigma-global.com/en/lenses/c021_24_35/">Sigma 404965</a></td><td>228</td><td>Supported</td></tr><tr><td>35</td><td><a href="https://electronics.sony.com/imaging/lenses/full-frame-e-mount/p/sel35f28z">Sony SEL35F28Z</a></td><td>165</td><td>Supported</td></tr><tr><td>50</td><td><a href="https://electronics.sony.com/imaging/lenses/full-frame-e-mount/p/sel50f18f-2">Sony SEL50F18F/2</a></td><td>187</td><td>Supported</td></tr><tr><td>75</td><td><a href="https://www.samyanglens.com/en/product/product-view.php?seq=470">Samyang AF 75mm F1.8 FE</a></td><td>230</td><td>Supported</td></tr></tbody></table>
 
-These are the lenses we have tested with, but other lenses and additional modules can work as well. Learn more about configuring the gimbal here:&#x20;
+These are the lenses we have tested with, but other lenses and additional modules can work as well. Learn more about configuring the gimbal here:
 
 {% content-ref url="lr1-lenses-and-expansion/" %}
 [lr1-lenses-and-expansion](lr1-lenses-and-expansion/)
 {% endcontent-ref %}
 
-Lens selection in AMC only matters for mission planning calculations (overlap, photo trigger, etc) and for infinity focus to work properly.&#x20;
+Lens selection in AMC only matters for mission planning calculations (overlap, photo trigger, etc) and for infinity focus to work properly.
 
-If you plan a mission with a non-standard lens, make sure that the correct lens is selected in the Survey section of the Plan screen. If your lens isn't on the dropdown, you can enter the details manually by selecting Custom Camera instead of a specific lens.&#x20;
+If you plan a mission with a non-standard lens, make sure that the correct lens is selected in the Survey section of the Plan screen. If your lens isn't on the dropdown, you can enter the details manually by selecting Custom Camera instead of a specific lens.
 
-<div align="left"><figure><img src="../../../.gitbook/assets/image (154).png" alt="" width="375"><figcaption><p>Lens choices for the Sony ILX-LR1</p></figcaption></figure></div>
-
-When changing lenses, select your lens from the Focal Length dropdown in Camera Settings found in the camera settings.&#x20;
+When changing lenses, select your lens from the Focal Length dropdown in Camera Settings found in the camera settings.

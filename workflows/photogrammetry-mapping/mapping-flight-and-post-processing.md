@@ -6,25 +6,25 @@ DIU Blue Astros come with stealth logging enabled, which stops GPS data from bei
 
 ### Esri ArcGIS Flight
 
-Astro is integrated with Esri's [**ArcGIS Flight**](../../software/esri-arcgis-flight-site-scan.md) (formerly Site Scan), allowing for a very clean end-to-end mapping process. We strongly recommend using ArcGIS Flight if your primary use case for Astro is mapping.&#x20;
+Astro is integrated with Esri's [**ArcGIS Flight**](../../software/esri-arcgis-flight-site-scan.md) (formerly Site Scan), allowing for a very clean end-to-end mapping process. We strongly recommend using ArcGIS Flight if your primary use case for Astro is mapping.
 
 ### Flying
 
-From AMC Fly view, use the confirmation slider to begin a mission.&#x20;
+From AMC Fly view, use the confirmation slider to begin a mission.
 
 During a mission, you can take control of the aircraft pressing the Flight Mode buttons on the controller (Position, Altitude, and Manual). The aircraft will switch to the selected flight mode and begin responding to your commands.
 
 Verify that the camera is oriented correctly (downward when taking photos and forward when landing to avoid ground strikes).
 
-Verify that the aircraft is taking photos by looking for photo icons on AMC Fly view map or the incrementing photo counter on the live video camera control panel.&#x20;
+Verify that the aircraft is taking photos by looking for photo icons on AMC Fly view map or the incrementing photo counter on the live video camera control panel.
 
-![Camera counter is visible while previewing the video feed on the Herelink](<../../../.gitbook/assets/image (133).png>)
+![Camera counter is visible while previewing the video feed on the Herelink](<../../.gitbook/assets/image (133).png>)
 
 ### Landing
 
-When the aircraft lands, do not immediately power down. The aircraft will automatically perform post-processing operations like creating the RINEX observation files. AMC will show a progress bar. When the process is complete, the drone may be powered down. \
+When the aircraft lands, do not immediately power down. The aircraft will automatically perform post-processing operations like creating the RINEX observation files. AMC will show a progress bar. When the process is complete, the drone may be powered down.\
 \
-The drone can be folded and moved while it is doing its post-processing, but it is suggested to disconnect ONE battery as an added safety measure. Do not disconnect the payload while the aircraft is powered on.&#x20;
+The drone can be folded and moved while it is doing its post-processing, but it is suggested to disconnect ONE battery as an added safety measure. Do not disconnect the payload while the aircraft is powered on.
 
 ### Post Processing
 
@@ -49,17 +49,17 @@ Ground Sample Distance (GSD) is the photo or map's "resolution" typically given 
 
 Functionally, GSD is the upper limit of precision for measurements extracted from a photo/map/cloud/mesh. For example, if a measurement precision of 1 cm is needed, the mission should be planned so that GSD is 1 cm or less.
 
-GSD can be chosen as a survey input in AMC's Plan tab, but it will adjust the altitude of the mission using the given overlap requirements. It is important that the operator verify the resulting altitude that AMC calculates is safe to fly.&#x20;
+GSD can be chosen as a survey input in AMC's Plan tab, but it will adjust the altitude of the mission using the given overlap requirements. It is important that the operator verify the resulting altitude that AMC calculates is safe to fly.
 
 ### Coordinate Systems
 
 The cheapest accuracy available is in eliminating coordinate system errors. It's not always easy, but it is free.
 
-Post-processing software is designed to accept input in a variety of coordinate systems, but each piece of software has its own peculiarities in handling coordinate conversion. Here are a few tips:&#x20;
+Post-processing software is designed to accept input in a variety of coordinate systems, but each piece of software has its own peculiarities in handling coordinate conversion. Here are a few tips:
 
 * Astro outputs photos geotagged in WGS84 latitude/longitude, and EGM96 elevation in meters. This is what is found on the USB stick plugged into the aircraft.
-* When working with PPK, coordinate systems become much more complicated. The coordinate system the photos are in after PPK will be the SAME as the coordinate system used by the base station. For example, if the base station was placed on a pre-surveyed marker, and you know the coordinates of that marker in NAD83(2011) geographic coordinates, and those are what you enter as the base station position in the PPK app, then all the resulting geotags from the PPK app will ALSO now be in NAD83(2011).&#x20;
-* A common error is when the base station location is corrected using an online service such as OPUS. Those services accept the base station observation file and solve for the position of the unit with high accuracy. However, the reported position coordinate system may not match the desired output at the survey site. OPUS reports back in IRTF2014 and NAD83(2011). Use the base coordinates that apply to your site. If your site is not using any of those, Tools like NOAA's [VDatumWeb ](https://vdatum.noaa.gov/vdatumweb/)can convert between them.&#x20;
+* When working with PPK, coordinate systems become much more complicated. The coordinate system the photos are in after PPK will be the SAME as the coordinate system used by the base station. For example, if the base station was placed on a pre-surveyed marker, and you know the coordinates of that marker in NAD83(2011) geographic coordinates, and those are what you enter as the base station position in the PPK app, then all the resulting geotags from the PPK app will ALSO now be in NAD83(2011).
+* A common error is when the base station location is corrected using an online service such as OPUS. Those services accept the base station observation file and solve for the position of the unit with high accuracy. However, the reported position coordinate system may not match the desired output at the survey site. OPUS reports back in IRTF2014 and NAD83(2011). Use the base coordinates that apply to your site. If your site is not using any of those, Tools like NOAA's [VDatumWeb ](https://vdatum.noaa.gov/vdatumweb/)can convert between them.
 * The FreeflyPPK app or Precise Flight PPK app does not include vertical datum settings. (Look for these in a future version.) The resulting vertical reference will match the coordinates of whatever height is used for the base station.
 
 ### Geotag Corrections
@@ -70,11 +70,11 @@ Geotags are metadata attached to photo files that capture the camera's location 
 
 Astro will geotag the photos with whatever level of accuracy is available to the aircraft. The onboard GPS provides absolute accuracy down to 1-3 meters. The relative accuracy will be much higher, but it depends on the GPS constellation, mission duration (it drifts over time), and other factors.
 
-The accuracy of GPS systems can be improved by strategies involving multiple receivers.&#x20;
+The accuracy of GPS systems can be improved by strategies involving multiple receivers.
 
 If a Freefly RTK Base Station is connected, the geotag _absolute accuracy_ does not improve (unless placed on a previously known location), but _relative accuracy_ is refined to the centimeter range.
 
-Astro stores onboard GNSS observations and the geotag accuracy (both relative and absolute) can be improved further by post-processing after the fact. This process is known as "PPK". Freefly and Auterion both have apps that can correct the photos via PPK and improve their absolute accuracy to as good as 1-3cm.&#x20;
+Astro stores onboard GNSS observations and the geotag accuracy (both relative and absolute) can be improved further by post-processing after the fact. This process is known as "PPK". Freefly and Auterion both have apps that can correct the photos via PPK and improve their absolute accuracy to as good as 1-3cm.
 
 PPK processing can be performed with a variety of base stations and software. The next section gives more detail.
 
@@ -88,43 +88,41 @@ The easiest way to increase absolute accuracy is to use a GNSS Base Station with
 
 How accurate is PPK? Relative accuracy typically is less than 1cm. Absolute accuracy is more complicated:
 
-If no other corrections are used (i.e. no GCPs) absolute accuracy is the same as that of the base station. PPK essentially solves position offsets by comparing the aircraft's position to the base station, so if the base station position is known globally accurate to 2cm, the resulting PPK geotags will be similar.&#x20;
+If no other corrections are used (i.e. no GCPs) absolute accuracy is the same as that of the base station. PPK essentially solves position offsets by comparing the aircraft's position to the base station, so if the base station position is known globally accurate to 2cm, the resulting PPK geotags will be similar.
 
 These are a few ways to determine base station location, ordered from highest to lowest accuracy:
 
-* Place GPS base station precisely on a known ground control point survey marker using a high-accuracy tripod with tribrach. A survey pole and tripod can also be used, but accuracy might suffer depending on how accurately the pole in question can be leveled.&#x20;
+* Place GPS base station precisely on a known ground control point survey marker using a high-accuracy tripod with tribrach. A survey pole and tripod can also be used, but accuracy might suffer depending on how accurately the pole in question can be leveled.
 * Place the GPS in a clear view of the sky and leave it running for an hour or more. Then use an online post-processing tool such as [NGS OPUS](https://geodesy.noaa.gov/OPUS/) or [Trimble Centerpoint RTX](https://www.trimblertx.com/uploadform.aspx) if you have a Trimble base station. This will take all the observations from the GPS and do its own PPK processing to determine the location of your GNSS unit very accurately. The downside is often having to wait hours or days for the underlying GPS data to be updated in OPUS before it will process your file. (Pay attention to the [coordinate system](mapping-flight-and-post-processing.md#coordinate-systems) that is returned)
-* Average the position file generated by your GPS unit- if it's been stationary for over an hour, reasonable accuracy can be achieved, although GPS can vary slowly over many hours so this still may have sub-meter errors.&#x20;
-* Survey-in the GNSS; this usually integrates for a few minutes when it's powered on, then writes its averaged position to the RINEX headers. This value is better than nothing.&#x20;
-* Read out the instantaneous position of the GNSS after you've set it up and it has achieved a stable lock. This is the least accurate, and will only be accurate to GPS's normal accuracy of 1-3m.&#x20;
+* Average the position file generated by your GPS unit- if it's been stationary for over an hour, reasonable accuracy can be achieved, although GPS can vary slowly over many hours so this still may have sub-meter errors.
+* Survey-in the GNSS; this usually integrates for a few minutes when it's powered on, then writes its averaged position to the RINEX headers. This value is better than nothing.
+* Read out the instantaneous position of the GNSS after you've set it up and it has achieved a stable lock. This is the least accurate, and will only be accurate to GPS's normal accuracy of 1-3m.
 
 #### An example PPK workflow:
 
-1. Arrive at the site where you intend to fly.&#x20;
-2. Set up base station, ideally, on a known survey marker. Otherwise, find an open space with a clear view of the sky (to the best of your ability).&#x20;
+1. Arrive at the site where you intend to fly.
+2. Set up base station, ideally, on a known survey marker. Otherwise, find an open space with a clear view of the sky (to the best of your ability).
 3. Start observation file logging on the base station. Many can be configured to start at power on, but it is usually worth checking that the base station is recording before takeoff.
-4. Prepare Astro and fly missions.&#x20;
-5. When you are done, log into the base station and stop recording.&#x20;
-6. Download the RINEX files from the base station and put them on the USB drive from Astro.&#x20;
-7. Geolocate the base station. If it was on a known point, you're ready to go. If you are using an online processing tool, wait until the base station has enough data from nearby CORS sites to process (1-2 hours minimum), then get the processing report. Acquiring this report varies depending on your hardware and location, so consult the user manual of your base station for more info.&#x20;
+4. Prepare Astro and fly missions.
+5. When you are done, log into the base station and stop recording.
+6. Download the RINEX files from the base station and put them on the USB drive from Astro.
+7. Geolocate the base station. If it was on a known point, you're ready to go. If you are using an online processing tool, wait until the base station has enough data from nearby CORS sites to process (1-2 hours minimum), then get the processing report. Acquiring this report varies depending on your hardware and location, so consult the user manual of your base station for more info.
 8. Use the FreeflyPPK app or the Auterion PreciseFlight app to post-process the photos.
 9. Take the resulting high-accuracy geotagged photos to whichever photogrammetry tool you choose (ESRI sitescan, pix4d, DroneDeploy, propeller.aero, Agisoft, etc).
 
-
-
 ### GCPs - Ground Control Points
 
-Ground Control Points (GCP) are pre-surveyed points that are marked to be visible in aerial photos. GCPs are used by the post-processing algorithm to correct distortion and align the map with the real world.&#x20;
+Ground Control Points (GCP) are pre-surveyed points that are marked to be visible in aerial photos. GCPs are used by the post-processing algorithm to correct distortion and align the map with the real world.
 
 PPK allows you to achieve high-accuracy maps that do not require GCPs. GCPs can require significant effort to survey and process. However, they tend to be the most accurate, even with poor initial coordinates in the photos.
 
 GCPs can be used in a number of ways:
 
-* A base station can be placed on a single GCP and used as high-accuracy positioning for PPK processing. This is the method that gives great results for the lowest amount of effort.&#x20;
+* A base station can be placed on a single GCP and used as high-accuracy positioning for PPK processing. This is the method that gives great results for the lowest amount of effort.
 * A few GCPs can be used, one with the base station. This allows high-accuracy PPK, and the additional GCPs can be used as an accuracy check on the PPK results.
-* a large quantity of GCPs (5+) can be surveyed and used in combination with or in lieu of PPK. This is the most costly as it requires surveying all the points, and then running the tagging process.&#x20;
+* a large quantity of GCPs (5+) can be surveyed and used in combination with or in lieu of PPK. This is the most costly as it requires surveying all the points, and then running the tagging process.
 
-Maps using GCPs will generally be as accurate as the GCP can be marked in the photos and how accurate the GCP coordinates themselves are known (usually reported by your surveyor).&#x20;
+Maps using GCPs will generally be as accurate as the GCP can be marked in the photos and how accurate the GCP coordinates themselves are known (usually reported by your surveyor).
 
 GCPs are used like this: Before flying, ensure that the mission will overfly multiple GCPs and ensure their clear visibility in aerial photos. After flying, enter GCP coordinates into your post-processing software. Use your photogrammetry software's workflow to mark the locations of the known coordinates in the photos. Then there will be a processing step. Afterward, you can overlay the GCP checkpoints and measure the distance from their coordinates to the marker in the output.
 

@@ -1,9 +1,9 @@
-# Mapping Workflow and Output
+# Photogrammetry Mapping
 
-The mapping workflow is largely the same between the LR1 Payload and A7R4 payload. The same lens and camera settings are recommended for both payloads, and the same tips for maximizing efficiency are shared between them. The PPK process and output specification are also the same.&#x20;
+The mapping workflow is largely the same between the LR1 Payload and A7R4 payload. The same lens and camera settings are recommended for both payloads, and the same tips for maximizing efficiency are shared between them. The PPK process and output specification are also the same.
 
-{% content-ref url="../../wiris-pro-payload/operating-handbook/pre-flight-planning.md" %}
-[pre-flight-planning.md](../../wiris-pro-payload/operating-handbook/pre-flight-planning.md)
+{% content-ref url="../../payloads/wiris-pro-payload/operating-handbook/pre-flight-planning.md" %}
+[pre-flight-planning.md](../../payloads/wiris-pro-payload/operating-handbook/pre-flight-planning.md)
 {% endcontent-ref %}
 
 {% content-ref url="mapping-efficiency-tips.md" %}

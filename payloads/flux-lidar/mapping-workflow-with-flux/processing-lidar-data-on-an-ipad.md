@@ -2,7 +2,7 @@
 
 ## Download the Freefly Flow app
 
-On your iPad, go to the App Store and search for Freefly Flow to get the latest version of our app.&#x20;
+On your iPad, go to the App Store and search for Freefly Flow to get the latest version of our app.
 
 {% hint style="info" %}
 Always use the latest flow app. App versions 3.0+ are tested on iPadOS 18 and 26
@@ -10,7 +10,7 @@ Always use the latest flow app. App versions 3.0+ are tested on iPadOS 18 and 26
 
 {% stepper %}
 {% step %}
-## Create a new project <a href="#create-a-new-project" id="create-a-new-project"></a>
+### Create a new project <a href="#create-a-new-project" id="create-a-new-project"></a>
 
 When launching the Flow app, you will get a project browser view where you will have access to recent projects. You can also open an existing project with the import button on the top right corner.
 
@@ -20,7 +20,7 @@ Click on the '**+**' button to create a new project.
 {% endstep %}
 
 {% step %}
-## Name your project and select your coordinate reference system
+### Name your project and select your coordinate reference system
 
 Give a nice name to your project and select your desired coordinate reference system.
 
@@ -44,7 +44,7 @@ Click on '**CREATE**' to create and open your project.
 {% endstep %}
 
 {% step %}
-## Import a .fluxScan to the project
+### Import a .fluxScan to the project
 
 When your project opens, it will show an empty working space. You can navigate this space with gestures on the view.
 
@@ -65,17 +65,17 @@ There are two settings required to start the LiDAR data processing:
 1. **Sensor Mount Position:** This tells the app where the left and right GNSS antennas where positioned relative to the LiDAR sensor while scanning.
 2. **GNSS Base Station:** This is the RINEX correction data for post-processing the GNSS data of each of the antennas (PPK, Post-Process Kinematics)
 
-### Choose your sensor mount position
+#### Choose your sensor mount position
 
 For this tutorial, you'll find the Astro with two options: Standard and O-Ring Isolator, and the DJI M350 RTK, Single Downward SKYPORT. Click on the correct mount position to select it.
 
-### Import your GNSS base station data <a href="#import-you-gnss-base-station-data" id="import-you-gnss-base-station-data"></a>
+#### Import your GNSS base station data <a href="#import-you-gnss-base-station-data" id="import-you-gnss-base-station-data"></a>
 
 This section will show all GNSS base station data available in the project. If you flew Astro with RTK corrections, a base station file will be automatically generated from it. You can also import a different one by clicking on the '**+**' button. The app supports **.gz**, **.crx**, **.\*o**. For this tutorial, we will choose the one from Astro. To select it, click on it.
 {% endstep %}
 
 {% step %}
-## Process the LiDAR data
+### Process the LiDAR data
 
 Once all the required information is provided, the '**PROCESS SCAN'** button will become available. Click on it to start the process. It will take a few minutes to complete. Roughly, for the latest iPad generations, it will take one quarter of the scan time, this is, for a 8 minutes scan, the LiDAR data will be ready in about 2 minutes.
 
@@ -83,7 +83,7 @@ Once all the required information is provided, the '**PROCESS SCAN'** button wil
 
 In the meantime, this is how the LiDAR data gets processed:
 
-#### 1. GNSS post-processing <a href="#id-1.-gnss-post-processing" id="id-1.-gnss-post-processing"></a>
+**1. GNSS post-processing**
 
 First, each of the GNSS antennas is post-processed using the base station data provided. For the solution to be valid, both antennas solutions should meet the following:
 
@@ -93,23 +93,23 @@ First, each of the GNSS antennas is post-processed using the base station data p
 
 In this tutorial, we have 25Hz, 8 satellites, and 100% fixed solution on both antennas.
 
-#### 2. INS trajectory <a href="#id-2.-ins-trajectory" id="id-2.-ins-trajectory"></a>
+**2. INS trajectory**
 
 At this step, the full INS trajectory is calculated. In this step, the information from our survey-grade IMU (accelerometers and gyroscopes) is fused with the GNSS data calculated in the previous step using the most advanced fusion techniques available. The nominal rate of this solution is 2,000 Hz.
 
-#### 3. LiDAR points <a href="#id-3.-lidar-points" id="id-3.-lidar-points"></a>
+**3. LiDAR points**
 
 Using all CPUs and GPUs cores available on the iPad (8 CPUs and 10 GPUs on the latest iPad Pro M2 version), the lidar points are calculated. Our app can calculate more than 20 million points per second.\
 For this tutorial, more than 239 million points are obtained and given the extension of the area scanned, this is more than 1,398 points per square meter.
 
-#### 4. Indexing <a href="#id-4.-indexing" id="id-4.-indexing"></a>
+**4. Indexing**
 
 During the indexing phase, the points are sorted by their location in space, similar to an octree indexing, but with an in-house developed technique that allows managing billion-point point clouds on mobile devices, such as an iPad.\
 Once processing is complete, close the window by clicking the Done button in the top-right corner.
 {% endstep %}
 
 {% step %}
-## Explore the LiDAR data
+### Explore the LiDAR data
 
 The project now presents a panel on the right side containing all project assets. In this tutorial, we have imported a Flux Scan. You show/hide this panel by clicking the button next to it at the top.
 
@@ -123,7 +123,7 @@ By using gestures, move around and explore your point cloud. You can use the fol
 {% endstep %}
 
 {% step %}
-## Export the .las file
+### Export the .las file
 
 Once you've finished exploring your LiDAR data, you can export it from the Flow app to your preferred storage location.
 
