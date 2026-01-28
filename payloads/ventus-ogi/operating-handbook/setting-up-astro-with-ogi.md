@@ -25,7 +25,7 @@ The Ventus OGI Payload is only supported in Astro firmware version 1.9.1 or late
 ## Installing & Removing the OGI Payload from Astro:
 
 {% hint style="info" %}
-Use the **Astro Isolator**, not the Mapping Isolator. Check out the isolator section for more info.
+Use the **Astro Isolator**, not the Mapping Isolator. See [Smart Dovetail Isolator System](../../../accessories/smart-dovetail-isolator-system.md) for more info.
 {% endhint %}
 
 

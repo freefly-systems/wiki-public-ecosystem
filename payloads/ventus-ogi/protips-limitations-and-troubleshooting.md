@@ -42,7 +42,7 @@ Do not hot-swap or plug in the gimbal when the aircraft is powered on. This can 
 Make sure you are using the correct vibration isolator
 {% endhint %}
 
-More details can be found in the isolator section
+More details can be found in the [Smart Dovetail Isolator System](../../accessories/smart-dovetail-isolator-system.md) section.
 
 
 

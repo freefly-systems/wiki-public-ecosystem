@@ -11,8 +11,8 @@ Astro + LR1 Payload is designed to fill the needs of enterprise mapping and insp
 
 ## Installing the Isolator
 
-{% content-ref url="../payload-maintenance/isolation-system.md" %}
-[isolation-system.md](../payload-maintenance/isolation-system.md)
+{% content-ref url="../../accessories/smart-dovetail-isolator-system.md" %}
+[smart-dovetail-isolator-system.md](../../accessories/smart-dovetail-isolator-system.md)
 {% endcontent-ref %}
 
 ## Installing/Removing the Gimbal from Astro

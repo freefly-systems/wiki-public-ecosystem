@@ -114,7 +114,6 @@
   * [Gimbal Firmware](payloads/payload-maintenance/gimbal-firmware.md)
   * [Gimbal Logs](payloads/payload-maintenance/gimbal-logs.md)
   * [USB Formatting](payloads/payload-maintenance/usb-formatting.md)
-  * [Isolation System](payloads/payload-maintenance/isolation-system.md)
 
 ## Workflows
 
@@ -150,7 +149,7 @@
 ## Accessories
 
 * [GNSS Base Stations](accessories/gnss-base-stations.md)
-* [Astro Vibration Isolators](accessories/astro-vibration-isolators.md)
+* [Smart Dovetail Isolator System](accessories/smart-dovetail-isolator-system.md)
 * [Astro Skyview Payload Mount](accessories/astro-skyview-payload-mount.md)
 
 ## Developer
