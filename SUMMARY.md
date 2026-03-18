@@ -67,7 +67,7 @@
 * [Flux Lidar](payloads/flux-lidar/README.md)
   * [Payload Overview](payloads/flux-lidar/payload-overview.md)
   * [Mapping Workflow with Flux](payloads/flux-lidar/mapping-workflow-with-flux/README.md)
-    * [Installation on Astro](payloads/flux-lidar/mapping-workflow-with-flux/installation-on-astro.md)
+    * [Installation on Astro/Alta X Gen2](payloads/flux-lidar/mapping-workflow-with-flux/installation-on-astro.md)
     * [Mission Planning and Data Capture](payloads/flux-lidar/mapping-workflow-with-flux/mission-planning-and-data-capture.md)
     * [Processing LiDAR data on an iPad](payloads/flux-lidar/mapping-workflow-with-flux/processing-lidar-data-on-an-ipad.md)
   * [Flux Sample Mapping Data](payloads/flux-lidar/flux-sample-mapping-data.md)

@@ -1,26 +1,32 @@
-# Installation on Astro
+# Installation on Astro/Alta X Gen2
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2025-10-03 145144.png" alt=""><figcaption></figcaption></figure>
 
 ## Install the GNSS antennas
 
-Use the M3 screws provided to mount the GNSS Module mounts on the left and right side of Astro.&#x20;
+Use the M3 screws provided to mount the GNSS Module mounts on the left and right side of Astro.
 
-{% columns %}
-{% column %}
+
+
+{% tabs %}
+{% tab title="Astro" %}
 ![](<../../../.gitbook/assets/Screenshot 2025-10-03 145253 (1).png>)
-{% endcolumn %}
 
-{% column %}
 <figure><img src="../../../.gitbook/assets/Screenshot 2025-10-03 145227.png" alt=""><figcaption></figcaption></figure>
-{% endcolumn %}
-{% endcolumns %}
+{% endtab %}
+
+{% tab title="Alta X Gen2" %}
+<figure><img src="../../../.gitbook/assets/DSC00221.JPG" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/DSC00222.JPG" alt=""><figcaption></figcaption></figure>
+{% endtab %}
+{% endtabs %}
 
 {% hint style="success" %}
 \#protip - the GNSS mounts can stay on Astro while in transport in the case and when flying other payloads such as LR1
 {% endhint %}
 
-Install the GNSS antennas on to the mounts and slide the lock to secure them in place.&#x20;
+Install the GNSS antennas on to the mounts and slide the lock to secure them in place.
 
 {% columns %}
 {% column %}
@@ -45,7 +51,7 @@ Check the GNSS module locks are secure before every flight - Loose GNSS modules 
 Insert the Flash Drive into the sensor and connect Flux to the Smart Dovetail connector. Secure the connection with the red lever.
 
 {% hint style="success" %}
-We recommend flying with 30A isolator durometers. These are the default isolator durometers that ship with Astro
+We recommend flying with 30A isolator durometers. These are the default isolator durometers that ship with Astro and Alta X Gen2
 {% endhint %}
 
 {% columns %}
@@ -59,6 +65,10 @@ We recommend flying with 30A isolator durometers. These are the default isolator
 {% endcolumns %}
 
 Connect each antenna cable to its corresponding connector. Pull slightly from the cable to check that it is properly locked.
+
+{% hint style="info" %}
+Alta X Gen2 requires extension cables to connect the GNSS modules to Flux
+{% endhint %}
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2025-10-03 153803.png" alt=""><figcaption></figcaption></figure>
 
@@ -75,17 +85,17 @@ To process the LiDAR data, a RINEX file is required to post-process the GNSS dat
 In areas with cell coverage, Astro can stream RTK corrections using the LTE module via NTRIP. When Astro is setup with NTRIP, Flux will automatically save this data and include it in the .fluxscan file for processing.
 
 {% hint style="success" %}
-This is the preferred option for most applications as it simplifies the Flux workflow and output accuracy greatly.&#x20;
+This is the preferred option for most applications as it simplifies the Flux workflow and output accuracy greatly.
 {% endhint %}
 
 An NTIRP provider will be required for NTRIP corrections over LTE. The [Auterion RTK ](https://docs.auterion.com/vehicle-operation/auterion-apps/ntrip-app-and-auterion-rtk)app is free for the Astro and supports 3rd party NTRIP providers. Auterion also provides an NTRIP subscription service for the simplest setup
 
 {% hint style="warning" %}
-We recommend using an NTRIP provider that gives corrections in WGS84. The Flow processing app assumes the base station file is in WGS84, so if you use a provider with a different coordinate system, you will need to account for this when importing GCPs or exporting georeferenced point clouds&#x20;
+We recommend using an NTRIP provider that gives corrections in WGS84. The Flow processing app assumes the base station file is in WGS84, so if you use a provider with a different coordinate system, you will need to account for this when importing GCPs or exporting georeferenced point clouds
 {% endhint %}
 
 {% hint style="info" %}
-An active SIM with data is required for NTRIP corrections. Astro's cellular modem supports common frequencies in North America.&#x20;
+An active SIM with data is required for NTRIP corrections. Astro's cellular modem supports common frequencies in North America.
 {% endhint %}
 
 {% hint style="danger" %}
@@ -94,9 +104,9 @@ Freefly's [RTK GPS Ground Station](https://store.freeflysystems.com/products/rtk
 
 #### Option 2: Third Party Base Station
 
-If you have your own base station capable of logging L1/L2/L5/L6 GNSS in a RINEX file, set it up and leave it logging during the whole scan. You will need a .Obs file to process with at the end of the scan.&#x20;
+If you have your own base station capable of logging L1/L2/L5/L6 GNSS in a RINEX file, set it up and leave it logging during the whole scan. You will need a .Obs file to process with at the end of the scan.
 
-We have tested the Tersus Oscar Trek works well with Flux and has the necessary GNSS bands.&#x20;
+We have tested the Tersus Oscar Trek works well with Flux and has the necessary GNSS bands.
 
 {% hint style="info" %}
 V3.X RINEX file is required for processing in the Flow app
@@ -104,7 +114,7 @@ V3.X RINEX file is required for processing in the Flow app
 
 #### Option 3: Reference Network
 
-If you do not have your own base station, check that there is a nearby permanent station from which you can download a RINEX file after your flight. There are available several GNSS networks from which these RINEX files can be downloaded, such as the HxGN SmartNet from Hexagon.&#x20;
+If you do not have your own base station, check that there is a nearby permanent station from which you can download a RINEX file after your flight. There are available several GNSS networks from which these RINEX files can be downloaded, such as the HxGN SmartNet from Hexagon.
 
 {% hint style="info" %}
 The further away the reference base station is, the less accurate your scan results will be
