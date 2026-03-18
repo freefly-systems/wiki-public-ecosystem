@@ -1,12 +1,12 @@
-# Wiris Pro Payload
+# Wiris Pro Thermal
 
-| | |
-|---|---|
-| **Description** | Thermal imaging payload for inspections |
-| **Compatibility** | Astro ✓ |
-| **Weight** | 940g |
-| **NDAA Compliant** | Yes |
-| **Offered By** | Freefly |
+|                    |                                         |
+| ------------------ | --------------------------------------- |
+| **Description**    | Thermal imaging payload for inspections |
+| **Compatibility**  | <p>Astro ✅ </p><p>Alta X Gen2 ❌</p>     |
+| **Weight**         | 940g                                    |
+| **NDAA Compliant** | Yes                                     |
+| **Offered By**     | Freefly                                 |
 
 {% embed url="https://www.youtube.com/watch?v=vP9H6iSNR3E" %}
 

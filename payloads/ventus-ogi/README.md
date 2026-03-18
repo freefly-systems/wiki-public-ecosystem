@@ -1,12 +1,12 @@
-# Ventus OGI Payload
+# Ventus OGI
 
-| | |
-|---|---|
-| **Description** | Optical gas imaging for leak detection |
-| **Compatibility** | Astro ✓ |
-| **Weight** | 1,320g |
-| **NDAA Compliant** | Yes |
-| **Offered By** | Freefly |
+|                    |                                        |
+| ------------------ | -------------------------------------- |
+| **Description**    | Optical gas imaging for leak detection |
+| **Compatibility**  | <p>Astro ✅ </p><p>Alta X Gen2 ✅</p>    |
+| **Weight**         | 1,320g                                 |
+| **NDAA Compliant** | Yes                                    |
+| **Offered By**     | Freefly                                |
 
 {% embed url="https://youtu.be/eXz4MjHHi80?si=CpvnVqR0ZVXAY7PQ" %}
 
@@ -15,7 +15,7 @@
 {% endcontent-ref %}
 
 {% content-ref url="../payload-maintenance/" %}
-[Payload Maintenance](../payload-maintenance/)
+[payload-maintenance](../payload-maintenance/)
 {% endcontent-ref %}
 
 {% content-ref url="protips-limitations-and-troubleshooting.md" %}

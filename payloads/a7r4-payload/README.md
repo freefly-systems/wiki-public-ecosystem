@@ -4,13 +4,13 @@ description: Put Astro Map to work!
 
 # A7R4 Payload
 
-| | |
-|---|---|
-| **Description** | 61MP camera payload for photogrammetry |
-| **Compatibility** | Astro ✓ |
-| **Weight** | 1,496g |
-| **NDAA Compliant** | Yes |
-| **Offered By** | Freefly |
+|                    |                                        |
+| ------------------ | -------------------------------------- |
+| **Description**    | 61MP camera payload for photogrammetry |
+| **Compatibility**  | <p>Astro ✅ </p><p>Alta X Gen2 ❌</p>    |
+| **Weight**         | 1,496g                                 |
+| **NDAA Compliant** | Yes                                    |
+| **Offered By**     | Freefly                                |
 
 {% content-ref url="../../workflows/photogrammetry-mapping/sample-mapping-data.md" %}
 [sample-mapping-data.md](../../workflows/photogrammetry-mapping/sample-mapping-data.md)

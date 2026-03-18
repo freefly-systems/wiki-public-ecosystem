@@ -1,12 +1,12 @@
 # Gremsy Vio
 
-| | |
-|---|---|
-| **Description** | Camera gimbal with video streaming |
-| **Compatibility** | Astro ✓ |
-| **Weight** | 1,100g (varies by camera) |
-| **NDAA Compliant** | No |
-| **Offered By** | Gremsy |
+|                    |                                      |
+| ------------------ | ------------------------------------ |
+| **Description**    | Camera gimbal with video streaming   |
+| **Compatibility**  | <p>Astro ✅ </p><p>Alta X Gen2 ✅ </p> |
+| **Weight**         | 1,100g (varies by camera)            |
+| **NDAA Compliant** | No                                   |
+| **Offered By**     | Gremsy                               |
 
 <figure><img src="../../.gitbook/assets/thumbnail_image001.jpg" alt=""><figcaption></figcaption></figure>
 
@@ -14,7 +14,7 @@ The Gremsy VIO with the Smart Dovetail adaptor is compatible with the Pixhawk Pa
 
 ## Gremsy VIO Configuration
 
-Please refer to the [Gremsy VIO wiki](https://docs.gremsy.com/payloads/vio) on how to configure the following settings:&#x20;
+Please refer to the [Gremsy VIO wiki](https://docs.gremsy.com/payloads/vio) on how to configure the following settings:
 
 * [Set the static IP](https://docs.gremsy.com/payloads/vio/hardware-configuration/computers-ip-configuration)
   * VIO Address = 192.168.144.232
@@ -27,7 +27,7 @@ Download the [VIO software package 3.1.07](https://drive.google.com/file/d/1vcwQ
 {% endhint %}
 
 {% hint style="info" %}
-The latest supported version with Astro is:&#x20;
+The latest supported version with Astro is:
 
 * Vio Payload App v3.1.0.7
 * Video Streaming App v3.2.1
@@ -41,11 +41,11 @@ The latest supported version with Astro is:&#x20;
 Astro and AMC need to updated to the latest version, at least Astro software version 2.0 or later
 {% endhint %}
 
-The following parameters need to be configured for Astro to communicate with the VIO. Click [here](../../software/auterion-mission-control/amc-vehicle-setup/parameters.md) to learn to set parameters.&#x20;
+The following parameters need to be configured for Astro to communicate with the VIO. Click [here](../../software/auterion-mission-control/amc-vehicle-setup/parameters.md) to learn to set parameters.
 
-* #### MNT\_RATE\_YAW = 0
+* **MNT\_RATE\_YAW = 0**
   * You will need to check 'force save'
-* #### MAV\_2\_MODE = Normal
+* **MAV\_2\_MODE = Normal**
   * This will allow GPS information to be passed to the VIO, both for the LRF and for geotagging .JPEG images. TIFF images are not geotagged
     * If your aircraft needs to maintain Blue List compliance, do not change MAV\_2\_MODE. The VIO will not receive GPS information
 * Reboot Astro
@@ -56,7 +56,7 @@ If switching back to other Smart Dovetail payloads like the LR1 Payload or Sente
 
 ## Connect to Astro
 
-Plug VIO into the Smart Dovetail on Astro and boot up the aircraft. VIO should stabilize after about 15s and the light on the front of the gimbal will turn blue if connected to Astro.&#x20;
+Plug VIO into the Smart Dovetail on Astro and boot up the aircraft. VIO should stabilize after about 15s and the light on the front of the gimbal will turn blue if connected to Astro.
 
 Wait another 30-60s for the VIO video feed to appear in AMC
 
@@ -74,7 +74,7 @@ On Pilot Pro, open a web browser like Chrome, and go to 192.168.144.232:8000. Th
 
 {% file src="../../.gitbook/assets/payload_config_for_astro.vio" %}
 
-If this doesn't work, you can manually set the following parameters:&#x20;
+If this doesn't work, you can manually set the following parameters:
 
 * Video Streaming
   * Auto connect = Enable
@@ -86,14 +86,14 @@ If this doesn't work, you can manually set the following parameters:&#x20;
   * Auto speed = DISABLE
 * Mavlink
   * Baudrate = 230400
-  * Camera Component ID = Camera 1 (100)&#x20;
+  * Camera Component ID = Camera 1 (100)
 
-Then reboot Astro and the VIO. This process should only need to be applied once.&#x20;
+Then reboot Astro and the VIO. This process should only need to be applied once.
 
 ## Operational Notes
 
 {% hint style="info" %}
-Gremsy VIO is a 3rd party payload with some known limitations/issues:&#x20;
+Gremsy VIO is a 3rd party payload with some known limitations/issues:
 
 * When running AMC on Tab 3 tablets with the VIO, the video feed can be choppy with default settings. It is recommended to set the RTSP Buffer Size (ms) = 250 to smooth out the video playback. **Tab 5 tablets do not have this issue**
   * Tab 5 tablets have a green button on the side, Tab 3 tablets have a red button on the side
@@ -101,6 +101,3 @@ Gremsy VIO is a 3rd party payload with some known limitations/issues:&#x20;
 * Photo counter below the shutter button doesn't increment, but photos are triggered
 * Triggering the VIO in mapping mode is currently not supported
 {% endhint %}
-
-
-

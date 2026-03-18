@@ -4,13 +4,13 @@ description: Get your payload up and running here!
 
 # LR1 Camera System
 
-| | |
-|---|---|
-| **Description** | 61MP camera system for mapping and inspections |
-| **Compatibility** | Astro ✓ · Alta X Gen2 ✓ |
-| **Weight** | 970g (with default lens) |
-| **NDAA Compliant** | Yes |
-| **Offered By** | Freefly |
+|                    |                                                |
+| ------------------ | ---------------------------------------------- |
+| **Description**    | 61MP camera system for mapping and inspections |
+| **Compatibility**  | <p>Astro ✅ </p><p>Alta X Gen2 ✅</p>            |
+| **Weight**         | 970g (with default lens)                       |
+| **NDAA Compliant** | Yes                                            |
+| **Offered By**     | Freefly                                        |
 
 {% embed url="https://www.youtube.com/watch?v=ycIz4kCDKPQ" %}
 

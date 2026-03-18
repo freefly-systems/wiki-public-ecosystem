@@ -34,11 +34,11 @@ This new compression design isolator system is optimized for payloads up to 3.0 
 
 There are three options of dampers to accommodate a range of payload weights and flying conditions:
 
-| Durometer | Payload Weight | Notes |
-|-----------|----------------|-------|
-| 30A | Under 1.0kg / 2.2lbs | Standard option for Freefly Payloads (A7R IV, LR1, Wiris Pro, Ventus OGI) |
-| 50A | 1.0-2.0kg / 2.2-4.4lbs | |
-| 70A | Up to 3.0kg / 6.6lbs | For heavier payloads or if more stiffness is needed |
+| Durometer | Payload Weight         | Notes                                                                     |
+| --------- | ---------------------- | ------------------------------------------------------------------------- |
+| 30A       | Under 1.0kg / 2.2lbs   | Standard option for Freefly Payloads (A7R IV, LR1, Wiris Pro, Ventus OGI) |
+| 50A       | 1.0-2.0kg / 2.2-4.4lbs |                                                                           |
+| 70A       | Up to 3.0kg / 6.6lbs   | For heavier payloads or if more stiffness is needed                       |
 
 Dampers are easy to swap in the field (requires 2mm hex driver) and durometers are laser engraved on the cartridge for easy identification.
 
@@ -47,8 +47,9 @@ For Freefly payloads on Astro Max, extended landing gear (Astro Max Landing Gear
 {% endhint %}
 
 For installation instructions:
-- **Astro Max:** See [Vibration Isolators](https://docs.freeflysystems.com/astro/ecosystem/components/vibration-isolators)
-- **Alta X Gen2:** See [Rails and Isolator](https://docs.freeflysystems.com/alta-x-gen2/maintenance/rails-and-isolator)
+
+* **Astro Max:** See [Vibration Isolators](https://docs.freeflysystems.com/astro/ecosystem/components/vibration-isolators)
+* **Alta X Gen2:** See [Rails and Isolator](https://docs.freeflysystems.com/alta-x-gen2/maintenance/rails-and-isolator)
 
 ## Maintenance
 
@@ -64,3 +65,6 @@ The Smart Dovetail Isolator System is compatible with payloads that use the Smar
 * A7R4 Payload
 * Wiris Pro Payload
 * Ventus OGI Payload
+* Flux
+* Gremsy VIO and Pixy
+* Sentera 6X/65R

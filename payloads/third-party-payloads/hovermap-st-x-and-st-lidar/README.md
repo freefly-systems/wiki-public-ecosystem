@@ -1,16 +1,16 @@
 # Hovermap ST-X and ST Lidar
 
-| | |
-|---|---|
-| **Description** | LiDAR with SLAM for GPS-denied environments |
-| **Compatibility** | ST-X: Astro ✓ · Astro Max ✓ · ST: Astro Max only |
-| **Weight** | 1,570g |
-| **NDAA Compliant** | No |
-| **Offered By** | Emesent |
+|                    |                                                               |
+| ------------------ | ------------------------------------------------------------- |
+| **Description**    | LiDAR with SLAM for GPS-denied environments                   |
+| **Compatibility**  | <p>Astro (ST-X only on F45 Astros) ✅ </p><p>Alta X Gen2 ❌</p> |
+| **Weight**         | 1,570g                                                        |
+| **NDAA Compliant** | No                                                            |
+| **Offered By**     | Emesent                                                       |
 
 The Emesent Hovermap ST-X and ST lidars are excellent payloads for creating detailed, accurate lidar point clouds, while enabling operations in challenging, GPS-denied environments.
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2023-12-13 at 10.08.05 AM.jpg" alt=""><figcaption><p>Astro + Hovermap ST-X flying inside Alcatraz Cell House </p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2023-12-13 at 10.08.05 AM.jpg" alt=""><figcaption><p>Astro + Hovermap ST-X flying inside Alcatraz Cell House</p></figcaption></figure>
 
 ### Setting up Hovermap
 
@@ -20,13 +20,13 @@ The Emesent Hovermap ST-X and ST lidars are excellent payloads for creating deta
 
 ### Operation modes
 
-Hovermap can interact with Astro as a passive payload, for mapping applications that can be flown with good GPS signal in open spaces with few obstacles. &#x20;
+Hovermap can interact with Astro as a passive payload, for mapping applications that can be flown with good GPS signal in open spaces with few obstacles.
 
 {% content-ref url="mapping-with-hovermap.md" %}
 [mapping-with-hovermap.md](mapping-with-hovermap.md)
 {% endcontent-ref %}
 
-Hovermap can also use the lidar data of the environment around Astro, and build a 3D model in real time. It can use that data for obstacle avoidance, and even allow Astro to autonomously explore GPS-denied areas like under bridges and inside tunnels and mines.&#x20;
+Hovermap can also use the lidar data of the environment around Astro, and build a 3D model in real time. It can use that data for obstacle avoidance, and even allow Astro to autonomously explore GPS-denied areas like under bridges and inside tunnels and mines.
 
 {% embed url="https://drive.google.com/file/d/1E1IJqVptU_CEoJ5mKBL6M3PxekiDd3TQ/view?usp=drive_link" %}
 Bridge scan with Hovermap ST-X

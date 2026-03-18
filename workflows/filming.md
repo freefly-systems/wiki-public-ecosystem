@@ -1,6 +1,6 @@
 # Filming
 
-The LR1 and A7R4 payloads are primarily designed for photography but can shoot high-quality video with the right settings.
+The LR1 payload is primarily designed for photography but can shoot high-quality video with the right settings.
 
 ## Payload Options
 
@@ -15,7 +15,7 @@ A V90 Class SD card is needed for some recording modes. The included V60 card su
 Recommended lenses for video: Sigma 24mm, Sony 35mm, Sony 50mm
 
 {% content-ref url="../payloads/lr1-payload/mapping-inspection-video-workflow.md" %}
-[Video Workflow - LR1](../payloads/lr1-payload/mapping-inspection-video-workflow.md)
+[mapping-inspection-video-workflow.md](../payloads/lr1-payload/mapping-inspection-video-workflow.md)
 {% endcontent-ref %}
 
 ### A7R4 Payload
@@ -27,7 +27,7 @@ Astro Max generally does not produce good video with the A7R4 Payload due to inc
 {% endhint %}
 
 {% content-ref url="../payloads/a7r4-payload/mapping-inspection-video-workflow.md" %}
-[Video Workflow - A7R4](../payloads/a7r4-payload/mapping-inspection-video-workflow.md)
+[mapping-inspection-video-workflow.md](../payloads/a7r4-payload/mapping-inspection-video-workflow.md)
 {% endcontent-ref %}
 
 ## Smooth Gimbal Control
@@ -35,6 +35,5 @@ Astro Max generally does not produce good video with the A7R4 Payload due to inc
 For cinematic shots, use **Position Slow Mode** which provides adjustable rates, expo, and smoothing for precise gimbal control.
 
 {% content-ref url="../controller/pilot-pro/operating-handbook/rate-controls.md" %}
-[Rate Controls](../controller/pilot-pro/operating-handbook/rate-controls.md)
+[rate-controls.md](../controller/pilot-pro/operating-handbook/rate-controls.md)
 {% endcontent-ref %}
-
