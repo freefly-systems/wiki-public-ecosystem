@@ -2,7 +2,7 @@
 
 ## Channel Selection
 
-Unlike the Herelink radios that automatically hop channels to avoid interferences, the Doodle radios operate on a fixed channel.&#x20;
+Unlike the Herelink radios that automatically hop channels to avoid interferences, the Doodle radios operate on a fixed channel.
 
 It is important to select an optimal channel to maximize radio range and performance.
 
@@ -14,14 +14,34 @@ Astro's Doodle radios operate on the 2.4 GHz band, which is also commonly used b
 Only change channels on the ground with the aircraft disarmed.
 {% endhint %}
 
-* Go Pilot Pro App > Radio Settings > Channel, then press "Start Channel Scan"
-* After the app starts scanning, a visual is displayed after 5 scan samples, and continues to scan.&#x20;
-  * It is recommended to run the scan for up to 3 minutes for accurate results.
-  * Losing connection is expected when scanning/changing channels.
-* After scanning, the best channels available in the current radio space is highlighted with green.
-* Tapping on any of the channel numbers will initiate a channel switch.
+{% hint style="success" %}
+Update to the latest Pilot Pro app for the most reliable channel scans
+{% endhint %}
+
+* Ensure the Astro is powered off prior to scanning
+*   Go Pilot Pro App > Radio Settings > Channel Select, then press "Scan"
+
+    <figure><img src="../../../../../.gitbook/assets/image (6).png" alt=""><figcaption><p>Navigating to Radio Settings in the Pilot Pro App</p></figcaption></figure>
+
+
+
+    <figure><img src="../../../../../.gitbook/assets/image (8).png" alt=""><figcaption><p>Starting a Channel Scan in the Pilot Pro App</p></figcaption></figure>
+*   After the app starts scanning, a visual is displayed after the scan completes
+
+    <figure><img src="../../../../../.gitbook/assets/image (9).png" alt=""><figcaption><p>Pilot Pro app with Completed Channel Scan</p></figcaption></figure>
+
+    * Older versions needed scans stopped manually. On older versions it's recommended to let the controller scan for 3 minutes for the most accurate results.&#x20;
+      * Losing connection is expected when scanning/changing channels.
+      * To stop scanning in older versions, do one of the following: Change a channel, stop scanning manually, go to a different menu, or exit app. This will take a few seconds.
+* After scanning, the best channels available will show as a bar graph, and color code by quality
+  * While new versions show absolute quality, old versions of the Pilot Pro app rate by relateive quality with the best radio space is highlighted with green.
+* Turning on the aircraft, waititing for connection, and tapping on any of the channel numbers will initiate a channel switch.
   * It will take up to a minute for the system to change channels on both sides and confirm that change has been applied successfully.
-* To stop scanning, do one of the following: Change a channel, stop scanning manually, go to a different menu, or exit app. This will take a few seconds.
+* Starting in Pilot Pro app version 2.6.2, more detailed statistics can be found in the Advanced menu of the radio configuration
+
+<figure><img src="../../../../../.gitbook/assets/image (10).png" alt=""><figcaption><p>Accesing Doodle Labs Scan Diagnostics</p></figcaption></figure>
+
+<figure><img src="../../../../../.gitbook/assets/image (13).png" alt=""><figcaption><p>Pilot Pro Scan Diagnostics</p></figcaption></figure>
 
 ## Doodle Channel Allocation
 
