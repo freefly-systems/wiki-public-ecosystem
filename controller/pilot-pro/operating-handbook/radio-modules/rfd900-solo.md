@@ -8,7 +8,7 @@ The Pilot Pro RFD900 Solo is a standalone Pilot Pro controller configured with a
 
 **The Alta X's Blue firmware is not aware of the RFD900 configuration on firmware's below 1.3.114 stable blue firmware. Upgrading to the Pilot Pro will require** [**updating the Alta X**](https://docs.freeflysystems.com/products/products/alta-x/untitled-4#updating-firmware) **if using older firmware**
 
-For integrators, we are running the standard RFD900 firmware with NetID's for pairing
+For integrators, we are running the standard RFD900 firmware with NetID's for pairing, and the Pilot Pro's OLED populates based on seeing MAVLink traffic go through the serial connection. If a 3rd party app is used, it must initiate the MAVLink connection. We would recommend to keep the Pilot Pro app installed.&#x20;
 
 ***
 
