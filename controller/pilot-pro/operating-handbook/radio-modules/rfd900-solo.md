@@ -44,7 +44,7 @@ For integrators, we are running the standard RFD900 firmware with NetID's for pa
 * The UXV ground controller (temporarily, to read its RFD settings)
 * A computer running [**Auterion Mission Control**](https://docs.freeflysystems.com/products/products/alta-x/untitled-4/alta-x-v2.1-beta-quick-start#quick-start) **or** [**QgroundControl**](https://freeflysystems.com/support/alta-x-support)
 * RFD Tools configurator app (on the Pilot Pro and UXV controller)
-* [Alta X updated to 2.1 Beta firmware](https://docs.freeflysystems.com/products/products/alta-x/untitled-4/alta-x-v2.1-beta-quick-start)
+* Alta X updated to at least [v1.3.114 stable firmware](https://freeflysystems.com/support/alta-x-support), or [v2.1 Beta firmware](https://docs.freeflysystems.com/products/products/alta-x/untitled-4/alta-x-v2.1-beta-quick-start)
 
 ***
 
