@@ -4,13 +4,49 @@
 
 <details>
 
+<summary>Pilot Pro Software Bundle v2.6.2</summary>
+
+* **Summary:** Doodle Channel Scaning Update
+* **Release Date**: March 2026
+* **Versions in this package**:
+  * Pilot Pro Firmware: v2.2.0
+  * Pilot Pro App: v2.6.2
+
+**Notes**
+
+* New channel scan for Doodle radios — scans all channels and scores each one based on airtime activity.
+* Added pre-scan warnings for air unit connection and 2.4 GHz WiFi interference
+* Improved Doodle radio settings UI
+
+</details>
+
+## Previous Versions
+
+<details>
+
+<summary>Pilot Pro Software Bundle v2.3.8</summary>
+
+* **Summary:** Update Power Sequence for New Tablet
+* **Release Date**: November 2025
+* **Versions in this package**:
+  * Pilot Pro Firmware: v2.2.0
+  * Pilot Pro App: v2.3.8
+
+**Notes**
+
+* Power on/off behavior fix for newer tablets
+
+</details>
+
+<details>
+
 <summary>Pilot Pro Software Bundle v2.3.7</summary>
 
 * **Summary:** UI/UX hotfix for v2.3.4
 * **Release Date**: September 2025
 * **Versions in this package**:
-  * Pilot Pro Firmware: v2.3.7
-  * Pilot Pro App: v2.2.0
+  * Pilot Pro Firmware: v2.2.0
+  * Pilot Pro App: v2.3.7
 
 **Notes**
 
@@ -21,8 +57,6 @@
 
 </details>
 
-## Previous Versions
-
 <details>
 
 <summary>Pilot Pro Software Bundle v2.3.4</summary>
@@ -30,10 +64,8 @@
 * **Summary**: Support for [Astro Software v2.1](https://freeflysystems.com/astroversions)
 * **Release Date**: September 2025
 * **Versions in this package**:
-  * Pilot Pro Firmware: v2.3.4
-  * Pilot Pro App: v2.2.0
-
-
+  * Pilot Pro Firmware: v2.2.0
+  * Pilot Pro App: v2.3.4
 
 **Notes**
 
@@ -42,8 +74,6 @@
 * Fixed: HID devices not working in Host Swap mode.
 * Fixed: Pilot Pro not entering bootloader mode for firmware updates.
 * Fixed: Doodle Labs radio toggles no longer show an incorrect state before data is fetched.
-
-
 
 </details>
 
@@ -59,28 +89,28 @@
 
 **Required User Actions**
 
-* Update Pilot Pro firmware to v2.1.1.&#x20;
-  * Note: Turn off drone before initiating firmware update because Pilot Pro may prevent you from doing a firmware update while it has a live connection to a drone.&#x20;
+* Update Pilot Pro firmware to v2.1.1.
+  * Note: Turn off drone before initiating firmware update because Pilot Pro may prevent you from doing a firmware update while it has a live connection to a drone.
 
 **New Features**
 
-* Support for Astro Software v2.0&#x20;
-* &#x20;Added drone status info and  ability to launch AMC for Astro users.
-* &#x20;Support ability to add Pilot Pro as an asset on Auterion Suite.
-* &#x20;Enabled native screen mirroring from the tablet to an external display. (since v2.0.24)
-* &#x20;Support new Doodle FW v1.7 and hardware revisions.
-* &#x20;Improve pairing process and channel scanning UX for Doodle integration.
+* Support for Astro Software v2.0
+* Added drone status info and ability to launch AMC for Astro users.
+* Support ability to add Pilot Pro as an asset on Auterion Suite.
+* Enabled native screen mirroring from the tablet to an external display. (since v2.0.24)
+* Support new Doodle FW v1.7 and hardware revisions.
+* Improve pairing process and channel scanning UX for Doodle integration.
 
 \
 **Improvements**
 
-* &#x20;Apply optimal tablet display refresh rate for AMC video
+* Apply optimal tablet display refresh rate for AMC video
 
 </details>
 
 <details>
 
-<summary>Pilot Pro Software Bundle v2.0.24 </summary>
+<summary>Pilot Pro Software Bundle v2.0.24</summary>
 
 * **Summary**: Pilot Pro Screen Mirroring
 * **Release Date**: February 2025
@@ -97,7 +127,7 @@
 
 <details>
 
-<summary>Pilot Pro Software Bundle v2.0.23  (All Pilot Pros)</summary>
+<summary>Pilot Pro Software Bundle v2.0.23 (All Pilot Pros)</summary>
 
 * **Summary**: Pilot Pro Solo Capabilities (Input Output Mapping), Unification of Software for Pilot Pro Tab Active5 and Tab Active3
 * **Release Date**: November 2024
@@ -116,7 +146,7 @@
   * Better radio management messaging.
   * Improved software version / module tracking.
   * App logging bugfixes.
-  * Risky features are disabled when drone is armed&#x20;
+  * Risky features are disabled when drone is armed
 * Pilot Pro Firmware
   * Ability to remap any input or output using MAVLink parameters
   * Ability to apply expo, smoothing and window to any analog input
@@ -129,12 +159,12 @@
 
 <details>
 
-<summary>Pilot Pro Software Bundle v1.4.8  (Pilot Pro Tab Active5) / v1.2.40 (Pilot Pro Tab Active3)</summary>
+<summary>Pilot Pro Software Bundle v1.4.8 (Pilot Pro Tab Active5) / v1.2.40 (Pilot Pro Tab Active3)</summary>
 
 * **Summary**: Pilot Pro Doodle Configuration Hotfix release
 * **Release Date**: October 2024
 * **Versions in this package**:
-  * Pilot Pro Firmware: v1.4.5 / v1.2.2&#x20;
+  * Pilot Pro Firmware: v1.4.5 / v1.2.2
   * Pilot Pro App: v1.4.8 / v1.2.40
 
 **Notes**
@@ -155,7 +185,7 @@
 
 **Notes**
 
-* The primary change for this release was to support Pilot Pro RFD900 variant&#x20;
+* The primary change for this release was to support Pilot Pro RFD900 variant
 
 </details>
 
@@ -163,7 +193,7 @@
 
 <summary>Pilot Pro Software Bundle v1.3</summary>
 
-* **Summary**: Support for Pilot Pros that have Samsung Active5&#x20;
+* **Summary**: Support for Pilot Pros that have Samsung Active5
 * **Release Date**: July 2024
 * **Versions in this package**:
   * Pilot Pro Firmware: v1.3.1
@@ -240,7 +270,7 @@
 
 * **Summary**: Pilot Pro Bugfixes and Improvements
 * **Release Date**: October 2023
-* **Versions in this package**:&#x20;
+* **Versions in this package**:
   * Pilot Pro Firmware: v1.0.7
   * Pilot Pro App: v1.0.10
 
@@ -262,8 +292,6 @@ Pilot Pro Firmware v1.0.7
   * Resolved problem with external battery charging in low power charge mode
   * Multiple bug fixes for power management
 
-
-
 Pilot Pro App v1.0.10
 
 * Added Pilot Pro logging! It includes:
@@ -282,7 +310,7 @@ Pilot Pro App v1.0.10
 
 * **Summary**: Initial Pilot Pro release
 * **Release Date**: September 2023
-* **Versions in this package**:&#x20;
+* **Versions in this package**:
   * Pilot Pro Firmware: v0.17
   * Pilot Pro App: v1.0.0
 
