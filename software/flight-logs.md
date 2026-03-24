@@ -32,9 +32,9 @@ This is the most common request from Freefly Support and the most reliable way t
 7. **Click "Refresh"** to load the list of available logs.
 8. **Select the log files** you need and click **"Download"**.
 
-\{% hint style="info" %\} **USB is strongly recommended.** While it is technically possible to download logs over WiFi, it is significantly slower and less reliable. Always prefer USB. \{% endhint %\}
-
-\{% hint style="warning" %\} **QGroundControl (QGC)** can be used as an alternative to AMC PC for downloading logs. However, **do not use QGC for any other purpose** with Freefly aircraft — it may not accurately represent the aircraft state and can corrupt parameters. \{% endhint %\}
+{% hint style="info" %}
+**USB is strongly recommended.** While it is technically possible to download logs over WiFi, it is significantly slower and less reliable. Always prefer USB.
+{% endhint %}
 
 #### Understanding the Log Files
 
@@ -87,7 +87,9 @@ If your aircraft is registered with the [Auterion Suite](https://suite.auterion.
 | **How to access**             | Log in to Auterion Suite, navigate to the aircraft, and select a flight |
 | **How to share with Freefly** | Use the **"Share with Manufacturer"** toggle on any flight in the Suite |
 
-\{% hint style="info" %\} **Key difference from on-device logs:** Suite logs only cover arm-to-disarm windows. They do not include any data from before arming or after disarming (boot-up diagnostics, pre-arm checks, etc.). If you're troubleshooting a problem that occurs before arming — such as GPS issues during initialization or pre-arm errors — the on-device logs may also only cover arm-to-disarm by default. However, the on-device file system can sometimes retain additional context depending on the `SDLOG_MODE` parameter setting. \{% endhint %\}
+{% hint style="info" %}
+**Key difference from on-device logs:** Suite logs only cover arm-to-disarm windows. They do not include any data from before arming or after disarming (boot-up diagnostics, pre-arm checks, etc.). If you're troubleshooting a problem that occurs before arming — such as GPS issues during initialization or pre-arm errors — the on-device logs may also only cover arm-to-disarm by default. However, the on-device file system can sometimes retain additional context depending on the `SDLOG_MODE` parameter setting.
+{% endhint %}
 
 Sharing logs through the Suite is the **fastest way to get Freefly Support involved** — it gives us immediate access without needing to transfer large files.
 
