@@ -67,7 +67,7 @@ These are the primary flight logs stored directly on the aircraft's onboard SD c
 | ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Format**         | `.ulg` (ULog)                                                                                                                               |
 | **Location**       | Onboard SD card, under `/logs/` subdirectories                                                                                              |
-| **Logging window** | From **arm** to **disarm**                                                                                                                  |
+| **Logging window** | From **boot** to **power down**                                                                                                             |
 | **Contents**       | Full autopilot telemetry: flight path, attitude, GPS, sensor data, inputs/outputs, vibration, errors, parameter values, software build info |
 | **How to access**  | Via USB using AMC PC or QGC (see procedure above)                                                                                           |
 | **How to analyze** | Upload to [PX4 Flight Review](https://logs.px4.io/), Auterion Suite, or use tools like PlotJuggler / `pyulog`                               |
