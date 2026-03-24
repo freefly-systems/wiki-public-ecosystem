@@ -139,8 +139,7 @@
 
 ## Software
 
-* [ESRI ArcGIS Flight Site Scan](software/esri-arcgis-flight-site-scan.md)
-* [Freefly Flow](software/freefly-flow.md)
+* [Flight Logs](software/flight-logs.md)
 * [Auterion Suite](software/auterion-suite.md)
 * [Auterion Mission Control](software/auterion-mission-control/README.md)
   * [AMC - Fly](software/auterion-mission-control/amc-fly.md)
@@ -153,6 +152,8 @@
   * [AMC - Vehicle Setup](software/auterion-mission-control/amc-vehicle-setup/README.md)
     * [Advanced Vehicle Setup](software/auterion-mission-control/amc-vehicle-setup/advanced-vehicle-setup.md)
     * [Parameters](software/auterion-mission-control/amc-vehicle-setup/parameters.md)
+* [Freefly Flow](software/freefly-flow.md)
+* [ESRI ArcGIS Flight Site Scan](software/esri-arcgis-flight-site-scan.md)
 
 ## Accessories
 
