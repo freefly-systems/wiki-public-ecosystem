@@ -45,7 +45,7 @@ First, connect all required devices. You will need to connect the following conn
 {% tab title="Astro or Alta X (Gen2 ONLY)" %}
 #### Comm Link Configuration
 
-In AMC on your companion device, Navigate to Settings > Comm Links > add to add a TCP comm link with the following settings:\
+In AMC on your computer, Navigate to Settings > Comm Links > add to add a TCP comm link with the following settings:\
 \
 Name: \<User Specified>\
 Type: TCP\
