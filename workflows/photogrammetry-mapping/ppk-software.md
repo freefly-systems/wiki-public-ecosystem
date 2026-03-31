@@ -103,11 +103,11 @@ TIP: you want to explore output with multiple settings (i.e. different base stat
 
 * When opening the Analysis, this will open a browser window showing the original location, PPK'ed GPS antenna location, and the PPK'ed photo location
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>PPK Analysis 2D Plot with the Normal Map view</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>PPK Analysis 2D Plot with the Normal Map view</p></figcaption></figure>
 
 * The top bar contains options to change the map layers between Normal (vector map), Satellite, or Mapbox. If choosing Mapbox, you will need to enter your Mapbox Token
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>PPK Analysis 2D Plot Mapbox Token Entry</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>PPK Analysis 2D Plot Mapbox Token Entry</p></figcaption></figure>
 
 * If you select one of the points on the 2D map it will bring up additional information about the results, showing the photo and info about the PPK correction
 
@@ -115,7 +115,7 @@ TIP: you want to explore output with multiple settings (i.e. different base stat
 
 * By selecting '3D Plot' you can view a 3D graph showing the exact locations to spot check your PPK results. Each point can also be hovered over to show exact coordinates
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>PPK Analysis 3D Plot View</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>PPK Analysis 3D Plot View</p></figcaption></figure>
 
 * In the 3D plot view, scrolling will zoom in and out, right-click and drag will reposition the chart, and left-click drag will rotate the chart
 

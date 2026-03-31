@@ -4,11 +4,11 @@ description: Setup the LR1 Payload to fit your mission
 
 # LR1 Lenses and Expansion
 
-### Default Configuration&#x20;
+### Default Configuration
 
-By default, the LR1 Payload comes balanced and tuned with the Sigma 24mm F3.5 lens, which covers most mapping applications. However, the gimbal can be re-configured with other lenses and external modules for other use cases!&#x20;
+By default, the LR1 Payload comes balanced and tuned with the Sigma 24mm F3.5 lens, which covers most mapping applications. However, the gimbal can be re-configured with other lenses and external modules for other use cases!
 
-### Supported Lenses&#x20;
+### Supported Lenses
 
 {% hint style="success" %}
 Make sure to balance the gimbal after changing lenses! See the section below
@@ -20,6 +20,16 @@ Make sure to balance the gimbal after changing lenses! See the section below
 [changing-lenses](changing-lenses/)
 {% endcontent-ref %}
 
+### Lens Settings
+
+All compatible lenses will have settings to change the focus mode and adjust the aperture. For the LR1, which comes with a Sigma 24mm lens, we recommend you set these both to AUTO.
+
+While it may be tempting to set these manually, setting the focus and aperture to AUTO will expose these settings to be modified any time in AMC.&#x20;
+
+<div align="center" data-full-width="false"><figure><img src="../../../.gitbook/assets/image (1).png" alt="" width="375"><figcaption><p>Aperture Ring set to A (auto)</p></figcaption></figure></div>
+
+<div align="center"><figure><img src="../../../.gitbook/assets/image.png" alt="" width="375"><figcaption><p>Focus set to AF (autofocus)</p></figcaption></figure></div>
+
 ### Supported External Modules
 
 The LR1 Payload currently supports two external modules from Freefly:
@@ -28,9 +38,8 @@ The LR1 Payload currently supports two external modules from Freefly:
 [expansion-modules](../expansion-modules/)
 {% endcontent-ref %}
 
-If you would like to integrate your own module, check out this section below:&#x20;
+If you would like to integrate your own module, check out this section below:
 
 {% content-ref url="expansion-ports.md" %}
 [expansion-ports.md](expansion-ports.md)
 {% endcontent-ref %}
-
