@@ -1,16 +1,22 @@
 # Hovermap ST-X and ST Lidar
 
-|                    |                                                               |
-| ------------------ | ------------------------------------------------------------- |
-| **Description**    | LiDAR with SLAM for GPS-denied environments                   |
-| **Compatibility**  | <p>Astro (ST-X only on F45 Astros) ✅ </p><p>Alta X Gen2 ❌</p> |
-| **Weight**         | 1,570g                                                        |
-| **NDAA Compliant** | No                                                            |
-| **Offered By**     | Emesent                                                       |
+|                             |                                             |
+| --------------------------- | ------------------------------------------- |
+| **Description**             | LiDAR with SLAM for GPS-denied environments |
+| **Weight**                  | 1,570g                                      |
+| **NDAA Compliant**          | No                                          |
+| **Offered By**              | Emesent                                     |
+| **Latest Emesent Software** | Cortex v4.1.3 and Commander v2.2.1          |
 
 The Emesent Hovermap ST-X and ST lidars are excellent payloads for creating detailed, accurate lidar point clouds, while enabling operations in challenging, GPS-denied environments.
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2023-12-13 at 10.08.05 AM.jpg" alt=""><figcaption><p>Astro + Hovermap ST-X flying inside Alcatraz Cell House</p></figcaption></figure>
+
+### Compatibility
+
+<table><thead><tr><th>Drone Compatibility</th><th>Emesent ST<select><option value="SHv8oMwmiIbF" label="Yes" color="blue"></option><option value="eGG9b32rkoLv" label="No" color="blue"></option><option value="uC8MMpP6mCOA" label="Coming Soon" color="blue"></option></select></th><th>Emesent ST-X<select><option value="ig7orSicsUPZ" label="Yes" color="blue"></option><option value="ZSmD19mOwe80" label="No" color="blue"></option><option value="RgPFbTdmduQn" label="Coming Soon" color="blue"></option></select></th></tr></thead><tbody><tr><td>Astro (F45)</td><td><span data-option="eGG9b32rkoLv">No</span></td><td><span data-option="ig7orSicsUPZ">Yes</span></td></tr><tr><td>Astro Max</td><td><span data-option="SHv8oMwmiIbF">Yes</span></td><td><span data-option="ig7orSicsUPZ">Yes</span></td></tr><tr><td>Alta X</td><td><span data-option="eGG9b32rkoLv">No</span></td><td><span data-option="ZSmD19mOwe80">No</span></td></tr><tr><td>Alta X Gen2</td><td><span data-option="uC8MMpP6mCOA">Coming Soon</span></td><td><span data-option="RgPFbTdmduQn">Coming Soon</span></td></tr></tbody></table>
+
+
 
 ### Setting up Hovermap
 

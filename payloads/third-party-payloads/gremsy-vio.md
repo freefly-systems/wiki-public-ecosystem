@@ -1,12 +1,6 @@
 # Gremsy Vio
 
-|                    |                                      |
-| ------------------ | ------------------------------------ |
-| **Description**    | Camera gimbal with video streaming   |
-| **Compatibility**  | <p>Astro ✅ </p><p>Alta X Gen2 ✅ </p> |
-| **Weight**         | 1,100g (varies by camera)            |
-| **NDAA Compliant** | No                                   |
-| **Offered By**     | Gremsy                               |
+<table><thead><tr><th width="207.796875"></th><th width="334.609375"></th></tr></thead><tbody><tr><td><strong>Description</strong></td><td>Camera gimbal with video streaming</td></tr><tr><td><strong>Compatibility</strong></td><td><p>Astro ✅ </p><p>Alta X Gen2 ✅ </p></td></tr><tr><td><strong>Weight</strong></td><td>1,100g (varies by camera)</td></tr><tr><td><strong>NDAA Compliant</strong></td><td>No</td></tr><tr><td><strong>Offered By</strong></td><td>Gremsy</td></tr></tbody></table>
 
 {% embed url="https://www.youtube.com/watch?v=qlNFSy5Uq8w" %}
 
@@ -65,8 +59,10 @@ Wait another 30-60s for the VIO video feed to appear in AMC
 Once connected to the VIO through AMC, the following settings need to be applied in the VIO camera settings menu:
 
 * RC mode = Standard
-* Setting target = Gimbal Device
+* Device = Gimbal Device
   * Then set Gimbal Mode = FOLLOW
+
+<figure><img src="../../.gitbook/assets/Screenshot_20260326_145202.jpg" alt=""><figcaption></figcaption></figure>
 
 ### VIO Webpage Settings
 
