@@ -117,7 +117,7 @@ This is a required firmware update for Astro's running firmware 1.6 or later. Th
 
 ## Camera Software
 
-We have tested LR1 cameras on 1.00 FW. We do not recommend any updates to the camera as it may cause compatibility issues with Astro and AMC.
+We have tested LR1 firmware versions 1.0.0, 2.0.0, and 3.0.0. We recommend updating to version 3.0.0 for the greatest feature-set compatibility with Astro. See Sony's support page for how to update the LR1.
 
 ## Gimbal Logs
 
