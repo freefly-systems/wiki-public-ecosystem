@@ -4,7 +4,7 @@
 
 |                                 | LR1 Payload   | OGI Payload   | Wiris Pro Payload | A7R4 Payload |
 | ------------------------------- | ------------- | ------------- | ----------------- | ------------ |
-| **Astro Firmware 1.6 or later** | v2.2.1        | v2.2.0        | v1.7.2            | v1.7.2       |
+| **Astro Firmware 1.6 or later** | v2.3.1        | v2.2.0        | v1.7.2            | v1.7.2       |
 | **Astro Firmware 1.5 or older** | Not supported | Not supported | v1.6.2            | v1.6.2       |
 
 {% hint style="info" %}
@@ -26,6 +26,15 @@ Gimbal firmware versions are also included in gimbal log files
 {% endcontent-ref %}
 
 ## Gimbal firmware release notes
+
+### v2.3.1
+
+* New: Gimbal will now flip itself to the correct orientation on startup if booted inverted
+* Fix: Gimbal heading doesn't change when aircraft position mode becomes valid
+* Change: Gimbal heading follows aircraft heading closer in Position and Mission Mode
+* Change: Logging updates
+
+{% file src="../../.gitbook/assets/minigimbal_lr1_v2.3.1.zip" %}
 
 ### v2.2.1
 
