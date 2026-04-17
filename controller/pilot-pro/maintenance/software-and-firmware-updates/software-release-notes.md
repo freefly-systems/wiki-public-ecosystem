@@ -4,6 +4,33 @@
 
 <details>
 
+<summary>Pilot Pro Software Bundle v2.7.4</summary>
+
+* **Summary:** New RTK/NTRIP feature in Pilot Pro App
+* **Release Date**: April 2026
+* **Versions in this package**:
+  * Pilot Pro Firmware: v2.2.0
+  * Pilot Pro App: v2.7.4
+
+**Notes**
+
+* **New:** RTK and NTRIP can now be run from Pilot Pro on MAVLink-over-ethernet vehicles.
+* **New:** Customizable Pilot Pro Status page for integrators.
+* **New:** Pilot Pro now always verifies all input-output parameters to ensure the applied config matches controller state.
+* **Improvement:** Android battery optimization configured so critical Freefly apps are not killed when backgrounded.
+* **Improvement:** Graceful tablet shutdown so Android settings persist across boot.
+* **Improvement:** Software update UX.
+* **Improvement:** Better vehicle and serial connection state management.
+* **Fix:** Log pruning is now capped at 3 GB.
+* **Fix (Freefly Updater):** Auto-fetch on app start now works reliably.
+* **New (Freefly Updater):** Pop-up warning when there is no internet connectivity.
+
+</details>
+
+## Previous Versions
+
+<details>
+
 <summary>Pilot Pro Software Bundle v2.6.2</summary>
 
 * **Summary:** Doodle Channel Scaning Update
@@ -19,8 +46,6 @@
 * Improved Doodle radio settings UI
 
 </details>
-
-## Previous Versions
 
 <details>
 
