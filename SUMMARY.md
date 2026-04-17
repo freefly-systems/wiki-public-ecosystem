@@ -9,7 +9,7 @@
   * [Operating Handbook](controller/pilot-pro/operating-handbook/README.md)
     * [User Interface](controller/pilot-pro/operating-handbook/user-interface.md)
     * [Ecosystem](controller/pilot-pro/operating-handbook/ecosystem/README.md)
-      * [RTK](controller/pilot-pro/operating-handbook/ecosystem/rtk.md)
+      * [RTK and NTRIP](controller/pilot-pro/operating-handbook/ecosystem/rtk.md)
     * [Power and Charging](controller/pilot-pro/operating-handbook/power-and-charging.md)
     * [Radio Modules](controller/pilot-pro/operating-handbook/radio-modules/README.md)
       * [Herelink Radio](controller/pilot-pro/operating-handbook/radio-modules/herelink-radio.md)

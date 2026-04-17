@@ -8,10 +8,10 @@ description: How to make sure your Pilot Pro has the latest and greatest softwar
 
 | Item                 | Latest Version Number | How to Update                                                         |
 | -------------------- | --------------------- | --------------------------------------------------------------------- |
-| Freefly Updater App  | 3.0.3                 | Check the ["updates"](./#app-updates) section in Updater app          |
-| AMC App (for Astro)  | 1.36.21               | Check the ["updates"](./#app-updates) section in Updater app          |
-| QGC App (for Alta X) | 1.3.12                | Check the ["updates"](./#app-updates) section in Updater app          |
-| Pilot Pro App        | v2.6.2                | Check the ["updates"](./#app-updates) section in Updater app          |
+| Freefly Updater App  | 3.1.1                 | Check the ["updates"](./#app-updates) section in Updater app          |
+| AMC App (for Astro)  | 1.36.24               | Check the ["updates"](./#app-updates) section in Updater app          |
+| QGC App (for Alta X) | 1.3.16                | Check the ["updates"](./#app-updates) section in Updater app          |
+| Pilot Pro App        | v2.7.4                | Check the ["updates"](./#app-updates) section in Updater app          |
 | Pilot Pro Firmware   | v2.2.0                | Check the ["FW STATUS" ](./#firmware-updates)section in Pilot Pro App |
 
 ## [Software Release Notes](software-release-notes.md)
