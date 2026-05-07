@@ -35,11 +35,11 @@ Use a 2.5mm driver and Loctite 222 on the screws. Be sure to tighten them down a
 
 ### Mapping Only - Astro Parameter Configuration
 
-Update your aircraft to the latest firmware to enable Hovermap functionality, at least v1.4.6
+Update your aircraft to the latest firmware to enable Hovermap functionality.
 
 ### Assisted or Autonomous - Astro Parameter Configuration
 
-For assisted and autonomous missions, Astro parameters need to be updated to enable communication with Hovermap and to increase rate setpoint tracking on Astro. See the autonomous section for more details:
+**For assisted and autonomous missions, Astro parameters need to be updated to enable communication with Hovermap and to increase rate setpoint tracking on Astro.** See the autonomous section for more details:
 
 {% content-ref url="assisted-autonomous-flight.md" %}
 [assisted-autonomous-flight.md](assisted-autonomous-flight.md)
@@ -76,7 +76,7 @@ The latest tested version of Commander is 2.2.1
 2. Check that Hovermap is up to date on Cortex Firmware. If not, follow Emesent's documentation on [firmware updates](https://emesent.com/portal).
 
 {% hint style="success" %}
-Latest [Hovermap firmware](https://emesent.com/software-downloads/) for Astro is Cortex 4.1.3
+Latest [Hovermap firmware](https://manage.emesent.com/software_downloads) for Astro is Cortex 4.1.3
 
 This can be found once connected in the Commander app in the 'Web UI' page
 {% endhint %}
@@ -94,7 +94,7 @@ This can be found once connected in the Commander app in the 'Web UI' page
 
 ### Hovermap Configuration with Pilot Pro (Doodle Radio)
 
-**Context (Herelink vs Doodle Labs):** On Herelink, standard RC commands are carried over SBUS, so the S2 (Autonomy) switch works with Hovermap with little or no extra setup. On Astro Blue (Doodle Labs radios), there is no native SBUS RC path; Freefly added MAVLink RC\_CHANNELS passthrough support in Pilot Pro Firmware 2.2.0+ to enable S2 forwarding. The steps below are required to configure this on Doodle Labs.
+**Context (Herelink vs Doodle Labs):** On Herelink, standard RC commands are carried over SBUS, so the S2 (Autonomy) switch works with Hovermap with no extra setup. On Astro Blue (Doodle Labs radios), there is no native SBUS RC path; Freefly added MAVLink RC\_CHANNELS passthrough support in Pilot Pro Firmware 2.2.0+ to enable S2 forwarding. The steps below are required to configure this on Doodle Labs.
 
 **Summary**: Pilot Pro Firmware 2.2.0+ adds MAVLink RC\_CHANNELS support so the S2 (Autonomy) switch can be forwarded from Pilot Pro → Astro Blue (Doodle Labs radio) → Hovermap.
 

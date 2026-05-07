@@ -3,7 +3,7 @@
 |                             |                                             |
 | --------------------------- | ------------------------------------------- |
 | **Description**             | LiDAR with SLAM for GPS-denied environments |
-| **Weight**                  | 1,570g                                      |
+| **Weight**                  | 1.6-1.7kg                                   |
 | **NDAA Compliant**          | No                                          |
 | **Offered By**              | Emesent                                     |
 | **Latest Emesent Software** | Cortex v4.1.3 and Commander v2.2.1          |
