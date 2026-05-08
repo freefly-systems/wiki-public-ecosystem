@@ -82,7 +82,7 @@ Always be ready to take over control of Astro in case of unexpected behavior!
 The S2 switch in the middle or down position will remove Hovermap from control of Astro and give full authority to the pilot
 {% endhint %}
 
-### Hovermap FW v3.2.1 Known Limitations:
+### Hovermap FW v4.1.3 Known Limitations:
 
 {% hint style="danger" %}
 **Read carefully! Ignoring these could result in a crash**
@@ -96,6 +96,7 @@ Always set the shield limits as large as possible for your mission
   * In particular, this can occur near foliage or other objects like ropes/wires/tarps that can move in the wind, allowing the aircraft to move closer for a brief moment before the object moves back. Hovermap shield is a passive system and won't avoid an obstacle that moves.
   * It is possible to get the aircraft 'stuck' with obstacles on all sides. If this occurs, take over control from Hovermap and fly Astro to a more open area, then reenable Hovermap.
 * Calculated RTL path is sometimes inefficient, requiring the aircraft to fly a longer than necessary distance back to the home point
+* The Height ramp feature in Commander will sometimes show the scan as a single color
 
 ## Flight Tips
 
