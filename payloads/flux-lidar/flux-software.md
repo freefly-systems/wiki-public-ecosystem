@@ -2,22 +2,26 @@
 
 ### Connect to Flux Update Webpage
 
-To check Flux firmware version or update software:&#x20;
+To check Flux firmware version or update software:
 
 * Power on Flux while connected to Astro
 * Access to Flux Update Webpage at [192.168.144.233](http://192.168.144.233:8080/) from:
   * Pilot Pro tablet
   * iPad connected to Pilot Pro
   * Computer connected to pilot Pro via Ethernet
-* &#x20;Access to Flux Update Webpage at [10.42.0.1](http://10.42.0.1/) from:
+* Access to Flux Update Webpage at [10.42.0.1](http://10.42.0.1/) from:
   * USB-C Ethernet adapter connected to Flux\
     Flux USB does not support USB device mode, a USB Network adapter must be used.
 
 <figure><img src="../../.gitbook/assets/Screenshot_20251016_085945_Chrome.jpg" alt=""><figcaption></figcaption></figure>
 
+{% hint style="info" %}
+The webpage may need to be forced refreshed to see the current firmware version. This can be done by holding control + shift + R on windows or command + shift + R on mac
+{% endhint %}
+
 ### Software Version
 
-The Flux software version is listed at the top of the page:&#x20;
+The Flux software version is listed at the top of the page:
 
 <div align="right"><figure><img src="../../.gitbook/assets/Screenshot_20251016_085945_Chrome (1).jpg" alt=""><figcaption></figcaption></figure></div>
 
@@ -42,12 +46,12 @@ The Flux software version is listed at the top of the page:&#x20;
 If Flux is not running correctly due to a failed or invalid update, System Recovery can be triggered by pressing Flux button when powering up. Recovery will execute the factory software instead of any installed update.
 
 If an software update is present on the USB Storage, the factory software will install it and reboot.\
-It is recommended to disconnect USB Storage when performing System Recovery to allow connection with the Flow App. Software update can be performed afterwards.&#x20;
+It is recommended to disconnect USB Storage when performing System Recovery to allow connection with the Flow App. Software update can be performed afterwards.
 
-### Latest Software:&#x20;
+### Latest Software:
 
 #### Release Notes
 
 1.0.0
 
-* Initial release for Freefly Flux L1, O1, and H1&#x20;
+* Initial release for Freefly Flux L1, O1, and H1
