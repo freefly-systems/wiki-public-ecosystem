@@ -4,7 +4,9 @@
 
 Freefly Flow is used to process LiDAR data from Flux. You can download it from the App Store [here](https://apps.apple.com/us/app/freefly-flow/id1522046404?platform=ipad).
 
-**Freefly Flow is only compatible with M-series iPads and iPhones**, running iPad OS 17.0 or later. At this time, it is only available for iPadOS and iOS — An Android version is not available. If this changes, we will update this page.
+**Freefly Flow is only compatible with M-series iPads**, running iPad OS 18 or 26. At this time, it is only supported for iPadOS, though we have done limited testing with the Flow app on MacOS and iOS.&#x20;
+
+An Android version is not available. If this changes, we will update this page.
 
 {% hint style="info" %}
 Always use the latest flow app. App versions 3.0+ are tested on iPadOS 18 and 26
@@ -145,7 +147,7 @@ Select the destination for your file, either your iPad's internal storage or an 
 When the export is complete, click '**DONE'**. Your **.las** or **.laz** file is now ready.
 
 {% hint style="warning" %}
-Known issue: in Flow app version 3.0.10, sometimes exported point clouds are missing small square shaped sections of data. The current workaround for this issue is to process the .fluxscan in a new project and re-export the LAS or LAZ file
+Known issue: in Flow app version 3.1.3, sometimes exported point clouds are missing small square shaped sections of data. The current workaround for this issue is to process the .fluxscan in a new project and re-export the LAS or LAZ file
 {% endhint %}
 {% endstep %}
 {% endstepper %}

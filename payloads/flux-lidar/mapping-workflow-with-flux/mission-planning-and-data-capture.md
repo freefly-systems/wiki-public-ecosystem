@@ -8,11 +8,11 @@ Flux sensor presets are available in AMC under the camera presets. Update to AMC
 
 In AMC, go to the plan screen and tap Pattern --> Survey or Corridor Scan and draw out the area you would like to scan.
 
-Next, select your Flux variant under the camera settings. This will apply the default settings for Flux and simplify the mission planning process.&#x20;
+Next, select your Flux variant under the camera settings. This will apply the default settings for Flux and simplify the mission planning process.
 
 <figure><img src="../../../.gitbook/assets/image (181).png" alt=""><figcaption></figcaption></figure>
 
-We recommend the following mission settings for Flux:&#x20;
+We recommend the following mission settings for Flux:
 
 |                  | Flux H1                                                                                         | Flux L1                                                                                         | Flux O1                                                                                         |
 | ---------------- | ----------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
@@ -21,19 +21,19 @@ We recommend the following mission settings for Flux:&#x20;
 | Speed            | 2 to 15 m/s, depending on the point density required. The slower, the higher the point density. | 2 to 10 m/s, depending on the point density required. The slower, the higher the point density. | 2 to 15 m/s, depending on the point density required. The slower, the higher the point density. |
 
 {% hint style="info" %}
-If you are using terrain following, use max climb and descent rates <1.5 m/s
+If you are using terrain following, use max climb and descent rates <1.0 m/s. Flow will filter out any lidar points captured while the aircraft is above this vertical rate.&#x20;
 {% endhint %}
 
 ## Connecting an iPad to Pilot Pro <a href="#start-lidar-capture-and-execute-the-mission" id="start-lidar-capture-and-execute-the-mission"></a>
 
-In the app store, download the Freefly Flow app. Then, follow these instructions to connect your iPad to Pilot Pro using the included ethernet to USB-C cable.&#x20;
+In the app store, download the Freefly Flow app. Then, follow these instructions to connect your iPad to Pilot Pro using the included ethernet to USB-C cable.
 
 {% embed url="https://freefly.gitbook.io/pilot-pro-public/operating-handbook/ecosystem#adding-a-second-tablet-ipad" %}
 
-Use the following settings on the iPad:&#x20;
+Use the following settings on the iPad:
 
 * IP address: 192.168.144.120
-* Subnet mask: 255.255.255.0&#x20;
+* Subnet mask: 255.255.255.0
 
 ## Start LiDAR capture and execute the mission <a href="#start-lidar-capture-and-execute-the-mission" id="start-lidar-capture-and-execute-the-mission"></a>
 
@@ -49,9 +49,7 @@ If an iPad is connected to Pilot Pro, you can connect the Flow app to Flux and s
 {% hint style="success" %}
 Flux relies heavily on GNSS for good performance
 
-
-
-For the best results, wait for the left and right GNSS modules to both have 22+ satellites for >1 minute before starting to record and takeoff
+For the best results, wait for the left and right GNSS modules to both have 20+ satellites for >1 minute before starting to record and takeoff
 {% endhint %}
 
 Before takeoff, push the REC button on the Flux LiDAR or in the Flow app to start capturing LiDAR data. Once the LED turns red, begin flying the mission. There is no need for calibration figures or particular paths.
@@ -61,9 +59,7 @@ The L1 will likely display 0 pts (red) while Astro is on the ground. This is nor
 {% endhint %}
 
 {% hint style="info" %}
-Flux will calibrate itself on the way to the entry point of the mission.&#x20;
-
-
+Flux will calibrate itself on the way to the entry point of the mission.
 
 We recommend placing the start point as the farthest point from the takeoff point. This will give Flux the best calibration and will allow Astro to be closer to the home point at the end of the mission, allowing for longer flight times before the time-based RTL triggers
 {% endhint %}
@@ -73,7 +69,7 @@ We recommend placing the start point as the farthest point from the takeoff poin
 After landing, push the REC button to stop recording, either in the app or on the lidar. The LED will start blinking magenta, indicating the Flash Drive is busy. Once it is ready, the LED will go back to solid green.
 
 {% hint style="danger" %}
-Remember to stop recording before turning off the aircraft! If Flux is powered down while recording, the scan data will be corrupted and may not be recoverable.&#x20;
+Remember to stop recording before turning off the aircraft! If Flux is powered down while recording, the scan data will be corrupted and may not be recoverable.
 {% endhint %}
 
 ## Process your LiDAR data in the field just after landing <a href="#process-your-lidar-data-in-the-field-just-after-landing" id="process-your-lidar-data-in-the-field-just-after-landing"></a>

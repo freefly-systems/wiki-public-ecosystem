@@ -2,8 +2,6 @@
 
 This section contains important information about safety and legal notices while using any of Flux sensor. Please read them carefully before operating any of the sensors. Contact Freefly in case of any doubts.
 
-
-
 ## Specifications
 
 |                                                   |                        Flux H1                        |                        Flux L1                        |                        Flux O1                        |
@@ -27,8 +25,9 @@ This section contains important information about safety and legal notices while
 | Hardware Interface                                |                 Freefly Smart Dovetail                |                 Freefly Smart Dovetail                |                 Freefly Smart Dovetail                |
 | NDAA Compliant                                    |                           -                           |                           -                           |                           ✔️                          |
 | Compatibility                                     | <p>Freefly Astro<br>Freefly Alta X<br>DJI Skyport</p> | <p>Freefly Astro<br>Freefly Alta X<br>DJI Skyport</p> | <p>Freefly Astro<br>Freefly Alta X<br>DJI Skyport</p> |
+| Global accuracy\*                                 |                        +/-10cm                        |                        +/-10cm                        |                        +/-10cm                        |
 
-
+\*This was tested using NTRIP corrections while flying the drone and for processing the Flux scan measured blind against ground control points. Actual accuracy may varry depending on a number of factors including GNSS signal quality, base station quality, and other environmental factors.&#x20;
 
 ## Safety & Legal Notices
 
@@ -42,7 +41,7 @@ Flux L1 features a Livox Avia sensor that has been evaluated to be **Class 1 las
 
 <figure><img src="../../.gitbook/assets/Class 1.png" alt="" width="375"><figcaption><p>Class 1 Laser Product</p></figcaption></figure>
 
-The XT32M2X, Ouster OS1, and Livox Avia sensors featured in Flux emit Class 1 invisible laser radiation.&#x20;
+The XT32M2X, Ouster OS1, and Livox Avia sensors featured in Flux emit Class 1 invisible laser radiation.
 
 The entire window is considered to be the laser aperture. While Class 1 lasers are considered "eye safe", avoid prolonged direct viewing of the laser and do not use optical instruments to view the laser.
 
@@ -72,7 +71,7 @@ Do not "hotswap" (remove or insert) Flux from the Smart Dovetail connector when 
 
 ### LiDAR Cover Lens
 
-Do not touch the plastic or glass covering over the LiDAR sensor. Fingerprints or other contaminates such as grease or dirt can cause issues with the point cloud collection on Flux. The LiDAR cover can be gently wiped down as needed with the included microfiber cloth. Avoid scratching the glass or plastic lens covering.&#x20;
+Do not touch the plastic or glass covering over the LiDAR sensor. Fingerprints or other contaminates such as grease or dirt can cause issues with the point cloud collection on Flux. The LiDAR cover can be gently wiped down as needed with the included microfiber cloth. Avoid scratching the glass or plastic lens covering.
 
 ### Operating Temperatures
 
@@ -82,4 +81,4 @@ When the sensor reaches the maximum operating temperature specified below, the s
 
 ### Recommended Storage Conditions
 
-Store the product in a dry, well-ventilated place. The recommended ambient temperature is 23±5°C, and the humidity between 30% and 70%.&#x20;
+Store the product in a dry, well-ventilated place. The recommended ambient temperature is 23±5°C, and the humidity between 30% and 70%.

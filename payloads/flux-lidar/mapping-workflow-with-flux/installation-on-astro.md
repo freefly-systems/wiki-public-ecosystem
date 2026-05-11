@@ -109,19 +109,19 @@ If you have your own base station capable of logging L1/L2/L5/L6 GNSS in a RINEX
 We have tested the Tersus Oscar Trek works well with Flux and has the necessary GNSS bands.
 
 {% hint style="info" %}
-V3.X RINEX file is required for processing in the Flow app
+V2.11 or 3.X RINEX file is required for processing in the Flow app
 {% endhint %}
 
 #### Option 3: Reference Network
 
-If you do not have your own base station, check that there is a nearby permanent station from which you can download a RINEX file after your flight. There are available several GNSS networks from which these RINEX files can be downloaded, such as the HxGN SmartNet from Hexagon.
+If you do not have your own base station, check that there is a nearby permanent station from which you can download a RINEX file after your flight. There are available several GNSS networks from which these RINEX files can be downloaded, such as [from UFCORS](https://geodesy.noaa.gov/UFCORS/).&#x20;
 
 {% hint style="info" %}
 The further away the reference base station is, the less accurate your scan results will be
 {% endhint %}
 
 {% hint style="info" %}
-V3.X RINEX file is required for processing in the Flow app
+V2.11 or 3.X RINEX file is required for processing in the Flow app
 {% endhint %}
 
 ## Plan a mission in AMC <a href="#plan-a-mission-on-your-preferred-ground-station-app" id="plan-a-mission-on-your-preferred-ground-station-app"></a>

@@ -55,3 +55,7 @@ It is recommended to disconnect USB Storage when performing System Recovery to a
 1.0.0
 
 * Initial release for Freefly Flux L1, O1, and H1
+
+1.1.0
+
+* Minor update to support hardware revision
