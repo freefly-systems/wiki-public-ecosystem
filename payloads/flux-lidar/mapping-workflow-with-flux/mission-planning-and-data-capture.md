@@ -20,8 +20,46 @@ We recommend the following mission settings for Flux:
 | Track Separation | Set automatically if Flux H1 is selected                                                        | Set automatically if Flux L1 is selected                                                        | Set automatically if Flux O1 is selected                                                        |
 | Speed            | 2 to 15 m/s, depending on the point density required. The slower, the higher the point density. | 2 to 10 m/s, depending on the point density required. The slower, the higher the point density. | 2 to 15 m/s, depending on the point density required. The slower, the higher the point density. |
 
-{% hint style="info" %}
+{% hint style="warning" %}
 If you are using terrain following, use max climb and descent rates <1.0 m/s. Flow will filter out any lidar points captured while the aircraft is above this vertical rate.&#x20;
+{% endhint %}
+
+{% hint style="info" %}
+Flux uses the first track of the flight for calibration, so it is recommended to have the entry point of your mission as far away from the takeoff point as possible
+{% endhint %}
+
+### Mapping Tips
+
+* In general, long tracks using the preset mission profiles deliver the best results. A crosshatch mission isn't usually necessary unless your scan area has lots of vertical features such as tall skinny buildings or complex geometry.&#x20;
+* Flux
+
+### Power Line/Corridor Scan Tips
+
+{% hint style="info" %}
+Corridor scans can sometimes be filtered out by Flow if not setup properly. We recommend flying a small (50-100m) reverse transit before the intended area of the corridor scan as shown below
+{% endhint %}
+
+{% columns %}
+{% column %}
+Recommended
+
+<figure><img src="../../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+{% endcolumn %}
+
+{% column %}
+Not recommended
+
+<figure><img src="../../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+{% endcolumn %}
+{% endcolumns %}
+
+For the best performance on picking up power lines in the scan:
+
+* Place the corridor path directly over the power lines,. Flux can struggle to pick up powerlines from off-nadir angles
+* Don't fly higher than is needed for safety, as power lines become harder to detect as the distance increases
+
+{% hint style="success" %}
+Protip: you can fly a quick scan at higher altitudes that is fast and process it to have a good measurement of obstacles/transmission tower heights. Then plan the actual mission using this info to get closer and fly slower for the required level of detail&#x20;
 {% endhint %}
 
 ## Connecting an iPad to Pilot Pro <a href="#start-lidar-capture-and-execute-the-mission" id="start-lidar-capture-and-execute-the-mission"></a>

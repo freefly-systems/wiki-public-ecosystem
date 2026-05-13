@@ -67,7 +67,7 @@
   * [LR1 Sample Mapping Data](payloads/lr1-payload/lr1-sample-mapping-data.md)
 * [Flux Lidar](payloads/flux-lidar/README.md)
   * [Payload Overview](payloads/flux-lidar/payload-overview.md)
-  * [Mapping Workflow with Flux](payloads/flux-lidar/mapping-workflow-with-flux/README.md)
+  * [Data Capture Workflow with Flux](payloads/flux-lidar/mapping-workflow-with-flux/README.md)
     * [Installation on Astro/Alta X Gen2](payloads/flux-lidar/mapping-workflow-with-flux/installation-on-astro.md)
     * [Mission Planning and Data Capture](payloads/flux-lidar/mapping-workflow-with-flux/mission-planning-and-data-capture.md)
     * [Processing LiDAR data on an iPad](payloads/flux-lidar/mapping-workflow-with-flux/processing-lidar-data-on-an-ipad.md)
