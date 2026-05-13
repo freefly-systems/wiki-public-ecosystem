@@ -31,7 +31,6 @@ Flux uses the first track of the flight for calibration, so it is recommended to
 ### Mapping Tips
 
 * In general, long tracks using the preset mission profiles deliver the best results. A crosshatch mission isn't usually necessary unless your scan area has lots of vertical features such as tall skinny buildings or complex geometry.&#x20;
-* Flux
 
 ### Power Line/Corridor Scan Tips
 
@@ -55,11 +54,11 @@ Not recommended
 
 For the best performance on picking up power lines in the scan:
 
-* Place the corridor path directly over the power lines,. Flux can struggle to pick up powerlines from off-nadir angles
+* Place the corridor path _directly_ over the power lines,. Flux can struggle to pick up powerlines from off-nadir angles
 * Don't fly higher than is needed for safety, as power lines become harder to detect as the distance increases
 
 {% hint style="success" %}
-Protip: you can fly a quick scan at higher altitudes that is fast and process it to have a good measurement of obstacles/transmission tower heights. Then plan the actual mission using this info to get closer and fly slower for the required level of detail&#x20;
+Protip: you can fly a quick scan at higher altitudes that is fast, and process it to have a good measurement of obstacles/transmission tower heights. Then plan the actual mission using this info to get closer and fly slower for the required level of detail&#x20;
 {% endhint %}
 
 ## Connecting an iPad to Pilot Pro <a href="#start-lidar-capture-and-execute-the-mission" id="start-lidar-capture-and-execute-the-mission"></a>
@@ -102,7 +101,7 @@ Flux will calibrate itself on the way to the entry point of the mission.
 We recommend placing the start point as the farthest point from the takeoff point. This will give Flux the best calibration and will allow Astro to be closer to the home point at the end of the mission, allowing for longer flight times before the time-based RTL triggers
 {% endhint %}
 
-<table data-header-hidden><thead><tr><th align="right"></th><th width="249"></th><th></th></tr></thead><tbody><tr><td align="right"><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FdCjObRNycudiUoGxd8H4%2Fuploads%2FOtUUeXkhfx66sXm6bn28%2Fblue.png?alt=media&#x26;token=999289e1-3d69-4d89-b7d4-b2620c4b54f1" alt="" data-size="line"></td><td>Blinking Blue</td><td>Sensor loading</td></tr><tr><td align="right"><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FdCjObRNycudiUoGxd8H4%2Fuploads%2Fq66HlJfrtQVvIaJfDoqy%2Fyellow.png?alt=media&#x26;token=cb38ed89-fb0d-4fcb-acd3-d38a621c9383" alt="" data-size="line"></td><td>Blinking Yellow</td><td>GNSS starting and acquiring satellites</td></tr><tr><td align="right"><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FdCjObRNycudiUoGxd8H4%2Fuploads%2FkN4Z038eVTNDY5xbumMj%2Fmagenta.png?alt=media&#x26;token=6cd3b3a6-f573-4a10-83f9-544bdcb8b1ee" alt="" data-size="line"></td><td>Blinking Magenta</td><td>Flash drive missing, not ExFAT formatted or busy after recording.</td></tr><tr><td align="right"><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FdCjObRNycudiUoGxd8H4%2Fuploads%2FULg4zqxa6aVKIiCAjtPx%2Fgreen.png?alt=media&#x26;token=b6d1b197-612b-477e-8123-106e092976f3" alt="" data-size="line"></td><td>Solid Green</td><td>Sensor ready to start LiDAR capture. Standby.</td></tr><tr><td align="right"><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FdCjObRNycudiUoGxd8H4%2Fuploads%2F0wgDLOiN8jKDdMWw2Btv%2Fred.png?alt=media&#x26;token=7b84228b-12b1-4a61-96b6-c4376d3d93f9" alt="" data-size="line"></td><td>Solid Red</td><td>Sensor recording.</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th align="right"></th><th width="249"></th><th></th></tr></thead><tbody><tr><td align="right"><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FdCjObRNycudiUoGxd8H4%2Fuploads%2FOtUUeXkhfx66sXm6bn28%2Fblue.png?alt=media&#x26;token=999289e1-3d69-4d89-b7d4-b2620c4b54f1" alt="" data-size="line"></td><td>Blinking Blue</td><td>Sensor loading</td></tr><tr><td align="right"><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FdCjObRNycudiUoGxd8H4%2Fuploads%2Fq66HlJfrtQVvIaJfDoqy%2Fyellow.png?alt=media&#x26;token=cb38ed89-fb0d-4fcb-acd3-d38a621c9383" alt="" data-size="line"></td><td>Blinking Yellow</td><td>GNSS starting and acquiring satellites</td></tr><tr><td align="right"><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FdCjObRNycudiUoGxd8H4%2Fuploads%2FkN4Z038eVTNDY5xbumMj%2Fmagenta.png?alt=media&#x26;token=6cd3b3a6-f573-4a10-83f9-544bdcb8b1ee" alt="" data-size="line"></td><td>Blinking Magenta</td><td>Flash drive missing, not ExFAT formatted or busy after recording.</td></tr><tr><td align="right"><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FdCjObRNycudiUoGxd8H4%2Fuploads%2FULg4zqxa6aVKIiCAjtPx%2Fgreen.png?alt=media&#x26;token=b6d1b197-612b-477e-8123-106e092976f3" alt="" data-size="line"></td><td>Solid Green</td><td>Sensor ready to start LiDAR capture. Standby.</td></tr><tr><td align="right"><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FdCjObRNycudiUoGxd8H4%2Fuploads%2F0wgDLOiN8jKDdMWw2Btv%2Fred.png?alt=media&#x26;token=7b84228b-12b1-4a61-96b6-c4376d3d93f9" alt="" data-size="line"></td><td>Solid Red</td><td>Sensor recording.</td></tr><tr><td align="right"><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FdCjObRNycudiUoGxd8H4%2Fuploads%2FOtUUeXkhfx66sXm6bn28%2Fblue.png?alt=media&#x26;token=999289e1-3d69-4d89-b7d4-b2620c4b54f1" alt="" data-size="line"></td><td>Solid Blue</td><td>Error</td></tr></tbody></table>
 
 After landing, push the REC button to stop recording, either in the app or on the lidar. The LED will start blinking magenta, indicating the Flash Drive is busy. Once it is ready, the LED will go back to solid green.
 
