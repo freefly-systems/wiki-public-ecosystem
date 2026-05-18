@@ -4,6 +4,25 @@
 
 <details>
 
+<summary>Pilot Pro Software Bundle v2.7.8</summary>
+
+* **Summary:** Minor UI/UX patches for drone FW update fixer wizard
+* **Release Date**: May 2026
+* **Versions in this package**:
+  * Pilot Pro Firmware: v2.2.0
+  * Pilot Pro App: v2.7.8
+
+**Notes**
+
+* **There were major updates in the v2.7.4 release, so go check out its release notes below**
+* **UI/UX:** Provide guidance to help apply FW update fixer patch
+
+</details>
+
+## Previous Versions
+
+<details>
+
 <summary>Pilot Pro Software Bundle v2.7.4</summary>
 
 * **Summary:** New RTK/NTRIP feature in Pilot Pro App
@@ -26,8 +45,6 @@
 * **New (Freefly Updater):** Pop-up warning when there is no internet connectivity.
 
 </details>
-
-## Previous Versions
 
 <details>
 
