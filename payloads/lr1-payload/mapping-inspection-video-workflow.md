@@ -1,4 +1,4 @@
-# Mapping/Inspection/Video Workflow
+# Workflows - Mapping, Inspection, Video, Photography
 
 ## Mapping Workflow
 
@@ -11,6 +11,20 @@
 {% content-ref url="../../workflows/infrastructure-inspection.md" %}
 [infrastructure-inspection.md](../../workflows/infrastructure-inspection.md)
 {% endcontent-ref %}
+
+## Photography Workflow
+
+With aircraft firmware 2.2.6, the LR1 payload can shoot in RAW or RAW+JPEG format, unlocking professional high resolution photography applications.
+
+<figure><img src="../../.gitbook/assets/DSC00409.jpg" alt=""><figcaption><p>Shot on Astro + LR1 payload + Sony 24mm F1.4 GM</p></figcaption></figure>
+
+The LR1 is natively compatible with [5 lenses.](https://docs.freeflysystems.com/ecosystem/payloads/lr1-payload/lr1-lenses-and-expansion) Other lenses can be used, but may require balancing weights and [custom gimbal tuning](https://docs.freeflysystems.com/ecosystem/payloads/lr1-payload/lr1-lenses-and-expansion/changing-lenses/advanced-gimbal-tuning).&#x20;
+
+Full frame or APS-C mode is selectable as well. Focus options can be selected between AF-S wide, zone, center, tap-to-focus, and infinity (supported 24, 35, and 50mm only).&#x20;
+
+{% hint style="info" %}
+Due to the file size of RAW photos, all RAW images will be saved to the camera SD card. We recommended using a sufficiently fast SD card for quick write speeds.
+{% endhint %}
 
 ## Video Workflow
 

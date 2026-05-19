@@ -57,7 +57,7 @@
   * [Expansion Modules](payloads/lr1-payload/expansion-modules/README.md)
     * [LR1 Thermal Module](payloads/lr1-payload/expansion-modules/lr1-thermal-module.md)
     * [LR1 Laser Range Finder Module](payloads/lr1-payload/expansion-modules/lr1-laser-range-finder-module.md)
-  * [Mapping/Inspection/Video Workflow](payloads/lr1-payload/mapping-inspection-video-workflow.md)
+  * [Workflows - Mapping, Inspection, Video, Photography](payloads/lr1-payload/mapping-inspection-video-workflow.md)
   * [LR1 Lenses and Expansion](payloads/lr1-payload/lr1-lenses-and-expansion/README.md)
     * [Changing Lenses](payloads/lr1-payload/lr1-lenses-and-expansion/changing-lenses/README.md)
       * [Advanced Gimbal Tuning](payloads/lr1-payload/lr1-lenses-and-expansion/changing-lenses/advanced-gimbal-tuning.md)
