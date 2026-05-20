@@ -5,9 +5,7 @@
 * **Summary**: SL4 bugfixes and improvements
 * **Release Date**: December 2024
 * **Release Notes:** Please see [#sl8-firmware-v2.1](firmware-updates.md#sl8-firmware-v2.1 "mention")
-* #### How to Update: Open [this webpage](http://freeflysystems.com/sl8_v2-1) on a computer and follow instructions
-
-
+* **How to Update: Open** [**this webpage**](http://freeflysystems.com/sl8_v2-1) **on a computer and follow instructions**
 
 ## SL8 Firmware v2.1
 
@@ -20,7 +18,7 @@
 
 #### **Release Notes**
 
-* **Improved State of Charge (SOC) Estimation:**&#x20;
+* **Improved State of Charge (SOC) Estimation:**
   * **This is an important feature that addresses a critical weakness of the old firmware, where a battery could suddenly report 0% in flight, triggering critical fail safes on Astro.**
   * Coulomb Counting SOC Estimation: If a fuel gauge error is detected, the system will now switch to Coulomb counting for SOC estimation. This ensures more accurate battery monitoring in case of fuel gauge issues.
 * **Expanded Operating Temperature Range**: The operating temperature requirement has been reduced from 10°C to 0°C, allowing the battery to function in colder environments. This feature requires the new State of Charge (SOC) estimation method.

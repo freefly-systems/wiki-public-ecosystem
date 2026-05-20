@@ -25,10 +25,14 @@ Smart Dovetail is not hotswap compatible. To avoid damaging Astro or your payloa
 [installing-removing-payloads.md](../payload-maintenance/installing-removing-payloads.md)
 {% endcontent-ref %}
 
-## Updating Gimbal Firmware
+## Updating Gimbal and Camera Firmware
 
 {% content-ref url="../payload-maintenance/gimbal-firmware.md" %}
 [gimbal-firmware.md](../payload-maintenance/gimbal-firmware.md)
+{% endcontent-ref %}
+
+{% content-ref url="../payload-maintenance/payload-camera-firmware-update.md" %}
+[payload-camera-firmware-update.md](../payload-maintenance/payload-camera-firmware-update.md)
 {% endcontent-ref %}
 
 ## Updating Astro and AMC

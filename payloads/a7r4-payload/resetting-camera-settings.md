@@ -16,17 +16,10 @@ The USB-C connector needs to be disconnected from the left side of the camera to
 Note! The camera will not save settings unless you turn off the camera using the switch on the camera and wait 45 seconds for the settings to save before removing power to the gimbal (turning Astro off or removing the gimbal from Astro).
 {% endhint %}
 
-
-
-
-
 ## Changing Camera Settings
 
-Here's an example video of the camera settings being changed (switching from JPEG to RAW, in this case).&#x20;
-
-{% embed url="https://www.loom.com/share/a9242af842094faba7147bed0b28c06b" %}
+Setting can be changed on the rear screen of the A7R4. Most settings will presist across reboots unless they are controlled or specified by the aircraft
 
 {% hint style="warning" %}
 Note! The camera will not save settings unless you turn off the camera using the switch on the camera and wait 45 seconds for the settings to save before removing power to the gimbal (turning Astro off or removing the gimbal from Astro).
 {% endhint %}
-

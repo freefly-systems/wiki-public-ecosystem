@@ -122,6 +122,7 @@
   * [Gimbal Firmware](payloads/payload-maintenance/gimbal-firmware.md)
   * [Gimbal Logs](payloads/payload-maintenance/gimbal-logs.md)
   * [USB Formatting](payloads/payload-maintenance/usb-formatting.md)
+  * [Payload Camera Firmware Update](payloads/payload-maintenance/payload-camera-firmware-update.md)
 
 ## Workflows
 
