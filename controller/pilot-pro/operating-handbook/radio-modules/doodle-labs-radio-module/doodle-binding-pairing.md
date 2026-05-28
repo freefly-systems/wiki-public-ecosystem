@@ -12,15 +12,15 @@
 
 <figure><img src="../../../../../.gitbook/assets/pilot pro radio settings hamburger menu.png" alt="" width="375"><figcaption><p>Radio Settings location in the Pilot Pro App</p></figcaption></figure>
 
-*   Find the bind button under Astro. Its next to the yellow XT connector on the IO Panel.&#x20;
-
-
+*   Find the bind button under Astro. Its next to the yellow XT connector on the IO Panel.
 
     <figure><img src="../../../../../.gitbook/assets/Screenshot 2024-11-21 at 3.33.30 PM.png" alt="" width="375"><figcaption></figcaption></figure>
 * Also locate the external compass module (on boom 4).
 
 <figure><img src="../../../../../.gitbook/assets/Screenshot 2024-11-21 at 3.34.00 PM.png" alt="" width="375"><figcaption></figcaption></figure>
 
-* Press on the bind button 3 times. Then make sure the LED on the external compass module starts to blink fast in white/pink.&#x20;
-* Wait 30 seconds (for Doodle to fully switch to pairing mode). Then press Scan in the Pilot Pro App. From the list of results, find the one that matches Astro's serial number. Then press pair.&#x20;
+*   Press on the bind button 3 times. Then make sure the LED on the external compass module starts to blink fast in white/pink.<br>
+
+    <figure><img src="../../../../../.gitbook/assets/Astro-Binding-Mode (1).gif" alt="" width="375"><figcaption></figcaption></figure>
+* Wait 30 seconds (for Doodle to fully switch to pairing mode). Then press Scan in the Pilot Pro App. From the list of results, find the one that matches Astro's serial number. Then press pair.
 * Wait 60 seconds for process to complete.

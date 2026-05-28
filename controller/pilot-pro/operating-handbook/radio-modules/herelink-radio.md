@@ -11,11 +11,16 @@
 * Power on Astro or Alta X Gen 2 with one battery
 *   Find the bind button on the IO Panel - next to the yellow XT connector.
 
-    <figure><img src="../../../../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../.gitbook/assets/image (26).png" alt="" width="375"><figcaption></figcaption></figure>
 *   Also locate the external compass module
 
-    <figure><img src="../../../../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
-* Press on the bind button 3 times. Then make sure the LED on the external compass module starts to blink fast in white/pink.
+    <figure><img src="../../../../.gitbook/assets/image (27).png" alt="" width="375"><figcaption></figcaption></figure>
+
+
+
+* Press on the bind button 3 times. The LED on the external compass module starts to blink fast in white/pink for a few moments, confirming that it is entering binding mode.&#x20;
+
+<figure><img src="../../../../.gitbook/assets/Astro-Binding-Mode.gif" alt="" width="375"><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Alta X Gen 1" %}
