@@ -127,7 +127,7 @@ This can be found once connected in the Commander app in the 'Web UI' page
 5. Configure Astro parameters
    1. AMC using Advanced Mode, open Parameters and set
       1. MAV\_0\_FORWARD = Enabled (forwards S2; but increases CPU load)
-      2. COM\_RC\_IN\_MODE = Joystick only
+      2. COM\_RC\_IN\_MODE = MAVLink Only (formerly known as Joystick Only)
       3. SER\_EXT\_2\_BAUD = 500000 8N1
       4. MAV\_2\_MODE = Custom
       5. SDLOG\_MODE = Disabled (reduces CPU; but disables on-aircraft logging, which will make any incident investigation or troubleshooting much more difficult.)
