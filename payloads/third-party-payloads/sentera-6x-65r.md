@@ -25,7 +25,7 @@ Live video for 65R and other features are available with a firmware update! V4.1
 {% endhint %}
 
 {% hint style="info" %}
-[65R installation for Astro](https://sentera.gitbook.io/65r-sensor-user-guide/65r-sensor/installation/freefly-astro)
+[65R installation for Astro](https://support.senterasensors.com/home/65r-sensor-user-guide/65r-sensor/installation/freefly/astro)
 
 [6X Installation for Astro](https://sentera.gitbook.io/6x-multispectral-sensor-user-guide/6x-multispectral-sensor/installation/freefly-astro)
 {% endhint %}
@@ -44,7 +44,7 @@ As of Astro firmware v1.5 or later, the 6X and 65R camera settings are selectabl
 See Sentera's wiki for the recommended flight settings:
 
 * [65R User Guide](https://sentera.gitbook.io/65r-sensor-user-guide)
-* [6X User Guide](https://sentera.gitbook.io/6x-multispectral-sensor-user-guide)
+* [6X User Guide](https://support.senterasensors.com/home/6x-series-sensors-user-guide)
 
 {% hint style="info" %}
 **When planning a mission in AMC** - Be sure to set the Camera Action field to 'Survey' and at the bottom of the settings page. This will set the camera to be triggered to take photos during the mission
@@ -52,9 +52,9 @@ See Sentera's wiki for the recommended flight settings:
 
 ## Post Processing
 
-[65R Data Offload Process](https://sentera.gitbook.io/65r-sensor-user-guide/65r-sensor/data-offload/offload-process)
+[65R Data Offload Process](https://support.senterasensors.com/home/65r-sensor-user-guide/65r-sensor/data-offload)
 
-[6X Data Offload Process](https://sentera.gitbook.io/6x-multispectral-sensor-user-guide/6x-multispectral-sensor/data-offload/offload-process)
+[6X Data Offload Process](https://support.senterasensors.com/home/6x-series-sensors-user-guide/6x-series-sensors/data-offload)
 
 {% hint style="success" %}
 Use **192.168.42.1** for the IP address
@@ -113,5 +113,5 @@ You MUST plug in the USB-C to pull data, data is not stored on the SD card on th
 
 Additional information can be found on Sentera's website:
 
-* [Sentera 6X](https://sentera.com/products/fieldcapture/sensors/6x/)
-* [Sentera 65R](https://sentera.com/products/fieldcapture/sensors/65r/)
+* [Sentera 6X](https://senterasensors.com/6x/)
+* [Sentera 65R](https://senterasensors.com/65r/)
