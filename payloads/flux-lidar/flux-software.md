@@ -1,6 +1,27 @@
 # Flux Software
 
-### Connect to Flux Update Webpage
+## Latest Software:
+
+#### Release Notes
+
+1.2.14
+
+{% file src="../../.gitbook/assets/flux-update-flux-te0821-rev-b-v1.2.14-uee2c8c31-b104-g6a4bd0c9.swu" %}
+
+
+
+* Fixes an issue where sometimes H1 units produce 0 pt scans
+* Add support for new IMU variant
+
+1.1.0
+
+* Minor update to support hardware revision
+
+1.0.0
+
+* Initial release for Freefly Flux L1, O1, and H1
+
+## Connect to Flux Update Webpage
 
 To check Flux firmware version or update software:
 
@@ -48,14 +69,5 @@ If Flux is not running correctly due to a failed or invalid update, System Recov
 If an software update is present on the USB Storage, the factory software will install it and reboot.\
 It is recommended to disconnect USB Storage when performing System Recovery to allow connection with the Flow App. Software update can be performed afterwards.
 
-### Latest Software:
 
-#### Release Notes
 
-1.0.0
-
-* Initial release for Freefly Flux L1, O1, and H1
-
-1.1.0
-
-* Minor update to support hardware revision
