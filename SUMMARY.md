@@ -52,7 +52,7 @@
 ## Payloads
 
 * [Payloads Overview](payloads/payloads-overview.md)
-* [LR1 Camera System](payloads/lr1-payload/README.md)
+* [LR1 Payload](payloads/lr1-payload/README.md)
   * [Payload Overview and Setup](payloads/lr1-payload/payload-overview-and-setup.md)
   * [Expansion Modules](payloads/lr1-payload/expansion-modules/README.md)
     * [LR1 Thermal Module](payloads/lr1-payload/expansion-modules/lr1-thermal-module.md)
@@ -65,7 +65,7 @@
   * [What changed between A7R4 and LR1 Payload?](payloads/lr1-payload/what-changed-between-a7r4-and-lr1-payload.md)
   * [Technical Specs](payloads/lr1-payload/technical-specs.md)
   * [LR1 Sample Mapping Data](payloads/lr1-payload/lr1-sample-mapping-data.md)
-* [Flux Lidar](payloads/flux-lidar/README.md)
+* [Flux Lidar Payload](payloads/flux-lidar/README.md)
   * [Payload Overview](payloads/flux-lidar/payload-overview.md)
   * [Data Capture Workflow with Flux](payloads/flux-lidar/mapping-workflow-with-flux/README.md)
     * [Installation on Astro/Alta X Gen2](payloads/flux-lidar/mapping-workflow-with-flux/installation-on-astro.md)
@@ -98,7 +98,7 @@
     * [Mechanical Interface](payloads/wiris-pro-thermal/integration-for-3rd-party-applications/mechanical-interface.md)
     * [Electrical Interface](payloads/wiris-pro-thermal/integration-for-3rd-party-applications/electrical-interface.md)
     * [Operational Limitations](payloads/wiris-pro-thermal/integration-for-3rd-party-applications/operational-limitations.md)
-* [Ventus OGI](payloads/ventus-ogi/README.md)
+* [Ventus OGI Payload](payloads/ventus-ogi/README.md)
   * [Operating Handbook](payloads/ventus-ogi/operating-handbook/README.md)
     * [Setting up Astro with OGI](payloads/ventus-ogi/operating-handbook/setting-up-astro-with-ogi.md)
     * [Pre-flight Planning](payloads/ventus-ogi/operating-handbook/pre-flight-planning.md)
