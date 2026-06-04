@@ -30,6 +30,8 @@
 
 ## Pilot Pro
 
-* Using tweezers, press and hold the Pilot Pro Herelink unit's "Pair/Reset" button until LED2 blinks (hold approximately 3 seconds)
+*   Using tweezers, press and hold the Pilot Pro Herelink unit's "Pair/Reset" button until LED2 blinks (hold approximately 3 seconds)<br>
+
+    <figure><img src="../../../../.gitbook/assets/herelink_pair.JPG" alt="" width="375"><figcaption></figcaption></figure>
 * Ensure the light goes solid.
 * Open the flight app on Pilot Pro (AMC for Astro) and verify the connection to the aircraft
