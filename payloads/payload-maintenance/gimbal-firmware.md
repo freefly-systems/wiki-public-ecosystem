@@ -34,7 +34,7 @@ Gimbal firmware versions are also included in gimbal log files
 * Change: Gimbal heading follows aircraft heading closer in Position and Mission Mode
 * Change: Logging updates
 
-{% file src="../../.gitbook/assets/minigimbal_lr1_v2.3.1.zip" %}
+{% file src="../../.gitbook/assets/minigimbal_lr1_v2.3.1 (1).zip" %}
 
 ### v2.2.1
 
