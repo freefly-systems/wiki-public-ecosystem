@@ -2,7 +2,7 @@
 
 Auterion Mission Control (AMC) is a ground control station application for pilots. It can be used to fly aircraft, to plan missions, fly missions, and to configure the aircraft. It runs on Pilot Pro (Herelink) and PC.
 
-Auterion's complete documentation is here: [https://docs.auterion.com/vehicle-operation/](https://docs.auterion.com/vehicle-operation/)
+Auterion's complete documentation on AMC can be found by [clicking here](https://docs.auterion.com/vehicle-operation/auterion-mission-control).
 
 {% content-ref url="amc-fly.md" %}
 [amc-fly.md](amc-fly.md)
