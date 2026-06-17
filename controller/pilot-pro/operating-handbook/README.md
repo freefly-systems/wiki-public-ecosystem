@@ -11,7 +11,3 @@
 {% content-ref url="power-and-charging.md" %}
 [power-and-charging.md](power-and-charging.md)
 {% endcontent-ref %}
-
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
