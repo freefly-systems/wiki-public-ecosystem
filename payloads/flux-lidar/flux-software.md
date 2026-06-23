@@ -4,6 +4,14 @@
 
 #### Release Notes
 
+1.3.1
+
+{% file src="../../.gitbook/assets/flux-update-flux-te0821-rev-b-v1.3.1-uee2c8c31-b117-g8f809855.swu" %}
+
+* Improves IMU timing
+* Improves production processes
+* Adds build metadata
+
 1.2.14
 
 {% file src="../../.gitbook/assets/flux-update-flux-te0821-rev-b-v1.2.14-uee2c8c31-b104-g6a4bd0c9.swu" %}
