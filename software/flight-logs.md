@@ -1,6 +1,5 @@
 ---
 description: This guide covers all log types across the Freefly ecosystem.
-hidden: true
 ---
 
 # Flight Logs
