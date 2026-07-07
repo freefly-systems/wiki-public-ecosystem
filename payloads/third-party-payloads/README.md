@@ -1,4 +1,4 @@
-# 3RD PARTY PAYLOADS
+# Third-Party Payloads
 
 Astro is designed to be compatible with a wide variety of payloads.
 
@@ -6,4 +6,4 @@ Astro is designed to be compatible with a wide variety of payloads.
 
 Want to see your payload listed here? [Click here to tell us about it!](mailto:support@freeflysystems.com)
 
-Want to learn about developing payloads for Astro? Check out the [Interfaces section](../specs-and-interfaces/) of this wiki!
+Want to learn about developing payloads for Astro? Check out the [Interfaces section](https://github.com/freefly-systems/wiki-public-ecosystem/blob/main/payloads/specs-and-interfaces/README.md) of this wiki!

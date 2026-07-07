@@ -20,8 +20,8 @@ The Samyang 75mm may need a [lens firmware update](https://www.samyanglens.com/e
 
 After changing the lens, make sure to balance the gimbal, covered in this section:
 
-{% content-ref url="../lr1-payload/lr1-lenses-and-expansion/changing-lenses/" %}
-[changing-lenses](../lr1-payload/lr1-lenses-and-expansion/changing-lenses/)
+{% content-ref url="https://github.com/freefly-systems/wiki-public-ecosystem/blob/main/lr1-payload/lr1-lenses-and-expansion/changing-lenses/README.md" %}
+[https://github.com/freefly-systems/wiki-public-ecosystem/blob/main/lr1-payload/lr1-lenses-and-expansion/changing-lenses/README.md](https://github.com/freefly-systems/wiki-public-ecosystem/blob/main/lr1-payload/lr1-lenses-and-expansion/changing-lenses/README.md)
 {% endcontent-ref %}
 
 ## Camera Setup

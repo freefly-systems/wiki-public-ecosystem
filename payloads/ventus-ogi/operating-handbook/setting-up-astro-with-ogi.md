@@ -8,8 +8,8 @@ Learn more about the Astro aircraft here:
 
 The Ventus OGI Payload comprises a Freefly gimbal and an integrated Sierra-Olympia Ventus OGI camera core. It was developed for Astro and other vehicles compatible with the Freefly Smart Dovetail and the Pixhawk Payload Bus standard. More information about how to interface this payload with another aircraft is available here:
 
-{% content-ref url="../../wiris-pro-payload/integration-for-3rd-party-applications/" %}
-[integration-for-3rd-party-applications](../../wiris-pro-payload/integration-for-3rd-party-applications/)
+{% content-ref url="https://github.com/freefly-systems/wiki-public-ecosystem/blob/main/payloads/wiris-pro-payload/integration-for-3rd-party-applications/README.md" %}
+[https://github.com/freefly-systems/wiki-public-ecosystem/blob/main/payloads/wiris-pro-payload/integration-for-3rd-party-applications/README.md](https://github.com/freefly-systems/wiki-public-ecosystem/blob/main/payloads/wiris-pro-payload/integration-for-3rd-party-applications/README.md)
 {% endcontent-ref %}
 
 ## Updating Astro and Herelink
@@ -28,9 +28,6 @@ The Ventus OGI Payload is only supported in Astro firmware version 1.9.1 or late
 Use the **Astro Isolator**, not the Mapping Isolator. See [Smart Dovetail Isolator System](../../../accessories/smart-dovetail-isolator-system.md) for more info.
 {% endhint %}
 
-
-
 {% content-ref url="../../payload-maintenance/installing-removing-payloads.md" %}
 [installing-removing-payloads.md](../../payload-maintenance/installing-removing-payloads.md)
 {% endcontent-ref %}
-

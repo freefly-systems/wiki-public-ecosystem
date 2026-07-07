@@ -1,6 +1,6 @@
 # Mapping Efficiency Tips
 
-## Flight planning&#x20;
+## Flight planning
 
 Choose a survey flight path angle that minimizes the number of turns (or in other words, think about maximizing long, straight flight paths). For example, if surveying a complex next to a road that runs at a 30-degree angle, rotating the survey lines to match may reduce the maneuvering Astro has to do and will result in shorter missions and better pictures.
 
@@ -32,4 +32,4 @@ Smaller areas can be covered the same as a large project, but usually higher det
 
 ## AMC on a computer
 
-It's possible to plan missions and monitor flights from AMC on a computer or tablet. Here's the [procedure to connect another device to the Herelink](../../../ecosystem/components/pilot-handsets/#hotspot).
+It's possible to plan missions and monitor flights from AMC on a computer or tablet. Here's the [procedure to connect another device to the Herelink](https://github.com/freefly-systems/wiki-public-ecosystem/blob/main/ecosystem/components/pilot-handsets/README.md#hotspot).

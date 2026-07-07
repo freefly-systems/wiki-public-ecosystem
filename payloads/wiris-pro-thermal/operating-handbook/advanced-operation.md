@@ -1,29 +1,27 @@
 # Advanced Operation
 
 {% hint style="info" %}
-To have the images geotagged with the location of the aircraft, attach a USB thumb drive to Astro’s USB-C port and select ‘USB storage’ in the image storage options.&#x20;
+To have the images geotagged with the location of the aircraft, attach a USB thumb drive to Astro’s USB-C port and select ‘USB storage’ in the image storage options.
 {% endhint %}
 
 {% hint style="info" %}
-We recommend clearing out extra photos from your USB drive to reduce the time it takes Astro to sync the USB drive files with the gallery when first plugged in&#x20;
+We recommend clearing out extra photos from your USB drive to reduce the time it takes Astro to sync the USB drive files with the gallery when first plugged in
 {% endhint %}
 
 ## Precise Control
-
-
 
 {% content-ref url="../../../controller/pilot-pro/operating-handbook/rate-controls.md" %}
 [rate-controls.md](../../../controller/pilot-pro/operating-handbook/rate-controls.md)
 {% endcontent-ref %}
 
-## Search and rescue&#x20;
+## Search and rescue
 
 * The flight path of Astro is displayed with a red line on the map in AMC, which can be useful for looking at the area the aircraft has already covered
-* Setting an isotherm to show colors between a specified temperature range can help with identifying areas of interest quicker&#x20;
+* Setting an isotherm to show colors between a specified temperature range can help with identifying areas of interest quicker
 * Streaming live video from the aircraft to the Auterion Suite is possible with a strong LTE connection. Additional information on setting up LTE on Astro is here:
 
-{% content-ref url="../../../../pilots-operating-handbook/essential-software/network-and-connectivity.md" %}
-[network-and-connectivity.md](../../../../pilots-operating-handbook/essential-software/network-and-connectivity.md)
+{% content-ref url="https://github.com/freefly-systems/wiki-public-ecosystem/blob/main/pilots-operating-handbook/essential-software/network-and-connectivity.md" %}
+[https://github.com/freefly-systems/wiki-public-ecosystem/blob/main/pilots-operating-handbook/essential-software/network-and-connectivity.md](https://github.com/freefly-systems/wiki-public-ecosystem/blob/main/pilots-operating-handbook/essential-software/network-and-connectivity.md)
 {% endcontent-ref %}
 
 ## Inspections
@@ -33,10 +31,10 @@ DIU Blue Astros come with stealth logging enabled, which stops GPS data from bei
 {% endhint %}
 
 * The Wiris Pro EO camera provides 1920x1080 images and 1280x720 video from a 1-10x zoom lens. When approaching an object of interest, we recommend keeping the aircraft a safe distance away and zooming in as much as needed to see the detail level required for inspections.
-* When using Slow Speed Mode, camera tilt and pan are scaled with the zoom rate, so the control inputs become less sensitive the more zoomed the camera is.&#x20;
+* When using Slow Speed Mode, camera tilt and pan are scaled with the zoom rate, so the control inputs become less sensitive the more zoomed the camera is.
 
 {% hint style="warning" %}
-Be careful not to become disoriented when flying with the camera zoomed in. We recommend resetting the camera zoom to 1x before flying to a new inspection location.&#x20;
+Be careful not to become disoriented when flying with the camera zoomed in. We recommend resetting the camera zoom to 1x before flying to a new inspection location.
 {% endhint %}
 
 ## Mapping

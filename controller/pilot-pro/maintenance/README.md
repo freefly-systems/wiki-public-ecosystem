@@ -8,6 +8,6 @@
 [software-and-firmware-updates](software-and-firmware-updates/)
 {% endcontent-ref %}
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="https://github.com/freefly-systems/wiki-public-ecosystem/blob/main/controller/pilot-pro/maintenance/broken-reference/README.md" %}
+[https://github.com/freefly-systems/wiki-public-ecosystem/blob/main/controller/pilot-pro/maintenance/broken-reference/README.md](https://github.com/freefly-systems/wiki-public-ecosystem/blob/main/controller/pilot-pro/maintenance/broken-reference/README.md)
 {% endcontent-ref %}

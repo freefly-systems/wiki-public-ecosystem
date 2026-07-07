@@ -36,13 +36,17 @@ Switching between cameras views can be done by tapping the camera name, or by ma
 * Auto and manual Flat-Field-Correction (FFC)
 * Geotagged photos
 
-{% hint style="info" %}
-Currently, thermal mapping with the Thermal Module is not supported
-{% endhint %}
-
 ### Camera Options in AMC
 
 ### Example Data:
+
+Mapping mission (TIFFs):
+
+{% file src="../../../.gitbook/assets/Thermal Module - Mapping images" %}
+
+Inspection images (JPEG + TIFFs):
+
+{% file src="../../../.gitbook/assets/Thermal Module - Inspection images.zip" %}
 
 {% embed url="https://youtu.be/ycyOmL6Vf_M" %}
 

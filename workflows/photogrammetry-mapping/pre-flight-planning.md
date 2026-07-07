@@ -84,8 +84,8 @@ To get high-quality results, every area of interest in the map should appear in 
 
 The USB flash drive included will be formatted to work with Astro. In the event that you encounter issues or would like to use a different USB flash drive with Astro, follow the instructions in the USB formatting section. Be sure enough space is available; you will need at least 16GB for a single mission.
 
-{% content-ref url="../usb-formatting.md" %}
-[usb-formatting.md](../usb-formatting.md)
+{% content-ref url="https://github.com/freefly-systems/wiki-public-ecosystem/blob/main/workflows/usb-formatting.md" %}
+[https://github.com/freefly-systems/wiki-public-ecosystem/blob/main/workflows/usb-formatting.md](https://github.com/freefly-systems/wiki-public-ecosystem/blob/main/workflows/usb-formatting.md)
 {% endcontent-ref %}
 
 ### Included USB Flash Drive
