@@ -29,7 +29,9 @@
 
 * Initial release for Freefly Flux L1, O1, and H1
 
-## Connect to Flux Update Webpage
+## Flux Update
+
+{% embed url="https://youtu.be/7wSAYtP65fs" %}
 
 To check Flux firmware version or update software:
 
