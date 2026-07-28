@@ -19,6 +19,7 @@
         * [Doodle RJ45 Ethernet Port](controller/pilot-pro/operating-handbook/radio-modules/doodle-labs-radio-module/doodle-rj45-ethernet-port.md)
         * [Doodle Binding / Pairing](controller/pilot-pro/operating-handbook/radio-modules/doodle-labs-radio-module/doodle-binding-pairing.md)
       * [RFD900 Solo](controller/pilot-pro/operating-handbook/radio-modules/rfd900-solo.md)
+      * [Doodle Labs Solo](controller/pilot-pro/operating-handbook/radio-modules/doodle-labs-solo.md)
     * [Input Output Mapping](controller/pilot-pro/operating-handbook/input-output-mapping/README.md)
       * [Advanced Input Mapping](controller/pilot-pro/operating-handbook/input-output-mapping/advanced-input-mapping.md)
     * [Rate Controls](controller/pilot-pro/operating-handbook/rate-controls.md)
