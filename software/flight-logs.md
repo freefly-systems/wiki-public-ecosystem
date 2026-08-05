@@ -4,7 +4,7 @@ description: This guide covers all log types across the Freefly ecosystem.
 
 # Flight Logs
 
-### Downloading Flight Logs from the Aircraft
+## Downloading Flight Logs from the Aircraft
 
 This is the most common request from Freefly Support and the most reliable way to get flight data. The aircraft stores flight logs as `.ulg` (ULog) files on the onboard SD card.
 
@@ -16,26 +16,26 @@ This is the most common request from Freefly Support and the most reliable way t
   * Alta X Gen2: 1× battery with the fused cable
 * USB-C cable
 * A PC with **AMC PC** (Auterion Mission Control) installed
-  * You can download the latest AMC for desktop (Mac, Windows, Linux) from our software downloads page [here](https://freeflysystems.com/support/astro-support).&#x20;
+  * You can download the latest AMC for desktop (Mac, Windows, Linux) from our software downloads page [here](https://freeflysystems.com/support/astro-support).
 * Mavlink On USB-C **enabled**. If you have a Blue / NDAA aircraft, this setting is disabled by default. In order to connect to AMC, the aircraft will need to have this feature enabled. To change this, connect to a computer with USB-C, then open a browser to _10.41.1.1/settings._ Enable this and reboot Astro.\
   <img src="../.gitbook/assets/image (30).png" alt="" data-size="original">
 
-#### Step-by-Step: Download Logs via USB
+## Step-by-Step: Download Logs via USB
 
 1. **Connect the USB-C cable** from your PC to the aircraft's USB-C port.
-   * Astro / Astro Max: The IO panel is on the **underside** of the aircraft. Otherwise, if you have the optional FPV cam using this port, you can use the passthrough USB port on the FPV camera housing. \
+   * Astro / Astro Max: The IO panel is on the **underside** of the aircraft. Otherwise, if you have the optional FPV cam using this port, you can use the passthrough USB port on the FPV camera housing.\
      ![](<../.gitbook/assets/image (29).png>)
    * Alta X Gen2: The USB-C port is located near the battery connectors.\
      ![](<../.gitbook/assets/image (28).png>)
 2. **Install one battery** and power on the aircraft. Wait about 15 seconds for the aircraft to fully boot.
-3. **Open AMC** on your computer (not the Pilot Pro)&#x20;
+3. **Open AMC** on your computer (not the Pilot Pro)
 4. **Activate Advanced Mode**: Click the AMC icon in the top-left corner of the app approximately 6 times. A popup will ask if you want to switch to Advanced Mode. Confirm.
 5. **Navigate to Analyze → Log Download**.
 6. **Click "Refresh"** to load the list of available logs.
 7. **Select the log files** you need and click **"Download"**.
 
 {% file src="../.gitbook/assets/How To Download Logs AMC.mov" %}
-A short video example of the log download process in AMC&#x20;
+A short video example of the log download process in AMC
 {% endfile %}
 
 {% hint style="info" %}
@@ -56,7 +56,7 @@ If AMC won't connect to the aircraft over USB:
 
 ***
 
-### Understanding the Different Log Types
+## Understanding the Different Log Types
 
 Freefly aircraft and accessories generate several different types of logs. Each captures different information and is accessed differently. Here's how they compare:
 
@@ -124,7 +124,7 @@ Pilot Pro has its own logging system, separate from the aircraft. These logs cap
 **How to Get Pilot Pro Logs**
 
 1. Open the **Pilot Pro App**
-2. Navigate to App Settings, and under App Logging, be sure to have this enabled.&#x20;
+2. Navigate to App Settings, and under App Logging, be sure to have this enabled.
 3. Tap **"OPEN PILOT LOGS"** to open the logs folder in the My Files app.
 4. To transfer: Insert a **USB-C thumb drive** into one of the Pilot Pro USB-C data ports (right-most ports) and copy the files over. Then email them to Freefly Support from your PC.
 
@@ -156,7 +156,7 @@ If you're experiencing radio range or signal issues, the most helpful thing you 
 
 ***
 
-### DIU Blue / NDAA Drone Considerations
+## DIU Blue / NDAA Drone Considerations
 
 Blue-variant aircraft (Astro Blue, Alta X Gen2 Blue) have several important differences in how logging works. These are security measures designed for government and defense use cases.
 
