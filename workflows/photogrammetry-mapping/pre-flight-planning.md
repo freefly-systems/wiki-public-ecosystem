@@ -114,7 +114,7 @@ To bring up this menu, tap the slider icon just below the digital shutter button
 
 Our recommended camera settings for mapping are listed below.
 
-<figure><img src="../../.gitbook/assets/image (31).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/SCR-20260806-mtff.png" alt="" width="375"><figcaption></figcaption></figure>
 
 * **Camera Mode**: Photo
 * **Exposure Mode**: Manual
