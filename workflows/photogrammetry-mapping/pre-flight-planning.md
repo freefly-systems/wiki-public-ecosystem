@@ -46,25 +46,25 @@ DIU Blue Astros come with stealth logging enabled, which stops GPS data from bei
 
 2\. Open the camera view for the payload, and select the settings <img src="../../.gitbook/assets/SettingsIcon.png" alt="" data-size="line"> icon. Select the lens that matches what you're using (default 24mm).
 
-![](<../../.gitbook/assets/photo_settings_2 (1) (1).png>)
+<img src="../../.gitbook/assets/photo_settings_2 (1) (1).png" alt="" width="563">
 
 3\. Open AMC Plan view, and select "Pattern" in the left sidebar (creates flight path that covers the site and automatically triggers photos). Choose a pattern type and shape and it'll appear on the map. Don't detail the shape yet- We'll come back to that.
 
 4\. In the Pattern/Survey waypoint settings, open the Camera tab, and select Preset: Sony ILX-LR1 - 24 mm SIGMA.
 
-![](<../../.gitbook/assets/image (125).png>)
+<img src="../../.gitbook/assets/image (125).png" alt="" width="292">
 
 5\. Set Altitude. Start in Pattern waypoint settings and enter the minimum safe value from step 1. Check the Ground Sample Distance (GSD) value at the bottom of Pattern Waypoint settings. If GSD is smaller than your needs, increase altitude to increase GSD. Then go to Mission Waypoint settings and enter the same altitude.
 
 6\. Turn on Terrain Display by selecting the square T button in the bottom-left corner. Check the heightmap to make sure the flight path clears the terrain by a comfortable margin.
 
-![Height map at the bottom shows terrain in the area is higher than the mission altitude.](<../../.gitbook/assets/image (142).png>)
+<img src="../../.gitbook/assets/image (142).png" alt="Height map at the bottom shows terrain in the area is higher than the mission altitude." width="563">
 
-![Altitude of the mission was increased from 50m to 70m, avoiding the terrain.](<../../.gitbook/assets/image (127).png>)
+<img src="../../.gitbook/assets/image (127).png" alt="Altitude of the mission was increased from 50m to 70m, avoiding the terrain." width="563">
 
 7\. Set speed. Check the Photo Interval value at the bottom of Survey settings along the right. This interval needs to be 2 seconds or more. If it's less, decrease the mission flight speed or increase forward overlap (if this is acceptable for your mission). If the photo interval is larger than 2 seconds, you can optionally increase your flight speed.
 
-![](../../.gitbook/assets/photointerval.png)
+<img src="../../.gitbook/assets/photointerval.png" alt="" width="301">
 
 8\. Adjust the Pattern area. Make sure the green area (the area to be flown and photographed) is larger than the map you need. Make the green area larger on every side by at least the width between flight passes. Note the estimated flight duration at the top of the screen. If the duration is longer than 23 minutes, it's likely to require a second flight.
 
@@ -84,8 +84,8 @@ To get high-quality results, every area of interest in the map should appear in 
 
 The USB flash drive included will be formatted to work with Astro. In the event that you encounter issues or would like to use a different USB flash drive with Astro, follow the instructions in the USB formatting section. Be sure enough space is available; you will need at least 16GB for a single mission.
 
-{% content-ref url="https://github.com/freefly-systems/wiki-public-ecosystem/blob/main/workflows/usb-formatting.md" %}
-[https://github.com/freefly-systems/wiki-public-ecosystem/blob/main/workflows/usb-formatting.md](https://github.com/freefly-systems/wiki-public-ecosystem/blob/main/workflows/usb-formatting.md)
+{% content-ref url="../../payloads/payload-maintenance/usb-formatting.md" %}
+[usb-formatting.md](../../payloads/payload-maintenance/usb-formatting.md)
 {% endcontent-ref %}
 
 ### Included USB Flash Drive
@@ -98,26 +98,38 @@ The USB flash drive included will be formatted to work with Astro. In the event 
 
 * Body Exposure Compensation Dial: 0, and the lock button engaged
 
-![](../../.gitbook/assets/IMG_9519.jpg)
+<img src="../../.gitbook/assets/IMG_9519.jpg" alt="" width="375">
 
 * Lens Aperture ring: A
 
-![](../../.gitbook/assets/IMG_9520.jpg)
+<img src="../../.gitbook/assets/IMG_9520.jpg" alt="" width="375">
 
 * Lens Focus switch: AF
 
-![](../../.gitbook/assets/IMG_9521.jpg)
+<img src="../../.gitbook/assets/IMG_9521.jpg" alt="" width="375">
 
-#### AMC camera settings (tap slider icon below on-screen shutter button)
+### AMC camera settings
 
-* Focus: Auto (infinity does work as well)
-* Exposure Mode: Manual
-* ISO: Auto
-* Aperture: f/5 - f/11 depending on lighting conditions
-* Shutter: 1/1000 or greater (can go as low as 1/500 but aircraft needs to slow down to prevent blur.
-* Storage: USB Drive
+To bring up this menu, tap the slider icon just below the digital shutter button in AMC.
 
-![The USB drive should be plugged into the USB-C port near the IO panel on the bottom of Astro.](<../../.gitbook/assets/image (108).png>)
+Our recommended camera settings for mapping are listed below.
+
+<figure><img src="../../.gitbook/assets/image (31).png" alt="" width="375"><figcaption></figcaption></figure>
+
+* **Camera Mode**: Photo
+* **Exposure Mode**: Manual
+* **ISO**: Auto
+* **Shutter Speed**: 1/1000 or greater (slower shutter speeds may result in blur)
+* **Aperture**: f/5 - f/11 (depending on lighting conditions)
+* **White Balance**: Auto
+* **Focus Mode**: Auto or Infinity (depending on your preferences)
+* **File Type**: JPEG
+* **Image Storage**: External USB
+* **JPEG Size:** Large
+* **JPEG Quality:** Fine
+* **Picture Profile:** PP Off&#x20;
+
+<img src="../../.gitbook/assets/image (108).png" alt="The USB drive should be plugged into the USB-C port near the IO panel on the bottom of Astro." width="563">
 
 {% hint style="info" %}
 When light is low (e.g. dark cloudy day), we need to adjust the shutter speed and aperture to avoid an excessive increase in the ISO sensitivity. The first step is to open the aperture. If an aperture of f/5 is still not bright enough, the second step is to decrease shutter speed. Working in this order keeps shutter speed as high as possible to minimize motion blur. If shutter speed must be reduced and motion blur is seen, reduce flight speed.\
