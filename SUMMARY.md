@@ -161,6 +161,7 @@
 
 * [GNSS Base Stations](accessories/gnss-base-stations.md)
 * [Smart Dovetail Isolator System](accessories/smart-dovetail-isolator-system.md)
+* [GNSS Aircraft Mounts](accessories/gnss-aircraft-mounts.md)
 * [Astro Skyview Payload Mount](accessories/astro-skyview-payload-mount.md)
 
 ## Developer
