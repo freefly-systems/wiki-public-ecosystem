@@ -29,7 +29,7 @@ Live video for 65R and other features are available with a firmware update! v4.1
 {% hint style="info" %}
 [65R installation for Astro](https://support.senterasensors.com/home/65r-sensor-user-guide/65r-sensor/installation/freefly/astro)
 
-[6X Installation for Astro](https://sentera.gitbook.io/6x-multispectral-sensor-user-guide/6x-multispectral-sensor/installation/freefly-astro)
+[6X Installation for Astro](https://support.senterasensors.com/home/6x-series-sensors-user-guide/6x-series-sensors/installation/freefly/astro)
 
 [6X Installation for Alta X Gen2](https://support.senterasensors.com/home/6x-series-sensors-user-guide/6x-series-sensors/installation/freefly/alta-x-gen-2/sensor-installation)
 {% endhint %}
