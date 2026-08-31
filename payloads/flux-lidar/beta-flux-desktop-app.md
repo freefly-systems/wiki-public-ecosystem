@@ -18,6 +18,10 @@ Recommended 32GB RAM or higher. Some large scans may need more than this
   * Can process with only L1/L2 signals, or no OBS file&#x20;
 * More CRS flexibility
 * Windows, Mac, Linux support
+* Full lidar FOV on Flux H1 and O1 variants
+  * Points captured from the full 360 degree FOV of the Hesai and Ouster lidars are used in the generated point cloud for better capture of vertical faces and objects.&#x20;
+* Flight path flexibility
+  * Aircraft path is no longer limited to straight mission tracks. Aircraft can be manually piloted in all directions and still produce scans with the desktop app. This is useful for scanning complex objects, vertical faces, and getting in close around obstacles. &#x20;
 
 ### Installing
 
