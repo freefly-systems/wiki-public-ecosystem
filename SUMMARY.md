@@ -133,6 +133,7 @@
   * [Mapping Efficiency Tips](workflows/photogrammetry-mapping/mapping-efficiency-tips.md)
   * [Mapping Flight and Post Processing](workflows/photogrammetry-mapping/mapping-flight-and-post-processing.md)
   * [PPK Software](workflows/photogrammetry-mapping/ppk-software.md)
+  * [Disabling Stealth Mode for PPK](workflows/photogrammetry-mapping/disabling-stealth-mode-for-ppk.md)
   * [Output Specification](workflows/photogrammetry-mapping/output-specification.md)
   * [Sample Mapping Data](workflows/photogrammetry-mapping/sample-mapping-data.md)
 * [Lidar Mapping](workflows/lidar-mapping.md)
