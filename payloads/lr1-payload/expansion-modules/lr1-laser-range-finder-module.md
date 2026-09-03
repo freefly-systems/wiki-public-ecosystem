@@ -38,7 +38,7 @@ The Distance Sensor app will not install if Admin mode is enable. Be sure to **d
 
 To install the app:
 
-<table><thead><tr><th width="65"></th><th width="128"></th><th></th></tr></thead><tbody><tr><td>1</td><td><a href="https://suite.auterion.com/vehicles/activate?process=amc">Connect Astro to the Auterion Suite</a></td><td></td></tr><tr><td>2</td><td>Click on your Astro in the Suite</td><td></td></tr><tr><td>3</td><td>Under Software, install the 'Precise Distance LRF' app</td><td></td></tr></tbody></table>
+<table><thead><tr><th width="100.6666259765625"></th><th width="560.0000610351562"></th></tr></thead><tbody><tr><td>1</td><td><a href="https://suite.auterion.com/vehicles/activate?process=amc">Connect Astro to the Auterion Suite</a></td></tr><tr><td>2</td><td>Click on your Astro in the Suite</td></tr><tr><td>3</td><td>Under Software, install the 'Precise Distance LRF' app</td></tr></tbody></table>
 {% endtab %}
 {% endtabs %}
 
