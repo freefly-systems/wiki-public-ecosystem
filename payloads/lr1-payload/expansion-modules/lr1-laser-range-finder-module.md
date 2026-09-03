@@ -16,6 +16,16 @@ If you are adding multiple modules to the LR1 Payload at the same time, a combin
 
 #### Software Setup
 
+{% tabs %}
+{% tab title="Drone Firmware v2.3+" %}
+{% hint style="warning" icon="circle-exclamation" %}
+Drone firmware v2.3+ includes an LRF driver pre-installed. If you've previously installed the Auterion Distance Sensor App, uninstall it to avoid conflict.
+{% endhint %}
+
+<figure><img src="../../../.gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
+{% endtab %}
+
+{% tab title="Drone Firmware < v2.3" %}
 Install the Distance Sensor App on your Astro, which can be found [here](https://suite.auterion.com/store). Version 1.0.1 is needed to work with the Laser Range Finder Module
 
 {% hint style="warning" %}
@@ -29,6 +39,8 @@ The Distance Sensor app will not install if Admin mode is enable. Be sure to **d
 To install the app:
 
 <table><thead><tr><th width="65"></th><th width="128"></th><th></th></tr></thead><tbody><tr><td>1</td><td><a href="https://suite.auterion.com/vehicles/activate?process=amc">Connect Astro to the Auterion Suite</a></td><td></td></tr><tr><td>2</td><td>Click on your Astro in the Suite</td><td></td></tr><tr><td>3</td><td>Under Software, install the 'Precise Distance LRF' app</td><td></td></tr></tbody></table>
+{% endtab %}
+{% endtabs %}
 
 Turn on Astro with LR1 and the Laser Range Findermodule. Once connected, in AMC > Settings > Enable 'Show Distance Sensor App Data'. The distance readout should now be displayed on the Fly screen in AMC
 
