@@ -15,7 +15,10 @@ Changing aircraft parameters from default values may affect your aircraft's comp
 1. Power on the aircraft and Pilot Pro. On the tablet, open a web browser (e.g. Chrome) and navigate to `192.168.144.20`&#x20;
    1. Alternatively, you can access this page by connecting the aircraft to your PC with a USB-C cable and navigating to `10.41.1.1`&#x20;
 2. Log in with your password (check your aircraft's documentation for the default password if you do not remember changing it).
-3. Navigate to Settings, and under Cloud Connectivity, enable **Cloud Services** and **Flight Log Upload**. Click on the blue Enable button to reboot Astro.
+3.  Navigate to Settings, and under Cloud Connectivity, enable both **Cloud Services** and **Flight Log Upload**. <br>
+
+    <div align="left"><figure><img src="../../.gitbook/assets/image (35).png" alt="" width="246"><figcaption></figcaption></figure></div>
+4. Click on the blue Enable button to reboot Astro.
 
 <figure><img src="../../.gitbook/assets/EnablingCloudServices.gif" alt="" width="563"><figcaption></figcaption></figure>
 
