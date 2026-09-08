@@ -15,7 +15,7 @@
       * [Herelink Radio](controller/pilot-pro/operating-handbook/radio-modules/herelink-radio.md)
       * [Doodle Labs Radio Module](controller/pilot-pro/operating-handbook/radio-modules/doodle-labs-radio-module/README.md)
         * [Doodle Pro Tips](controller/pilot-pro/operating-handbook/radio-modules/doodle-labs-radio-module/doodle-pro-tips.md)
-        * [Doodle Channel Selection](controller/pilot-pro/operating-handbook/radio-modules/doodle-labs-radio-module/doodle-channel-selection.md)
+        * [Doodle Channel Scanning and Selection](controller/pilot-pro/operating-handbook/radio-modules/doodle-labs-radio-module/doodle-channel-selection.md)
         * [Doodle RJ45 Ethernet Port](controller/pilot-pro/operating-handbook/radio-modules/doodle-labs-radio-module/doodle-rj45-ethernet-port.md)
         * [Doodle Binding / Pairing](controller/pilot-pro/operating-handbook/radio-modules/doodle-labs-radio-module/doodle-binding-pairing.md)
       * [RFD900 Solo](controller/pilot-pro/operating-handbook/radio-modules/rfd900-solo.md)
