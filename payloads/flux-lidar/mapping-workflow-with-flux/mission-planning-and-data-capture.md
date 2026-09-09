@@ -71,7 +71,7 @@ Please note that only iPads with M-series chips will be able to process Flux dat
 iPhone and Macs with M-series chips have also been known to work, but the app is only optimied for iPad.
 {% endhint %}
 
-In order for iPad to communicate with the Pilot Pro, it needs to connect via the ethernet port on the back. The Flux sensor comes included with the necessary USB-C to Ethernet cable that looks like this:
+In order for iPad to communicate with the Pilot Pro, it needs to connect via the ethernet port located on the back of the Pilot Pro. The Flux sensor comes included with the necessary USB-C to Ethernet cable that looks like this:
 
 <figure><img src="../../../.gitbook/assets/image (39).png" alt="" width="188"><figcaption></figcaption></figure>
 
