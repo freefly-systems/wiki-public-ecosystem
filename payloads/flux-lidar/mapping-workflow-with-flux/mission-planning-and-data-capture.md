@@ -63,14 +63,73 @@ Protip: you can fly a quick scan at higher altitudes that is fast, and process i
 
 ## Connecting an iPad to Pilot Pro <a href="#start-lidar-capture-and-execute-the-mission" id="start-lidar-capture-and-execute-the-mission"></a>
 
-In the app store, download the Freefly Flow app. Then, follow these instructions to connect your iPad to Pilot Pro using the included ethernet to USB-C cable.
+The [Freefly Flow app](https://apps.apple.com/us/app/freefly-flow/id1522046404) allows you to get live telemetry of the Flux LiDAR sensor, process the raw data, visualize and export point clouds, and more. The app is available for iPadOS.&#x20;
 
-{% embed url="https://freefly.gitbook.io/pilot-pro-public/operating-handbook/ecosystem#adding-a-second-tablet-ipad" %}
+{% hint style="info" %}
+Please note that only iPads with M-series chips will be able to process Flux data.&#x20;
 
-Use the following settings on the iPad:
+iPhone and Macs with M-series chips have also been known to work, but the app is only optimied for iPad.
+{% endhint %}
 
-* IP address: 192.168.144.120
-* Subnet mask: 255.255.255.0
+In order for iPad to communicate with the Pilot Pro, it needs to connect via the ethernet port on the back. The Flux sensor comes included with the necessary USB-C to Ethernet cable that looks like this:
+
+<figure><img src="../../../.gitbook/assets/image (39).png" alt="" width="188"><figcaption></figcaption></figure>
+
+{% stepper %}
+{% step %}
+#### Connect USB-C to iPad
+
+<figure><img src="../../../.gitbook/assets/image (40).png" alt="" width="375"><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+#### Connect Ethernet to the RJ45 port of Pilot Pro
+
+<figure><img src="../../../.gitbook/assets/image (41).png" alt="" width="375"><figcaption></figcaption></figure>
+
+{% hint style="info" %}
+The shape of your radio and color of your ethernet cable may vary
+{% endhint %}
+{% endstep %}
+
+{% step %}
+### Doodle Labs Radio Only: Enable RJ45 Access
+
+{% hint style="success" icon="signal-stream" %}
+If you have the Blue/NDAA variant of Astro or Alta X, the RJ45 port is disabled by default. To enable it, open the Pilot Pro app and navigate to Radio Settings > Advanced.
+{% endhint %}
+
+<figure><img src="../../../.gitbook/assets/image (43).png" alt=""><figcaption></figcaption></figure>
+
+For more detailed instructions, see [Doodle RJ45 Ethernet Port](../../../controller/pilot-pro/operating-handbook/radio-modules/doodle-labs-radio-module/doodle-rj45-ethernet-port.md).
+{% endstep %}
+
+{% step %}
+#### Configure Ethernet Settings on iPad
+
+<figure><img src="../../../.gitbook/assets/image (42).png" alt=""><figcaption></figcaption></figure>
+
+
+
+* In Settings > Ethernet, select your ethernet adapter (probably named `USB 10/100/1000 LAN` )
+  * **Configure IP** > Set to Manual
+  * **IP address**: 192.168.144.120
+  * **Subnet Mask**: 255.255.255.0
+  * Hit **Save** to apply
+
+This only needs to be set once. The iPad will remember these settings for the future.
+{% endstep %}
+
+{% step %}
+#### Check The Connection
+
+On the iPad, open a browser (e.g. Safari) and go to `192.168.144.233`
+
+If this page loads the Flux web UI, then your iPad has been successfully configured to communicate with Flux. This is also how you can [update Flux firmware](../flux-software.md).&#x20;
+{% endstep %}
+{% endstepper %}
+
+
 
 ## Start LiDAR capture and execute the mission <a href="#start-lidar-capture-and-execute-the-mission" id="start-lidar-capture-and-execute-the-mission"></a>
 
