@@ -16,7 +16,7 @@ This is the most common request from Freefly Support and the most reliable way t
   * Alta X Gen2: 1× battery with the fused cable
 * USB-C cable
 * A PC with **AMC PC** (Auterion Mission Control) installed
-  * You can download the latest AMC for desktop (Mac, Windows, Linux) from our software downloads page [here](https://freeflysystems.com/support/astro-support).
+  * You can download the latest AMC for desktop (Mac, Windows, Linux) from the [Astro Software Release Notes](https://docs.freeflysystems.com/astro/maintenance/software-release-notes#latest-versions) page.
 * Mavlink On USB-C **enabled**. If you have a Blue / NDAA aircraft, this setting is disabled by default. In order to connect to AMC, the aircraft will need to have this feature enabled. To change this, connect to a computer with USB-C, then open a browser to _10.41.1.1/settings._ Enable this and reboot Astro.\
   <img src="../.gitbook/assets/image (30).png" alt="" data-size="original">
 
