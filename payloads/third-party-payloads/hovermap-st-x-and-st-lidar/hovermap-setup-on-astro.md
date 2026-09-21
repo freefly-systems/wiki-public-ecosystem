@@ -107,7 +107,7 @@ This can be found once connected in the Commander app in the 'Web UI' page
 **Setup**
 
 1. Configure Astro with Hovermap as [normal](./).
-2. **Install & update Pilot Pro -** Follow the [instructions for Pilot Pro](https://freefly.gitbook.io/pilot-pro-public/maintenance/software-and-firmware-updates) to update Pilot Pro Firmware and App so that you are running Firmware v2.2.0 or above.
+2. **Install & update Pilot Pro -** Follow the [instructions for Pilot Pro](../../../controller/pilot-pro/maintenance/software-and-firmware-updates/README.md) to update Pilot Pro Firmware and App so that you are running Firmware v2.2.0 or above.
 3. **Import the input mapping**
    1. Copy `HOVERMAP_EMESENT.yaml` to a USB drive; plug into Pilot Pro.
    2. Pilot Pro App → Input Mapping → grant file access if prompted.
