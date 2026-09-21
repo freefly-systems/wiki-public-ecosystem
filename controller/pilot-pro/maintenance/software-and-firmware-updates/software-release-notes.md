@@ -4,6 +4,32 @@
 
 <details>
 
+<summary>Pilot Pro Software Bundle v2.8.6</summary>
+
+* **Summary:** RTK and NTRIP improvements, Doodle radio firmware 2.0 update, and tablet volume management
+* **Release Date**: September 2026
+* **Versions in this package**:
+  * Pilot Pro Firmware: v2.2.0
+  * Pilot Pro App: v2.8.6
+
+**Notes**
+
+* **New:** Added a setting to automatically reconnect to an RTK correction source at startup.
+* **Improvement:** Clearer RTK correction status UI.
+* **Improvement:** NTRIP server compatibility, including NTRIP 2.0 casters and chunked data transfer.
+* **New:** Save and load multiple NTRIP server profiles.
+* **New:** Tablet volume raises to 100% when armed and restores when disarmed. Configurable in **Tablet Settings**.
+* **Improvement:** Pilot Pro data interface now reports the active IO mapping configuration, verification status, parameter checksum, app version, and interface version.
+* **Doodle Radio Firmware**
+  * **New:** Update Doodle radio firmware to version 2.0 through the Pilot Pro app.
+  * **Improvement:** Doodle 2.0 includes bug fixes and improved resilience in heavy RF interference.
+
+</details>
+
+## Previous Versions
+
+<details>
+
 <summary>Pilot Pro Software Bundle v2.7.8</summary>
 
 * **Summary:** Minor UI/UX patches for drone FW update fixer wizard
@@ -18,8 +44,6 @@
 * **UI/UX:** Provide guidance to help apply FW update fixer patch
 
 </details>
-
-## Previous Versions
 
 <details>
 
