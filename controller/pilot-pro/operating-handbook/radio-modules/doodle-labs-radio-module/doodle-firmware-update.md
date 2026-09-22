@@ -8,7 +8,7 @@ The most dangerous moment is the **"flashing..."** stage, when the progress bar 
 
 ## Quick Start
 
-1. Make sure you are on the **latest** [**drone software**](https://app.gitbook.com/s/8dwrGJhxGd9cIvsStziq/maintenance/software-release-notes#latest-versions) **and** [**Pilot Pro app**](../../../maintenance/software-and-firmware-updates/#latest-software-versions)**.**
+1. Make sure you are on the **latest** [**drone software**](https://app.gitbook.com/s/8dwrGJhxGd9cIvsStziq/maintenance/software-release-notes#latest-versions) **and** [**Pilot Pro app**](../../../maintenance/software-and-firmware-updates/#latest-software-versions)**.** &#x20;
 2. Charge the **Pilot Pro and drone batteries above 50%**, and keep the Pilot Pro plugged in
 3. Power on the drone, disarmed, a couple of meters from the Pilot Pro, radios paired and connected
 4. On the **Channel Select** tab, scan and switch to the cleanest channel
@@ -22,6 +22,9 @@ The most dangerous moment is the **"flashing..."** stage, when the progress bar 
 If an update fails, power-cycle both the Pilot Pro and the drone before retrying — see[ If something goes](doodle-firmware-update.md#if-something-goes-wrong) wrong in the [full guide](doodle-firmware-update.md#doodle-radio-firmware-update-v2.0).
 
 
+
+> Note: Drone firmware 2.3.7 or later is needed to put the drone's radio into> \
+> pairing mode when it runs Doodle firmware v2.0.
 
 ***
 
