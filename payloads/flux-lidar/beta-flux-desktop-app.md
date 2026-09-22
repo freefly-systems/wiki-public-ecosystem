@@ -8,20 +8,20 @@ The Flux Desktop App enables SLAM-like alignment and cross-platform support for 
 
 ### New Features/Differences from Flow App
 
-* SLAM-like alignment engine for super sharp scans&#x20;
+* SLAM-like alignment engine for super sharp scans
 
 {% hint style="info" %}
 Recommended 32GB RAM or higher. Some large scans may need more than this
 {% endhint %}
 
 * Greater OBS file flexibility
-  * Can process with only L1/L2 signals, or no OBS file&#x20;
+  * Can process with only L1/L2 signals, or no OBS file
 * More CRS flexibility
 * Windows, Mac, Linux support
 * Full lidar FOV on Flux H1 and O1 variants
-  * Points captured from the full 360 degree FOV of the Hesai and Ouster lidars are used in the generated point cloud for better capture of vertical faces and objects.&#x20;
+  * Points captured from the full 360 degree FOV of the Hesai and Ouster lidars are used in the generated point cloud for better capture of vertical faces and objects.
 * Flight path flexibility
-  * Aircraft path is no longer limited to straight mission tracks. Aircraft can be manually piloted in all directions and still produce scans with the desktop app. This is useful for scanning complex objects, vertical faces, and getting in close around obstacles. &#x20;
+  * Aircraft path is no longer limited to straight mission tracks. Aircraft can be manually piloted in all directions and still produce scans with the desktop app. This is useful for scanning complex objects, vertical faces, and getting in close around obstacles.
 
 ### Installing
 
@@ -48,34 +48,38 @@ Check your email for a link to download the app
 
 #### Import the file
 
-<img src="../../.gitbook/assets/unknown (5).png" alt="" height="194" width="499">
+<img src="../../.gitbook/assets/unknown.png" alt="" height="194" width="499">
 
-#### Set the Obs file source and CRS.&#x20;
+#### Set the Obs file source and CRS.
 
-* If Flux was flown with NTRIP was used, this will be selected by default&#x20;
-  *
+*   If Flux was flown with NTRIP was used, this will be selected by default \*
 
-      <img src="../../.gitbook/assets/unknown (6).png" alt="" height="196" width="516">
-  * You can also use an external base station or CORS file. Ensure you have selected the correct coordinates for the base station point and CRS
-  * Unlike the Flow app, Obs files with only L1/L2 signals can be used.&#x20;
-  * The Flux Desktop app can also process without a base station file
+    ```
+    <img src="../../.gitbook/assets/unknown (6).png" alt="" height="196" width="516">
+    ```
+
+    * You can also use an external base station or CORS file. Ensure you have selected the correct coordinates for the base station point and CRS
+    * Unlike the Flow app, Obs files with only L1/L2 signals can be used.
+    * The Flux Desktop app can also process without a base station file
 
 {% hint style="warning" %}
-&#x20;The scan may have a decrease in global/relative accuracy and sharpness compared to using an OBS file
+The scan may have a decrease in global/relative accuracy and sharpness compared to using an OBS file
 {% endhint %}
 
 #### Device Geometry
 
-*   Select the aircraft and isolator type you flew the mission with. This is important for calculating offsets from the GNSS antennas&#x20;
+*   Select the aircraft and isolator type you flew the mission with. This is important for calculating offsets from the GNSS antennas
 
-    <img src="../../.gitbook/assets/unknown (7).png" alt="" height="295" width="464">
+    <img src="../../.gitbook/assets/unknown (2).png" alt="" height="295" width="464">
 
-#### Solver&#x20;
+#### Solver
 
 * Select the Advanced alignment option, Normal works well in the vast majority of cases
 *
 
-    <img src="../../.gitbook/assets/unknown (8).png" alt="" height="249" width="624">
+```
+<img src="../../.gitbook/assets/unknown (8).png" alt="" height="249" width="624">
+```
 
 {% hint style="info" %}
 The default is to do a Trajectory Solve only, which will not use the SLAM-like alignment feature. We recommend using the Normal advanced alignment
@@ -86,7 +90,9 @@ The default is to do a Trajectory Solve only, which will not use the SLAM-like a
 * Set as desired. You don't have to specify a coordinate frame unless you want to
 *
 
-    <img src="../../.gitbook/assets/unknown (9).png" alt="" height="151" width="481">
+```
+<img src="../../.gitbook/assets/unknown (9).png" alt="" height="151" width="481">
+```
 
 #### GCPs
 
@@ -114,5 +120,5 @@ Known issues:
 * Multiple options exist to view and adjust color pallets, color mode, and more
 
 {% hint style="success" %}
-Protip: if your machine can handle it, you can increase the viewable points under the settings>display>point cloud display budget for a more detailed view of the scan&#x20;
+Protip: if your machine can handle it, you can increase the viewable points under the settings>display>point cloud display budget for a more detailed view of the scan
 {% endhint %}

@@ -46,7 +46,7 @@ DIU Blue Astros come with stealth logging enabled, which stops GPS data from bei
 
 2\. Open the camera view for the payload, and select the settings <img src="../../.gitbook/assets/SettingsIcon.png" alt="" data-size="line"> icon. Select the lens that matches what you're using (default 24mm).
 
-<img src="../../.gitbook/assets/photo_settings_2 (1) (1).png" alt="" width="563">
+<img src="../../.gitbook/assets/photo_settings_2 (1).png" alt="" width="563">
 
 3\. Open AMC Plan view, and select "Pattern" in the left sidebar (creates flight path that covers the site and automatically triggers photos). Choose a pattern type and shape and it'll appear on the map. Don't detail the shape yet- We'll come back to that.
 
@@ -59,6 +59,8 @@ DIU Blue Astros come with stealth logging enabled, which stops GPS data from bei
 6\. Turn on Terrain Display by selecting the square T button in the bottom-left corner. Check the heightmap to make sure the flight path clears the terrain by a comfortable margin.
 
 <img src="../../.gitbook/assets/image (142).png" alt="Height map at the bottom shows terrain in the area is higher than the mission altitude." width="563">
+
+&#x20;
 
 <img src="../../.gitbook/assets/image (127).png" alt="Altitude of the mission was increased from 50m to 70m, avoiding the terrain." width="563">
 
@@ -127,7 +129,7 @@ Our recommended camera settings for mapping are listed below.
 * **Image Storage**: External USB
 * **JPEG Size:** Large
 * **JPEG Quality:** Fine
-* **Picture Profile:** PP Off&#x20;
+* **Picture Profile:** PP Off
 
 <img src="../../.gitbook/assets/image (108).png" alt="The USB drive should be plugged into the USB-C port near the IO panel on the bottom of Astro." width="563">
 

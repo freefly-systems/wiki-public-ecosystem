@@ -20,7 +20,7 @@ Terrain follow is only supported for Patterns and is not available on waypoint m
 {% tab title="Photos" %}
 <figure><img src="../../../.gitbook/assets/AMC Plan - Sidebar (1).jpg" alt=""><figcaption><p>Navigate to the Plan screen</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/AMC Pattern - Plan Screen (2).jpg" alt=""><figcaption><p>Start one of the pattern options</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/AMC Pattern - Plan Screen (1).jpg" alt=""><figcaption><p>Start one of the pattern options</p></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/AMC Survey - Plan Screen (2).jpg" alt=""><figcaption><p>Navigate to the 'mountain' section</p></figcaption></figure>
 

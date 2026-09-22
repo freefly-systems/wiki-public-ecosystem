@@ -16,8 +16,8 @@
 | Drop rating                   | 1 meter                                                          |
 | USB Power Delivery            | 60 Watts (Up to 3 A at the following voltages: 20, 15, 12, 9, 5) |
 | Cell Chemistry                | Lithium-Ion                                                      |
-| Cell Type                     | <p>SL8 : Samsung 40T </p><p>SL4 : Lishen LR2170SF</p>            |
-| Max Continuous Current (10 s) | <p>SL8 : 80 A </p><p>SL4 : 13.5A</p>                             |
+| Cell Type                     | <p>SL8 : Samsung 40T</p><p>SL4 : Lishen LR2170SF</p>             |
+| Max Continuous Current (10 s) | <p>SL8 : 80 A</p><p>SL4 : 13.5A</p>                              |
 | Max Peak Current (1 s)        | <p>SL8 : 120 A</p><p>SL4 : 20 A</p>                              |
 | Mass                          | <p>SL8 : 1035 g</p><p>SL4 : 600g</p>                             |
 
@@ -27,10 +27,10 @@
 
 Please consult local regulations.
 
-![](../../.gitbook/assets/image%20(10)%20(1).png)
+![](<../../.gitbook/assets/image (121).png>)
 
 {% hint style="warning" %}
-\*SL-4 model is not compatible with Astro.&#x20;
+\*SL-4 model is not compatible with Astro.
 {% endhint %}
 
 Detail of FAA regulations here:

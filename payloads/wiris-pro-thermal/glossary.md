@@ -19,7 +19,7 @@ FOV stands for "Field of View", and is represented by an angle, typically in deg
 
 * HFOV and VFOV are commonly used to describe the horizontal and vertical field of view, respectively.
 
-<figure><img src="../../.gitbook/assets/combined (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/combined.png" alt=""><figcaption></figcaption></figure>
 
 ## Pan, Roll, Tilt
 
@@ -31,8 +31,8 @@ These refer to the axis on which your gimbal can rotate.
 
 * Roll controls the horizon of your camera. The motor is located at the back of your gimbal, behind the camera, and it is updated automatically to keep your camera level to the horizon.
 
-<figure><img src="../../.gitbook/assets/Roll Graphic (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Roll Graphic.png" alt=""><figcaption></figcaption></figure>
 
 * Tilt controls the angle of the camera vertically, allowing you to point down, up, level, or anything in between. The aircraft operator can control tilt using the tilt wheel on the top left of the Herelink controller.
 
-<figure><img src="../../.gitbook/assets/Tilt Graphic (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Tilt Graphic.png" alt=""><figcaption></figcaption></figure>

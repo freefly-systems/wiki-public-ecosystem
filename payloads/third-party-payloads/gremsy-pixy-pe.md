@@ -1,14 +1,14 @@
 # Gremsy Pixy PE
 
-|                    |                                      |
-| ------------------ | ------------------------------------ |
-| **Description**    | Gimbal for custom payloads           |
-| **Compatibility**  | <p>Astro ✅ </p><p>Alta X Gen2 ✅ </p> |
-| **Weight**         | Varies by camera                     |
-| **NDAA Compliant** | No                                   |
-| **Offered By**     | Gremsy                               |
+|                    |                                    |
+| ------------------ | ---------------------------------- |
+| **Description**    | Gimbal for custom payloads         |
+| **Compatibility**  | <p>Astro ✅</p><p>Alta X Gen2 ✅</p> |
+| **Weight**         | Varies by camera                   |
+| **NDAA Compliant** | No                                 |
+| **Offered By**     | Gremsy                             |
 
-<figure><img src="../../.gitbook/assets/pixype (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/pixype.png" alt=""><figcaption></figcaption></figure>
 
 The Gremsy Pixy PE is compatible with the Pixhawk Payload Bus standard and can be integrated with Astro to fly custom payloads. The dovetail mount of the Pixy PE fits into the dovetail mount on Astro and can communicate via Mavlink.
 

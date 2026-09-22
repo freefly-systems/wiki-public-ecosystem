@@ -19,7 +19,7 @@ A single flight with Astro carrying the Wiris Pro Payload is typically 25-30 min
 {% hint style="info" %}
 To extend flight times while focusing on a fixed area of interest, consider having Astro orbit around the area. In our testing, Astro is most efficient when orbiting at 7 m/s, rather than hovering. The orbit flight mode can be found by clicking on the map while on the ‘Fly’ screen, then clicking the orbit icon:
 
-<img src="../../.gitbook/assets/image (83).png" alt="" data-size="original">
+<img src="../../.gitbook/assets/image (50).png" alt="" data-size="original">
 {% endhint %}
 
 ## Wiris Pro Camera Specs

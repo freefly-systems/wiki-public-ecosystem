@@ -52,7 +52,7 @@ Local Area Processing (LAP) brings out hard-to-see (low-contrast) features. LAP 
 
 <figure><img src="../../../.gitbook/assets/image (156).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (158).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (157).png" alt=""><figcaption></figcaption></figure>
 
 * **Strength:**
   * **In CLAHE, the Strength parameter controls the contrast limit**. A larger value allows the algorithm to map a larger contrast but can also tend to bring out more noise.
@@ -77,13 +77,9 @@ Local Area Processing (LAP) brings out hard-to-see (low-contrast) features. LAP 
   The Ventus OGI offers a 1-point FFC (flat field offset correction) using an internal shutter and two 2-point NUC (gain) tables. An FFC should be performed to remove spatial noise and non-uniformities, which may develop as the camera and optics reach a stable operating temperature.\
   \
   Select **Run** to execute an FFC.
-*   **Color Palette:**\
-    Various false-color palettes may be applied to the video.
+* **Color Palette:**\
+  Various false-color palettes may be applied to the video.
+  *   Options:<br>
 
-    *   Options:<br>
-
-        <figure><img src="../../../.gitbook/assets/image (161).png" alt=""><figcaption></figcaption></figure>
-    * **Default:** None
-
-
-
+      <figure><img src="../../../.gitbook/assets/image (160).png" alt=""><figcaption></figcaption></figure>
+  * **Default:** None

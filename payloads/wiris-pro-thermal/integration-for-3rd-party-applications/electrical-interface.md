@@ -14,7 +14,7 @@ Pixhawk Payload Bus specs
 
 The Wiris video and control is passed through over the ethernet pins on the smart dovetail. Info on communicating with the camera can be found in the document bellow.
 
-{% file src="../../../.gitbook/assets/WWP_ETHERNET_SDK_document_07_19_2022 (1).pdf" %}
+{% file src="../../../.gitbook/assets/WWP_ETHERNET_SDK_document_07_19_2022.pdf" %}
 Wiris Ethernet SDK
 {% endfile %}
 

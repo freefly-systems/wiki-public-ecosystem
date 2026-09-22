@@ -61,9 +61,9 @@ Support for Sony FE 50mm F2.5 G lens requires Astro Firmware 2.0.22 or later as 
 * Initial Release for OGI Payload
 * Updated 75mm tuning for LR1 on Astro with large motors
 
-{% file src="../../.gitbook/assets/minigimbal_lr1_v2.1.0 (1).zip" %}
+{% file src="../../.gitbook/assets/minigimbal_lr1_v2.1.0.zip" %}
 
-{% file src="../../.gitbook/assets/minigimbal_ogi_v2.1.0 (1).zip" %}
+{% file src="../../.gitbook/assets/minigimbal_ogi_v2.1.0.zip" %}
 
 ### v2.0.2
 

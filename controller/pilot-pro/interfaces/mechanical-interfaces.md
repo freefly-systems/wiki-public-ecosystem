@@ -12,21 +12,17 @@
 
 ### Drawings
 
-<figure><img src="../../../.gitbook/assets/2023-10-02 13_14_44-WIKI_SETUP.pdf - Adobe Acrobat Pro (32-bit) (1).png" alt=""><figcaption><p>FRONT VIEW</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/2023-10-02 13_14_44-WIKI_SETUP.pdf - Adobe Acrobat Pro (32-bit).png" alt=""><figcaption><p>FRONT VIEW</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/2023-10-02 13_15_01-WIKI_SETUP.pdf - Adobe Acrobat Pro (32-bit) (1).png" alt=""><figcaption><p>RADIO MOUNTING INTERFACE</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/2023-10-02 13_15_01-WIKI_SETUP.pdf - Adobe Acrobat Pro (32-bit).png" alt=""><figcaption><p>RADIO MOUNTING INTERFACE</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/2023-10-02 13_15_43-WIKI_SETUP.pdf - Adobe Acrobat Pro (32-bit) (1).png" alt=""><figcaption><p>TOP VIEW INTERFACES</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/2023-10-02 13_15_43-WIKI_SETUP.pdf - Adobe Acrobat Pro (32-bit).png" alt=""><figcaption><p>TOP VIEW INTERFACES</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/2023-10-02 13_15_32-WIKI_SETUP.pdf - Adobe Acrobat Pro (32-bit) (1).png" alt=""><figcaption><p>BOTTOM VIEW INTERFACES</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/2023-10-02 13_15_32-WIKI_SETUP.pdf - Adobe Acrobat Pro (32-bit).png" alt=""><figcaption><p>BOTTOM VIEW INTERFACES</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/2023-10-02 13_15_55-WIKI_SETUP.pdf - Adobe Acrobat Pro (32-bit) (1).png" alt=""><figcaption><p>SIDE VIEW INTERFACES</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/2023-10-02 13_15_55-WIKI_SETUP.pdf - Adobe Acrobat Pro (32-bit).png" alt=""><figcaption><p>SIDE VIEW INTERFACES</p></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/2024-02-21 09_43_36-Sticker PET 10_8mm.pdf - Adobe Acrobat Pro (32-bit).png" alt="" width="563"><figcaption><p>DIAL COVER STICKER</p></figcaption></figure>
-
-
-
-
 
 ## Radio Modules
 
@@ -38,11 +34,7 @@
 
 #### Drawings
 
-<figure><img src="../../../.gitbook/assets/2023-10-02 13_16_37-WIKI_SETUP_Radio.pdf - Adobe Acrobat Pro (32-bit) (1).png" alt=""><figcaption></figcaption></figure>
-
-
-
-
+<figure><img src="../../../.gitbook/assets/2023-10-02 13_16_37-WIKI_SETUP_Radio.pdf - Adobe Acrobat Pro (32-bit).png" alt=""><figcaption></figcaption></figure>
 
 ### Doodle Radio Module
 
@@ -52,13 +44,7 @@
 
 #### Drawings
 
-
-
 <figure><img src="../../../.gitbook/assets/Doodle Module Technical Drawing.png" alt=""><figcaption></figcaption></figure>
-
-
-
-
 
 ### RFD900 Radio Module
 
@@ -69,10 +55,6 @@
 #### Drawings
 
 <figure><img src="../../../.gitbook/assets/RFD900 module technical drawing.png" alt=""><figcaption></figcaption></figure>
-
-
-
-
 
 ## Accessories
 

@@ -4,7 +4,7 @@
 
 {% tabs %}
 {% tab title="Trailer Scan" %}
-<figure><img src="../../.gitbook/assets/Screen Shot 2023-10-03 at 11.13.25 AM (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screen Shot 2023-10-03 at 11.13.25 AM.png" alt=""><figcaption></figcaption></figure>
 
 <table><thead><tr><th width="342.0147440520509"></th><th></th></tr></thead><tbody><tr><td>Site</td><td>Freefly test field trailer</td></tr><tr><td>Workflow</td><td>Structure Scan + PPK</td></tr><tr><td>Astro output and base data</td><td><a href="https://drive.google.com/file/d/12dXYXngQ1EnKf1e9OTlvYKcx76gAE8lB/view?usp=sharing">Sample Data Set</a></td></tr><tr><td>Processed Data</td><td><a href="https://sitescan.arcgis.com/share/0ace494f-6613-4598-846c-89743d771f53">Site Scan</a></td></tr></tbody></table>
 {% endtab %}

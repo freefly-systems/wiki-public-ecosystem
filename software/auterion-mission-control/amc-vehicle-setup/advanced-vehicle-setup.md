@@ -16,13 +16,13 @@ You can return to Standard Mode by repeating the process of tapping the icon unt
 
 ## Advanced Airframe
 
-<figure><img src="../../../.gitbook/assets/Adv_Airframe (2).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Adv_Airframe.jpg" alt=""><figcaption></figcaption></figure>
 
 ## Advanced Sensors
 
 Be very careful about the Autopilot Orientation setting when calibrating sensors in Advanced Mode. It should not be changed from the default value of ROTATION\_YAW\_270.
 
-<figure><img src="../../../.gitbook/assets/Adv_Sensors (3).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Adv_Sensors.jpg" alt=""><figcaption></figcaption></figure>
 
 ## Advanced Motors
 
@@ -30,17 +30,17 @@ Be very careful about the Autopilot Orientation setting when calibrating sensors
 
 ## Advanced Safety
 
-<figure><img src="../../../.gitbook/assets/Adv_Safety (3).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Adv_Safety.jpg" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/Adv_safety2 (1).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Adv_safety2.jpg" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/Adv_Safety3 (3).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Adv_Safety3.jpg" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/Adv_Safety4 (1).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Adv_Safety4.jpg" alt=""><figcaption></figcaption></figure>
 
 ## Advanced Tuning
 
-<figure><img src="../../../.gitbook/assets/Adv_Tuning (3).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Adv_Tuning.jpg" alt=""><figcaption></figcaption></figure>
 
 ## Advanced Camera
 

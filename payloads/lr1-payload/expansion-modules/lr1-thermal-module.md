@@ -42,7 +42,7 @@ Switching between cameras views can be done by tapping the camera name, or by ma
 
 Mapping mission (TIFFs):
 
-{% file src="../../../.gitbook/assets/Thermal Module - Mapping images" %}
+{% file src="../../../.gitbook/assets/IMG_0002.PNG" %}
 
 Inspection images (JPEG + TIFFs):
 

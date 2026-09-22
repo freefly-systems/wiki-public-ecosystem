@@ -14,9 +14,9 @@
 
 <figure><img src="../../../.gitbook/assets/General6.jpg" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/General7 (1).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/General7.jpg" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/General8 (1).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/General8.jpg" alt=""><figcaption></figcaption></figure>
 
 ## Comm Links
 

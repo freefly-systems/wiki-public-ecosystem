@@ -21,6 +21,6 @@
 
 *   Press on the bind button 3 times. Then make sure the LED on the external compass module starts to blink fast in white/pink.<br>
 
-    <figure><img src="../../../../../.gitbook/assets/Astro-Binding-Mode (1).gif" alt="" width="375"><figcaption></figcaption></figure>
+    <figure><img src="../../../../../.gitbook/assets/Astro-Binding-Mode.gif" alt="" width="375"><figcaption></figcaption></figure>
 * Wait 30 seconds (for Doodle to fully switch to pairing mode). Then press Scan in the Pilot Pro App. From the list of results, find the one that matches Astro's serial number. Then press pair.
 * Wait 60 seconds for process to complete.
