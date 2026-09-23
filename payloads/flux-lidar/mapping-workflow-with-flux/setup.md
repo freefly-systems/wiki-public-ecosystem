@@ -128,6 +128,8 @@ V2.11 or 3.X RINEX file is required for processing in the Flow app
 
 ## Install the Flux Mobile App on Pilot Pro
 
+<figure><img src="../../../.gitbook/assets/flux-mobile-app-on-pilot-pro.jpg" alt="Flux Mobile App on Pilot Pro"><figcaption><p>Flux Mobile App on Pilot Pro</p></figcaption></figure>
+
 The Flux Mobile App runs on the Pilot Pro and shows Flux status next to AMC, with Record and Stop on the controller. No iPad or ethernet cable is needed.
 
 {% hint style="warning" %}
@@ -148,7 +150,7 @@ The Flux Mobile App requires **Flux Firmware v1.4.1 or later**. See [Flux Softwa
 3. Power on the aircraft with Flux attached and wait for the Pilot Pro to link to it.
 4. Open the Flux Mobile App. The header shows **CONNECTED** once data is arriving from Flux.
 
-<figure><img src="../../../.gitbook/assets/flux-mobile-app-on-pilot-pro.jpg" alt="Flux Mobile App on Pilot Pro"><figcaption><p>Flux Mobile App on Pilot Pro</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/flux-mobile-app-connected.jpg" alt="Flux Mobile App connected to Flux"><figcaption><p>Connected to Flux, ready to record</p></figcaption></figure>
 
 The app shows:
 
