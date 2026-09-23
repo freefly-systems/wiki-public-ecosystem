@@ -14,6 +14,7 @@ description: How to make sure your Pilot Pro has the latest and greatest softwar
 | Pilot Pro App                       | v2.8.6                | Check the ["updates"](./#app-updates) section in Updater app                                                                                                       |
 | Pilot Pro Firmware                  | v2.2.0                | Check the ["FW STATUS" ](./#firmware-updates)section in Pilot Pro App                                                                                              |
 | Doodle Radio Firmware Update        | v2.0                  | Check the "[Radio Settings -> Radio Firmware](../../operating-handbook/radio-modules/doodle-labs-radio-module/doodle-firmware-update.md)" section in Pilot Pro App |
+| Flux Mobile App | 0.5.3 | Check the ["updates"](./#app-updates) section in Updater app |
 
 ## [Software Release Notes](software-release-notes.md)
 
