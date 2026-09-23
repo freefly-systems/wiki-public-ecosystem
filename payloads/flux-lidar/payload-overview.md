@@ -31,7 +31,7 @@ The color code of this LED indicates the operational state of the LiDAR sensor a
 <table data-header-hidden><thead><tr><th align="right"></th><th width="249"></th><th></th></tr></thead><tbody><tr><td align="right"><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FdCjObRNycudiUoGxd8H4%2Fuploads%2FOtUUeXkhfx66sXm6bn28%2Fblue.png?alt=media&#x26;token=999289e1-3d69-4d89-b7d4-b2620c4b54f1" alt="" data-size="line"></td><td>Blinking Blue</td><td>Sensor loading</td></tr><tr><td align="right"><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FdCjObRNycudiUoGxd8H4%2Fuploads%2Fq66HlJfrtQVvIaJfDoqy%2Fyellow.png?alt=media&#x26;token=cb38ed89-fb0d-4fcb-acd3-d38a621c9383" alt="" data-size="line"></td><td>Blinking Yellow</td><td>GNSS starting and acquiring satellites</td></tr><tr><td align="right"><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FdCjObRNycudiUoGxd8H4%2Fuploads%2FkN4Z038eVTNDY5xbumMj%2Fmagenta.png?alt=media&#x26;token=6cd3b3a6-f573-4a10-83f9-544bdcb8b1ee" alt="" data-size="line"></td><td>Blinking Magenta</td><td>Flash drive missing, not ExFAT formatted, or busy offloading data</td></tr><tr><td align="right"><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FdCjObRNycudiUoGxd8H4%2Fuploads%2FULg4zqxa6aVKIiCAjtPx%2Fgreen.png?alt=media&#x26;token=b6d1b197-612b-477e-8123-106e092976f3" alt="" data-size="line"></td><td>Solid Green</td><td>Sensor ready to start LiDAR capture</td></tr><tr><td align="right"><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FdCjObRNycudiUoGxd8H4%2Fuploads%2F0wgDLOiN8jKDdMWw2Btv%2Fred.png?alt=media&#x26;token=7b84228b-12b1-4a61-96b6-c4376d3d93f9" alt="" data-size="line"></td><td>Solid Red</td><td>Sensor recording</td></tr></tbody></table>
 
 {% hint style="success" %}
-Detailed status information can be shown on the Flow app on a connected iPad
+Detailed status is shown in the Flux Mobile App on the Pilot Pro, or in the Freefly Flow app on a connected iPad
 {% endhint %}
 
 **REC Button**
@@ -39,7 +39,7 @@ Detailed status information can be shown on the Flow app on a connected iPad
 The REC Button start/stops the capture of the LiDAR data. When the Status LED is green, push to start recording. When the Status LED is red, push to stop recording.
 
 {% hint style="success" %}
-Recording start/stop can also be triggered from the Flow app on a connected iPad. The Flow app can only communicate with the payload on compatible systems. If using the Flux on a DJI platform, you will need to use the button on the Lidar
+Recording can also be started and stopped from the Flux Mobile App on the Pilot Pro, or from the Freefly Flow app on a connected iPad. These apps only communicate with the payload on compatible systems. If using the Flux on a DJI platform, you will need to use the button on the Lidar
 {% endhint %}
 
 **Camera**

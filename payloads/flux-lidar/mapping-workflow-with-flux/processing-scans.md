@@ -1,4 +1,6 @@
-# Processing LiDAR data on an iPad
+# Processing Scans
+
+Flux scans are processed from the USB drive after landing. Today this is done in the Freefly Flow app on an iPad, described below. The [Flux Desktop App](../beta-flux-desktop-app.md) (beta) can also process scans on Mac, Windows and Linux.
 
 ## Download the Freefly Flow app
 

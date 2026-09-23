@@ -1,4 +1,6 @@
-# Installation on Astro/Alta X Gen2
+# Setup
+
+One-time setup for Flux: mount the GNSS antennas and the sensor, decide how you will get base station corrections, and install the Flux Mobile App on your Pilot Pro. After this, each mission only needs the steps in [Mission Planning and Data Capture](mission-planning-and-data-capture.md).
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2025-10-03 145144.png" alt=""><figcaption></figcaption></figure>
 
@@ -88,7 +90,7 @@ In areas with cell coverage, Astro can stream RTK corrections using the LTE modu
 This is the preferred option for most applications as it simplifies the Flux workflow and output accuracy greatly.
 {% endhint %}
 
-An NTIRP provider will be required for NTRIP corrections over LTE. The [Auterion RTK ](https://docs.auterion.com/vehicle-operation/auterion-apps/ntrip-app-and-auterion-rtk)app is free for the Astro and supports 3rd party NTRIP providers. Auterion also provides an NTRIP subscription service for the simplest setup
+An NTRIP provider will be required for NTRIP corrections over LTE. The [Auterion RTK ](https://docs.auterion.com/vehicle-operation/auterion-apps/ntrip-app-and-auterion-rtk)app is free for the Astro and supports 3rd party NTRIP providers. Auterion also provides an NTRIP subscription service for the simplest setup
 
 {% hint style="warning" %}
 We recommend using an NTRIP provider that gives corrections in WGS84. The Flow processing app assumes the base station file is in WGS84, so if you use a provider with a different coordinate system, you will need to account for this when importing GCPs or exporting georeferenced point clouds
@@ -123,6 +125,95 @@ The further away the reference base station is, the less accurate your scan resu
 {% hint style="info" %}
 V2.11 or 3.X RINEX file is required for processing in the Flow app
 {% endhint %}
+
+## Install the Flux Mobile App on Pilot Pro
+
+The Flux Mobile App runs on the Pilot Pro and shows Flux status next to AMC, with Record and Stop on the controller. No iPad or ethernet cable is needed.
+
+{% hint style="warning" %}
+The Flux Mobile App requires **Flux Firmware v1.4.1 or later**. See [Flux Software](../maintenance/flux-software.md) to check your version and update.
+{% endhint %}
+
+1. On the Pilot Pro, open the **Freefly Updater**, go to the **Latest** tab, and install **Freefly Flux** (the Flux Mobile App). See [App Updates](../../../controller/pilot-pro/maintenance/software-and-firmware-updates/README.md#app-updates) if the app does not appear.
+2. Power on the aircraft with Flux attached and wait for the Pilot Pro to link to it.
+3. Open the Flux Mobile App. The header shows **CONNECTED** once data is arriving from Flux.
+
+<figure><img src="../../../.gitbook/assets/flux-mobile-app-pilot-pro.jpg" alt="Flux Mobile App on Pilot Pro"><figcaption><p>Flux Mobile App on Pilot Pro</p></figcaption></figure>
+
+The app shows:
+
+* **System**: Flux model, serial number and firmware version, free space on the USB drive, points per second, and sensor temperature.
+* **Positioning**: RTK status, satellite count and horizontal accuracy for the left and right GNSS antennas.
+* **Recording**: Record and Stop, elapsed time, file size, and the name of the current or last `.fluxScan` file.
+* **Map**: the aircraft's path drawn as it flies.
+
+{% hint style="success" %}
+Use Android split screen to keep AMC and the Flux Mobile App side by side, so you can fly the mission and watch Flux on one screen.
+{% endhint %}
+
+## Connecting an iPad to Pilot Pro (legacy)
+
+<details>
+
+<summary>iPad connection steps</summary>
+
+The [Freefly Flow app](https://apps.apple.com/us/app/freefly-flow/id1522046404) can also show live Flux status on an iPad connected to the Pilot Pro. With the Flux Mobile App installed this is no longer needed for monitoring or recording. The steps are kept here for anyone still using it.
+
+{% hint style="info" %}
+Please note that only iPads with M-series chips will be able to process Flux data.&#x20;
+
+iPhone and Macs with M-series chips have also been known to work, but the app is only optimied for iPad.
+{% endhint %}
+
+In order for iPad to communicate with the Pilot Pro, it needs to connect via the ethernet port located on the back of the Pilot Pro. The Flux sensor comes included with the necessary USB-C to Ethernet cable that looks like this:
+
+<figure><img src="../../../.gitbook/assets/image (39).png" alt="" width="188"><figcaption></figcaption></figure>
+
+1. **Connect USB-C to iPad**
+
+<figure><img src="../../../.gitbook/assets/image (40).png" alt="" width="375"><figcaption></figcaption></figure>
+
+2. **Connect Ethernet to the RJ45 port of Pilot Pro**
+
+<figure><img src="../../../.gitbook/assets/image (41).png" alt="" width="375"><figcaption></figcaption></figure>
+
+{% hint style="info" %}
+The shape of your radio and color of your ethernet cable may vary
+{% endhint %}
+
+3. **Doodle Labs Radio Only: Enable RJ45 Access**
+
+{% hint style="success" icon="signal-stream" %}
+If you have the Blue/NDAA variant of Astro or Alta X, the RJ45 port is disabled by default. To enable it, open the Pilot Pro app and navigate to Radio Settings > Advanced.
+{% endhint %}
+
+<figure><img src="../../../.gitbook/assets/image (43).png" alt=""><figcaption></figcaption></figure>
+
+For more detailed instructions, see [Doodle RJ45 Ethernet Port](../../../controller/pilot-pro/operating-handbook/radio-modules/doodle-labs-radio-module/doodle-rj45-ethernet-port.md).
+
+4. **Configure Ethernet Settings on iPad**
+
+<figure><img src="../../../.gitbook/assets/image (42).png" alt=""><figcaption></figcaption></figure>
+
+* In Settings > Ethernet, select your ethernet adapter (probably named `USB 10/100/1000 LAN` )
+  * **Configure IP** > Set to Manual
+  * **IP address**: 192.168.144.120
+  * **Subnet Mask**: 255.255.255.0
+  * Hit **Save** to apply
+
+This only needs to be set once. The iPad will remember these settings for the future.
+
+5. **Check The Connection**
+
+On the iPad, open a browser (e.g. Safari) and go to `192.168.144.233`
+
+If this page loads the Flux web UI, then your iPad has been successfully configured to communicate with Flux.
+
+{% hint style="warning" %}
+Sometimes the record button on the iPad will not work if the iPadOS version is 18.3 or prior. It is recommended to update the iPad to 18.7 or later
+{% endhint %}
+
+</details>
 
 ## Plan a mission in AMC <a href="#plan-a-mission-on-your-preferred-ground-station-app" id="plan-a-mission-on-your-preferred-ground-station-app"></a>
 
