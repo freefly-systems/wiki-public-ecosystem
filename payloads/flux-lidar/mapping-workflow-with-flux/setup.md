@@ -138,7 +138,7 @@ The Flux Mobile App requires **Flux Firmware v1.4.1 or later**. See [Flux Softwa
 2. Power on the aircraft with Flux attached and wait for the Pilot Pro to link to it.
 3. Open the Flux Mobile App. The header shows **CONNECTED** once data is arriving from Flux.
 
-<figure><img src="../../../.gitbook/assets/flux-mobile-app-pilot-pro.jpg" alt="Flux Mobile App on Pilot Pro"><figcaption><p>Flux Mobile App on Pilot Pro</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/flux-mobile-app-on-pilot-pro.jpg" alt="Flux Mobile App on Pilot Pro"><figcaption><p>Flux Mobile App on Pilot Pro</p></figcaption></figure>
 
 The app shows:
 

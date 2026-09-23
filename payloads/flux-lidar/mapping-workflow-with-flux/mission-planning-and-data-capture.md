@@ -74,6 +74,8 @@ Open the **Flux Mobile App** on the Pilot Pro (see [Setup](setup.md#install-the-
 
 If you are using an iPad connected to the Pilot Pro, the Freefly Flow app shows the same information.
 
+<figure><img src="../../../.gitbook/assets/flux-mobile-app-split-screen-amc.jpg" alt="Flux Mobile App and AMC in split screen on Pilot Pro"><figcaption><p>Flux Mobile App recording next to AMC in split screen, mid-mission</p></figcaption></figure>
+
 {% hint style="success" %}
 Flux relies heavily on GNSS for good performance
 
