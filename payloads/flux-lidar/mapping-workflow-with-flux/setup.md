@@ -134,9 +134,19 @@ The Flux Mobile App runs on the Pilot Pro and shows Flux status next to AMC, wit
 The Flux Mobile App requires **Flux Firmware v1.4.1 or later**. See [Flux Software](../maintenance/flux-software.md) to check your version and update.
 {% endhint %}
 
-1. On the Pilot Pro, open the **Freefly Updater**, go to the **Latest** tab, and install **Freefly Flux** (the Flux Mobile App). See [App Updates](../../../controller/pilot-pro/maintenance/software-and-firmware-updates/README.md#app-updates) if the app does not appear.
-2. Power on the aircraft with Flux attached and wait for the Pilot Pro to link to it.
-3. Open the Flux Mobile App. The header shows **CONNECTED** once data is arriving from Flux.
+1. Add the Flux app channel to the Freefly Updater. The Updater does not list the Flux Mobile App until this is done once.
+   1. Connect the Pilot Pro to the internet via the wifi settings.
+   2. Open the camera app on the tablet, scan this QR code, and copy the link when it pops up.
+
+<figure><img src="../../../.gitbook/assets/flux-updater-repo-qr.png" alt="QR code for the Flux app channel" width="188"><figcaption><p>Flux app channel for the Freefly Updater</p></figcaption></figure>
+
+   3. Open the **Freefly Updater** app.
+   4. Go to _Settings > Repositories_ and tap _+ ADD REPOSITORIES_.
+   5. Paste the link you copied (or type [http://freefly-updater.freeflysystems.com/v1\_flux/stable\_repo/](http://freefly-updater.freeflysystems.com/v1_flux/stable_repo/)), then exit the Repository menu.
+   6. If asked, allow the Freefly Updater under _Install Unknown Apps_ in the tablet's settings.
+2. Go to _Latest > Freefly Flux > Install_. See [App Updates](../../../controller/pilot-pro/maintenance/software-and-firmware-updates/README.md#app-updates) if the app does not appear; the Updater may need a refresh.
+3. Power on the aircraft with Flux attached and wait for the Pilot Pro to link to it.
+4. Open the Flux Mobile App. The header shows **CONNECTED** once data is arriving from Flux.
 
 <figure><img src="../../../.gitbook/assets/flux-mobile-app-on-pilot-pro.jpg" alt="Flux Mobile App on Pilot Pro"><figcaption><p>Flux Mobile App on Pilot Pro</p></figcaption></figure>
 
