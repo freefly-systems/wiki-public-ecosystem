@@ -43,13 +43,3 @@ Do not "hotswap" (remove or insert) Flux from the Smart Dovetail connector when 
 ## LiDAR Cover Lens
 
 Do not touch the plastic or glass covering over the LiDAR sensor. Fingerprints or other contaminates such as grease or dirt can cause issues with the point cloud collection on Flux. The LiDAR cover can be gently wiped down as needed with the included microfiber cloth. Avoid scratching the glass or plastic lens covering.
-
-## Operating Temperatures
-
-Freefly Flux is designed to operating in temperatures between -20 °C to 40 °C. When operated in an ambient temperature > 40 °C, the metallic surfaces of the sensor may be hot enough to potentially cause skin burn. Avoid skin contact with the sensor’s base, lid and the heatsink when the sensor is operated under these conditions. The sensor should not be used in an ambient temperature above 40°C. The maximum safety certified ambient operating temperature is 40°C.
-
-When the sensor reaches the maximum operating temperature specified below, the sensor may become inactive and shut off.
-
-## Recommended Storage Conditions
-
-Store the product in a dry, well-ventilated place. The recommended ambient temperature is 23±5°C, and the humidity between 30% and 70%.

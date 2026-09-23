@@ -24,3 +24,13 @@
 | Global accuracy\*                                 |                        +/-10cm                        |                        +/-10cm                        |                        +/-10cm                        |
 
 \*This was tested using NTRIP corrections while flying the drone and for processing the Flux scan measured blind against ground control points. Actual accuracy may varry depending on a number of factors including GNSS signal quality, base station quality, and other environmental factors.&#x20;
+
+## Operating Temperatures
+
+Freefly Flux is designed to operating in temperatures between -20 °C to 40 °C. When operated in an ambient temperature > 40 °C, the metallic surfaces of the sensor may be hot enough to potentially cause skin burn. Avoid skin contact with the sensor’s base, lid and the heatsink when the sensor is operated under these conditions. The sensor should not be used in an ambient temperature above 40°C. The maximum safety certified ambient operating temperature is 40°C.
+
+When the sensor reaches the maximum operating temperature specified below, the sensor may become inactive and shut off.
+
+## Recommended Storage Conditions
+
+Store the product in a dry, well-ventilated place. The recommended ambient temperature is 23±5°C, and the humidity between 30% and 70%.

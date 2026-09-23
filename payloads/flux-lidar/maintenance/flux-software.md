@@ -4,8 +4,8 @@
 
 | Item                        | Latest Version | How to Update                                                                                                                                     |
 | --------------------------- | -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Flux Firmware               | v1.4.1         | [Download](#flux-firmware-release-notes) the file and [update from the USB drive](#updating-flux-firmware)                                        |
-| Flux Mobile App (Pilot Pro) | v0.5.3         | Check the ["updates"](../../../controller/pilot-pro/maintenance/software-and-firmware-updates/README.md#app-updates) section in the Freefly Updater |
+| Flux Firmware               | 1.4.1          | [Download](#flux-firmware-release-notes) the file and [update from the USB drive](#updating-flux-firmware)                                        |
+| Flux Mobile App (Pilot Pro) | 0.5.3          | Check the ["updates"](../../../controller/pilot-pro/maintenance/software-and-firmware-updates/README.md#app-updates) section in the Freefly Updater |
 | Freefly Flow (iPad)         | App Store      | [App Store](https://apps.apple.com/us/app/freefly-flow/id1522046404?platform=ipad)                                                                |
 | Flux Desktop App            | Beta           | [\[Beta\] Flux Desktop App](../beta-flux-desktop-app.md)                                                                                          |
 
@@ -15,16 +15,25 @@ The Flux Mobile App requires Flux Firmware v1.4.1 or later.
 
 ## Flux Firmware Release Notes
 
-### v1.4.1
+### Current Version
+
+<a href="https://freeflyeng.s3.us-west-2.amazonaws.com/_SoftwareReleases/flux-update-flux-te0821-rev-b-v1.4.1.0-uee2c8c31-b120-g457cad15.swu" class="button primary">DOWNLOAD v1.4.1</a>
+
+<details>
+
+<summary><strong>Flux Firmware v1.4.1</strong></summary>
 
 * **New:** Support for the Flux Mobile App on Pilot Pro.
 * **Fix:** Scan files are now dated from GPS time, so they no longer show up as created in 2024.
 * **Improvement:** SBAS is removed from the GNSS configuration, so a mid-flight SBAS shift no longer affects processing.
-* **New:** Support for Ouster firmware v3.2 (Flux O1).
 
-<a href="https://freeflyeng.s3.us-west-2.amazonaws.com/_SoftwareReleases/flux-update-flux-te0821-rev-b-v1.4.1.0-uee2c8c31-b120-g457cad15.swu" class="button primary">DOWNLOAD v1.4.1</a>
+</details>
 
-### v1.3.1
+### Previous Versions
+
+<details>
+
+<summary><strong>Flux Firmware v1.3.1</strong></summary>
 
 * Improves IMU timing
 * Improves production processes
@@ -32,27 +41,45 @@ The Flux Mobile App requires Flux Firmware v1.4.1 or later.
 
 {% file src="../../../.gitbook/assets/flux-update-flux-te0821-rev-b-v1.3.1-uee2c8c31-b117-g8f809855.swu" %}
 
-### v1.2.14
+</details>
+
+<details>
+
+<summary><strong>Flux Firmware v1.2.14</strong></summary>
 
 * Fixes an issue where sometimes H1 units produce 0 pt scans
 * Add support for new IMU variant
 
 {% file src="../../../.gitbook/assets/flux-update-flux-te0821-rev-b-v1.2.14-uee2c8c31-b104-g6a4bd0c9.swu" %}
 
-### v1.1.0
+</details>
+
+<details>
+
+<summary><strong>Flux Firmware v1.1.0</strong></summary>
 
 * Minor update to support hardware revision
 
-### v1.0.0
+</details>
+
+<details>
+
+<summary><strong>Flux Firmware v1.0.0</strong></summary>
 
 * Initial release for Freefly Flux L1, O1, and H1
 
+</details>
+
 ## Flux Mobile App Release Notes
 
-### v0.5.3 (September 2026)
+<details>
+
+<summary><strong>Flux Mobile App v0.5.3</strong> (September 2026)</summary>
 
 * Initial release, listed as **Freefly Flux** in the Freefly Updater. Monitor Flux and start and stop recording from the Pilot Pro, with no iPad or ethernet cable.
 * Requires Flux Firmware v1.4.1 or later.
+
+</details>
 
 ## Checking the Flux Firmware Version
 
