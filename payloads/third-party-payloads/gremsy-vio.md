@@ -1,10 +1,10 @@
 # Gremsy Vio
 
-<table><thead><tr><th width="207.796875"></th><th width="334.609375"></th></tr></thead><tbody><tr><td><strong>Description</strong></td><td>Camera gimbal with video streaming</td></tr><tr><td><strong>Compatibility</strong></td><td><p>Astro ✅ </p><p>Alta X Gen2 ✅ </p></td></tr><tr><td><strong>Weight</strong></td><td>1,100g (varies by camera)</td></tr><tr><td><strong>NDAA Compliant</strong></td><td>No</td></tr><tr><td><strong>Offered By</strong></td><td>Gremsy</td></tr></tbody></table>
+<table><thead><tr><th width="207.796875"></th><th width="334.609375"></th></tr></thead><tbody><tr><td><strong>Description</strong></td><td>Camera gimbal with video streaming</td></tr><tr><td><strong>Compatibility</strong></td><td><p>Astro ✅</p><p>Alta X Gen2 ✅</p></td></tr><tr><td><strong>Weight</strong></td><td>1,100g (varies by camera)</td></tr><tr><td><strong>NDAA Compliant</strong></td><td>No</td></tr><tr><td><strong>Offered By</strong></td><td>Gremsy</td></tr></tbody></table>
 
 {% embed url="https://www.youtube.com/watch?v=qlNFSy5Uq8w" %}
 
-The Gremsy VIO with the Smart Dovetail adaptor is compatible with the Pixhawk Payload Bus standard and can be integrated to work on Astro.
+The Gremsy VIO with the Smart Dovetail adaptor is compatible with the Pixhawk Payload Bus standard and can be integrated to work on Astro and Alta X Gen2.
 
 ## Gremsy VIO Configuration
 
@@ -21,7 +21,7 @@ Download the [VIO software package 3.1.07](https://drive.google.com/file/d/1vcwQ
 {% endhint %}
 
 {% hint style="info" %}
-The latest supported version with Astro is:
+The latest supported version with Astro/Alta X Gen2 is:
 
 * Vio Payload App v3.1.0.7
 * Video Streaming App v3.2.1
@@ -29,28 +29,26 @@ The latest supported version with Astro is:
 * Gimbal Firmware v7.8.6
 {% endhint %}
 
-## Astro Configuration
+## Astro/Alta X Gen2 Configuration
 
 {% hint style="success" %}
-Astro and AMC need to updated to the latest version, at least Astro software version 2.0 or later
+Aircraft and AMC need to updated to the latest version, at least aircraft software version 2.0 or later
 {% endhint %}
 
-The following parameters need to be configured for Astro to communicate with the VIO. Click [here](../../software/auterion-mission-control/amc-vehicle-setup/parameters.md) to learn to set parameters.
+The following parameters need to be configured for the aircraft to communicate with the VIO. Click [here](../../software/auterion-mission-control/amc-vehicle-setup/parameters.md) to learn to set parameters.
 
-* **MNT\_RATE\_YAW = 0**
-  * You will need to check 'force save'
 * **MAV\_2\_MODE = Normal**
   * This will allow GPS information to be passed to the VIO, both for the LRF and for geotagging .JPEG images. TIFF images are not geotagged
     * If your aircraft needs to maintain Blue List compliance, do not change MAV\_2\_MODE. The VIO will not receive GPS information
-* Reboot Astro
+* Reboot the aircraft
 
 {% hint style="info" %}
 If switching back to other Smart Dovetail payloads like the LR1 Payload or Sentera 6X, perform a [parameter reset](../../software/auterion-mission-control/amc-vehicle-setup/parameters.md#resetting-parameters-to-factory-defaults).
 {% endhint %}
 
-## Connect to Astro
+## Connect to Aircraft
 
-Plug VIO into the Smart Dovetail on Astro and boot up the aircraft. VIO should stabilize after about 15s and the light on the front of the gimbal will turn blue if connected to Astro.
+Plug VIO into the Smart Dovetail on the aircraft and boot up the aircraft. VIO should stabilize after about 15s and the light on the front of the gimbal will turn purple if connected to the aircraft
 
 Wait another 30-60s for the VIO video feed to appear in AMC
 
@@ -66,15 +64,15 @@ Once connected to the VIO through AMC, the following settings need to be applied
 
 ### VIO Webpage Settings
 
-On Pilot Pro, open a web browser like Chrome, and go to 192.168.144.232:8000. This will load a webpage hosted by the VIO payload. Under the Systems menu, we recommend loading the following default parameters for Astro:
+On Pilot Pro, open a web browser like Chrome, and go to 192.168.144.232:8000. This will load a webpage hosted by the VIO payload. Under the Systems menu, we recommend loading the following default parameters for Astro/Alta X Gen2:
 
-{% file src="../../.gitbook/assets/payload_config_for_astro.vio" %}
+{% file src="../../.gitbook/assets/payload_config_for_astro_or_altax.vio" %}
 
 If this doesn't work, you can manually set the following parameters:
 
 * Video Streaming
   * Auto connect = Enable
-  * Bitrate = 2 Mbps
+  * Bitrate = 4 Mbps
   * Port = 8554
   * Resolution = 1280x720
   * Codec: H.264
@@ -84,7 +82,7 @@ If this doesn't work, you can manually set the following parameters:
   * Baudrate = 230400
   * Camera Component ID = Camera 1 (100)
 
-Then reboot Astro and the VIO. This process should only need to be applied once.
+Then reboot the aircraft and the VIO. This process should only need to be applied once.
 
 ## Operational Notes
 

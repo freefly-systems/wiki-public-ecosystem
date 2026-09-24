@@ -10,14 +10,11 @@
 -   Find the bind button on the IO Panel - next to the yellow XT connector.
 
     <figure><img src="../../../../.gitbook/assets/image (26).png" alt="" width="375"><figcaption></figcaption></figure>
+- Press on the bind button 3 times. The boom LED starts to blink white confirming that it is in binding mode.
 
+> The boom LEDs blink during pairing only on drone firmware **v2.3.7 or later**.
 
-
-* Press on the bind button 3 times. The boom LED starts to blink white confirming that it is  in binding mode.
-
-> The boom LEDs  blink during pairing only on drone firmware **v2.3.7 or later**.
-
-<figure><img src="../../../../.gitbook/assets/IMG_0764 (1).gif" alt="" width="360"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/IMG_0764.gif" alt="" width="360"><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Alta X Gen 1" %}

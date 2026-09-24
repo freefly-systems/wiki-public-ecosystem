@@ -60,8 +60,6 @@ DIU Blue Astros come with stealth logging enabled, which stops GPS data from bei
 
 <img src="../../.gitbook/assets/image (142).png" alt="Height map at the bottom shows terrain in the area is higher than the mission altitude." width="563">
 
-&#x20;
-
 <img src="../../.gitbook/assets/image (127).png" alt="Altitude of the mission was increased from 50m to 70m, avoiding the terrain." width="563">
 
 7\. Set speed. Check the Photo Interval value at the bottom of Survey settings along the right. This interval needs to be 2 seconds or more. If it's less, decrease the mission flight speed or increase forward overlap (if this is acceptable for your mission). If the photo interval is larger than 2 seconds, you can optionally increase your flight speed.
