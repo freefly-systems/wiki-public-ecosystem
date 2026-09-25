@@ -35,3 +35,11 @@ Key advantages:
 {% content-ref url="../payloads/third-party-payloads/hovermap-st-x-and-st-lidar/" %}
 [hovermap-st-x-and-st-lidar](../payloads/third-party-payloads/hovermap-st-x-and-st-lidar/)
 {% endcontent-ref %}
+
+## How Do They Compare?
+
+At Freefly Fest 2026, four lidars were flown on Astro over the same flight path, including Flux and Hovermap. See the results and download the datasets.
+
+{% content-ref url="lidar-comparison-freefly-fest-2026.md" %}
+[lidar-comparison-freefly-fest-2026.md](lidar-comparison-freefly-fest-2026.md)
+{% endcontent-ref %}

@@ -139,6 +139,7 @@
   * [Output Specification](workflows/photogrammetry-mapping/output-specification.md)
   * [Sample Mapping Data](workflows/photogrammetry-mapping/sample-mapping-data.md)
 * [Lidar Mapping](workflows/lidar-mapping.md)
+* [Lidar Comparison: Freefly Fest 2026](workflows/lidar-comparison-freefly-fest-2026.md)
 * [Infrastructure Inspection](workflows/infrastructure-inspection.md)
 * [Gas Inspection](workflows/gas-inspection.md)
 * [Filming](workflows/filming.md)
