@@ -2,13 +2,17 @@
 
 ### ⚠️ Read this first
 
+{% hint style="danger" %}
+Make sure to update the Drone to latest firmware (v2.3.7) before attempting to update the Doodle Radio Firmware
+{% endhint %}
+
 **Do not power off the drone, the Pilot Pro, or close the app while an update is running.** The drone powers the air radio and the Pilot Pro powers the ground radio. Cutting power to either while its radio is being flashed can **permanently damage (brick) that radio**.
 
 The most dangerous moment is the **"flashing..."** stage, when the progress bar appears to sit still. The radio is still writing firmware even though nothing seems to be happening. Wait for the app to show a success or failure result before touching anything. It will always show one, even if the update fails.
 
 ## Quick Start
 
-1. Make sure you are on the **latest** [**drone software**](https://app.gitbook.com/s/8dwrGJhxGd9cIvsStziq/maintenance/software-release-notes#latest-versions) **and** [**Pilot Pro app**](../../../maintenance/software-and-firmware-updates/#latest-software-versions)**.** &#x20;
+1. Make sure you are on the **latest** [**drone software**](https://app.gitbook.com/s/8dwrGJhxGd9cIvsStziq/maintenance/software-release-notes#latest-versions) **and** [**Pilot Pro app**](../../../maintenance/software-and-firmware-updates/#latest-software-versions)**.**
 2. Charge the **Pilot Pro and drone batteries above 50%**, and keep the Pilot Pro plugged in
 3. Power on the drone, disarmed, a couple of meters from the Pilot Pro, radios paired and connected
 4. On the **Channel Select** tab, scan and switch to the cleanest channel
@@ -21,9 +25,7 @@ The most dangerous moment is the **"flashing..."** stage, when the progress bar 
 
 If an update fails, power-cycle both the Pilot Pro and the drone before retrying — see[ If something goes](doodle-firmware-update.md#if-something-goes-wrong) wrong in the [full guide](doodle-firmware-update.md#doodle-radio-firmware-update-v2.0).
 
-
-
-> Note: Drone firmware 2.3.7 or later is needed to put the drone's radio into> \
+> Note: Drone firmware 2.3.7 or later is needed to put the drone's radio into\
 > pairing mode when it runs Doodle firmware v2.0.
 
 ***
@@ -33,8 +35,6 @@ If an update fails, power-cycle both the Pilot Pro and the drone before retrying
 This guide covers updating your drone's Doodle radios to firmware **v2.0** using the Pilot Pro app. There are two radios: the **ground radio** inside the Pilot Pro, and the **air radio** inside the drone. The app updates both.
 
 The whole process typically takes **8 to 12 minutes**.
-
-
 
 ***
 
