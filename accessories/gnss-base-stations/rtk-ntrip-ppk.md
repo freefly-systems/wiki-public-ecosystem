@@ -6,7 +6,7 @@ description: >-
 
 # RTK, NTRIP, PPK: Which One Do You Need?
 
-<figure><img src="../.gitbook/assets/rtk-ntrip-ppk-hero.svg" alt="A drone receiving GNSS signals from satellites while a base station on the ground sends live corrections"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/rtk-ntrip-ppk-hero.svg" alt="A drone receiving GNSS signals from satellites while a base station on the ground sends live corrections"><figcaption></figcaption></figure>
 
 Standard GPS puts your aircraft within 1 to 3 m of its true position. GNSS corrections bring that down to centimeters. RTK, NTRIP and PPK are three ways to get those corrections, and each one solves a different problem. A common mistake is buying a base station before knowing which problem you actually have.
 
@@ -18,7 +18,7 @@ Short on time? Go to [Which one should I use?](rtk-ntrip-ppk.md#which-one-should
 
 Most RTK questions we get come down to this. "Centimeter accuracy" can mean two different things, and they come from different places.
 
-<figure><img src="../.gitbook/assets/rtk-ntrip-ppk-accuracy.svg" alt="Three targets: standard GPS scatters widely, relative accuracy is a tight cluster offset from the target, absolute accuracy is a tight cluster on the target"><figcaption><p>Same drone, three outcomes. The cross is the true position.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/rtk-ntrip-ppk-accuracy.svg" alt="Three targets: standard GPS scatters widely, relative accuracy is a tight cluster offset from the target, absolute accuracy is a tight cluster on the target"><figcaption><p>Same drone, three outcomes. The cross is the true position.</p></figcaption></figure>
 
 RTK always gives you the tight cluster. Whether that cluster lands on the cross depends on how well the base station knows its own position. A base that averages its position for a few minutes (Survey-In) gives you the middle target. A base on a surveyed point, an NTRIP network, or post-processed base data gives you the one on the right.
 
@@ -32,7 +32,7 @@ What makes a surveyor's base station accurate isn't RTK itself. It's the hardwar
 
 RTK and NTRIP correct position during the flight, over a radio or internet link. PPK corrects it after the flight from log files, so there's no link to lose.
 
-<figure><img src="../.gitbook/assets/rtk-ntrip-ppk-paths.svg" alt="RTK and NTRIP send corrections live during flight; PPK merges base and aircraft log files after the flight"><figcaption><p>When each method applies corrections. The dashed line marks the end of the flight.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/rtk-ntrip-ppk-paths.svg" alt="RTK and NTRIP send corrections live during flight; PPK merges base and aircraft log files after the flight"><figcaption><p>When each method applies corrections. The dashed line marks the end of the flight.</p></figcaption></figure>
 
 With RTK and NTRIP, corrections arrive while the aircraft is flying. That improves how it flies, but it also means a link dropout mid-flight shows up in your data. With PPK, the aircraft flies on standard GPS and every position is recalculated after landing from the complete log files. The math is the same, but none of it has to happen in real time.
 
@@ -79,7 +79,7 @@ Pick the tab that matches your site, then the one that matches your payload and 
 {% tabs %}
 {% tab title="Flux LiDAR" %}
 {% hint style="success" %}
-**PPK with a logging base or a CORS file.** Log raw GNSS on a base station for the whole scan, or download a file from a nearby permanent station, and load it during Flux processing. See [Flux setup](../payloads/flux-lidar/mapping-workflow-with-flux/setup.md#setup-your-gnss-base-station) for base station requirements.
+**PPK with a logging base or a CORS file.** Log raw GNSS on a base station for the whole scan, or download a file from a nearby permanent station, and load it during Flux processing. See [Flux setup](../../payloads/flux-lidar/mapping-workflow-with-flux/setup.md#setup-your-gnss-base-station) for base station requirements.
 {% endhint %}
 {% endtab %}
 
@@ -120,16 +120,16 @@ Use NTRIP when you have coverage, or a logging base station with PPK when you do
 
 ## Next steps
 
-{% content-ref url="../controller/pilot-pro/operating-handbook/ecosystem/rtk.md" %}
-[rtk.md](../controller/pilot-pro/operating-handbook/ecosystem/rtk.md)
+{% content-ref url="../../controller/pilot-pro/operating-handbook/ecosystem/rtk.md" %}
+[rtk.md](../../controller/pilot-pro/operating-handbook/ecosystem/rtk.md)
 {% endcontent-ref %}
 
-{% content-ref url="photogrammetry-mapping/ppk-software.md" %}
-[ppk-software.md](photogrammetry-mapping/ppk-software.md)
+{% content-ref url="../../workflows/photogrammetry-mapping/ppk-software.md" %}
+[ppk-software.md](../../workflows/photogrammetry-mapping/ppk-software.md)
 {% endcontent-ref %}
 
-{% content-ref url="../payloads/flux-lidar/" %}
-[flux-lidar](../payloads/flux-lidar/)
+{% content-ref url="../../payloads/flux-lidar/" %}
+[flux-lidar](../../payloads/flux-lidar/)
 {% endcontent-ref %}
 
 Not sure which fits your workflow? [Contact us](https://freeflysystems.com/contact).
