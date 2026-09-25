@@ -55,7 +55,7 @@ Pick the tab that matches your site, then the one that matches your payload and 
 {% tabs %}
 {% tab title="Flux LiDAR" %}
 {% hint style="success" %}
-**NTRIP.** Flux needs L1/L2/L5/L6 corrections, which the Freefly RTK Base Station doesn't forward. Flux also saves the NTRIP stream into the .fluxscan file for processing.
+**NTRIP.** Flux saves the NTRIP stream into the .fluxscan file and uses it during processing. You get survey-grade placement with no extra hardware.
 {% endhint %}
 {% endtab %}
 
@@ -79,7 +79,7 @@ Pick the tab that matches your site, then the one that matches your payload and 
 {% tabs %}
 {% tab title="Flux LiDAR" %}
 {% hint style="success" %}
-**PPK with a multi-band base.** Log raw GNSS on a base that covers L1/L2/L5/L6 and load the observation file during Flux processing. The Freefly RTK Base Station won't work here because it only forwards L1/L2.
+**PPK with a logging base or a CORS file.** Log raw GNSS on a base station for the whole scan, or download a file from a nearby permanent station, and load it during Flux processing. See [Flux setup](../payloads/flux-lidar/mapping-workflow-with-flux/setup.md#setup-your-gnss-base-station) for base station requirements.
 {% endhint %}
 {% endtab %}
 
@@ -115,7 +115,7 @@ RTK became popular when drone GPS wasn't good enough for reliable position hold.
 {% hint style="info" %}
 **Flying the Flux LiDAR?**
 
-Use NTRIP. The Freefly RTK Base Station forwards only L1/L2, and Flux needs L1, L2, L5 and L6. Flux saves the NTRIP correction stream into the .fluxscan file for processing, and it was designed around this workflow. At sites without coverage, Flux processing also accepts external observation files, so a multi-band logging base with PPK works too.
+Use NTRIP when you have coverage, or a logging base station with PPK when you don't. We don't recommend the Freefly RTK Base Station for Flux. Its position comes from Survey-In, so your scan's placement can be meters off.
 {% endhint %}
 
 ## Next steps
