@@ -163,7 +163,8 @@
 
 ## Accessories
 
-* [GNSS Base Stations](accessories/gnss-base-stations.md)
+* [GNSS Base Stations](accessories/gnss-base-stations/README.md)
+  * [RTK, NTRIP or PPK?](accessories/gnss-base-stations/rtk-ntrip-ppk.md)
 * [Smart Dovetail Isolator System](accessories/smart-dovetail-isolator-system.md)
 * [GNSS Aircraft Mounts](accessories/gnss-aircraft-mounts.md)
 * [Astro Skyview Payload Mount](accessories/astro-skyview-payload-mount.md)

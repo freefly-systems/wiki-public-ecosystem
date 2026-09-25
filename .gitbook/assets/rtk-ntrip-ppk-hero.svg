@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 306" width="960" height="306" role="img" aria-label="A drone receiving GNSS signals from satellites while a base station on the ground sends live corrections" font-family="DIN Next, Helvetica Neue, Helvetica, Arial, sans-serif">
+<defs>
+    <symbol id="ic-drone" viewBox="0 0 107.58 35.88">
+      <g fill="currentColor" stroke="none">
+        <path d="M58,24.61H55.09V21.56H56.7V19.92h.19V17.16h1.17a.68.68,0,0,0,.67-.57.66.66,0,0,0-.31-.71l-.11-.1h-.1c-.45-.2-1.27-.65-1.48-.77l-5.84-.09-.2,0-.35.19c-.33.18-.92.5-1.28.66H49l-.1.1a.69.69,0,0,0,.37,1.27h1.19v2.76h.18v1.64h1.62v2.38l-2.42-.07-.93,1.18v.6H47.58v-.19H44.21V32h3.37v-.19h1.51l.66,1H55V32h3a1.22,1.22,0,0,0,1.22-1.23V25.83A1.22,1.22,0,0,0,58,24.61ZM50.83,16,51,16h5.31l.35.19h-6Zm.6,2.86V17.58h4.44v1.31Zm.18,1.49h4.07v.15H51.61ZM46.55,30.92H45.24V26.49h1.31Zm11.68-5.09v1a2.33,2.33,0,0,0-1.51-1.23H58A.2.2,0,0,1,58.23,25.83Zm-.77,2.08a1.34,1.34,0,1,1-1.34-1.33A1.34,1.34,0,0,1,57.46,27.91ZM54.06,22v1.69h-.83V22Zm-5.87,8.78H48V26.67h.16Zm2.1,1a.1.1,0,0,0,.05,0h0ZM58,30.92H51a.2.2,0,0,1-.2-.2v-1.8a1.49,1.49,0,0,0,2.61-1,1.49,1.49,0,0,0-2.61-1V25.83a.2.2,0,0,1,.2-.19h4.57A2.36,2.36,0,1,0,58.23,29v1.76A.2.2,0,0,1,58,30.92Zm-6.64-3a.48.48,0,1,1,.48.48A.48.48,0,0,1,51.39,27.91Z"/>
+        <path d="M19,1.7a1.13,1.13,0,0,0-.52.94V5h6.47V2.64a1.13,1.13,0,0,0-.52-.94V1.34h0v.2a2.38,2.38,0,0,1,1.22.31l.38.24a7.84,7.84,0,0,0,4.07,1.07A7.25,7.25,0,0,0,31,3.11l9.71-1.19A13.08,13.08,0,0,0,43,1.44a.79.79,0,0,0,.35-.88A.78.78,0,0,0,42.62,0H24.42V.51h0V0H.77A.76.76,0,0,0,0,.58a.75.75,0,0,0,.35.86,13.19,13.19,0,0,0,2.28.48l9.73,1.19a7.25,7.25,0,0,0,.93.05,7.87,7.87,0,0,0,4.07-1.07l.37-.24A2.4,2.4,0,0,1,19,1.54ZM39.62,1,30.91,2.09a7,7,0,0,1-4.34-.87L26.26,1Zm-22.78.19a7,7,0,0,1-4.34.87L3.78,1H17.14ZM23.91,4H19.48V2.64a.13.13,0,0,1,.14-.13h4.15a.13.13,0,0,1,.14.13Z"/>
+        <path d="M89.47,5.72H79v.35H76.46c-1.69,0-3.11,1.26-4.48,2.47-1.12,1-2.17,1.91-3.11,1.91H67V9.82H63.79l-.26-.3L63.1,5.89a1.53,1.53,0,0,0-1.52-1.35H56.1V3.44A1.08,1.08,0,0,0,55,2.36H52.71a1.08,1.08,0,0,0-1.08,1.08v1.1H46.09a1.53,1.53,0,0,0-1.52,1.35l-.43,3.62-.27.31H40.64v.63H38.71c-.94,0-2-.93-3.1-1.91-1.38-1.21-2.8-2.47-4.49-2.47H28.56V5.72H18.11V7.83h0v2.42H19a1.64,1.64,0,0,0,1.38-.66l.19-.27.1-.46h.15l-.05,1.71a.86.86,0,0,0,.52.79,1,1,0,0,0,.32.06.82.82,0,0,0,.59-.24l1.32-1.32h1.39V10h2.61v0h3.24c.41,0,1.35.88,2.11,1.59,1.44,1.35,3.23,3,5.11,3h2.64v.78h1.5a.86.86,0,0,0-.1.38v.39c0,.3,0,.64,0,.87a.8.8,0,0,0,.8.8L38,34.85h-.38v1h2v-1H39l4.88-17h0a.75.75,0,0,0,.58-.25l1.24-1.31a.79.79,0,0,0,.16-.87v0h3v-.86h9.75v.86h2.93l0,0a.82.82,0,0,0,.16.87L63,17.57a.78.78,0,0,0,.6.28h.1l4.89,17H68v1h2v-1h-.39l-4.89-17a.78.78,0,0,0,.73-.77c0-.25,0-.59,0-.89v-.39a.86.86,0,0,0-.1-.38H67v-.77h2.61c1.89,0,3.68-1.69,5.12-3,.76-.72,1.7-1.6,2.1-1.6H80v0h2.61V9.86H84l1.32,1.31h0a.82.82,0,0,0,.59.24.87.87,0,0,0,.32-.06.84.84,0,0,0,.52-.8l-.05-1.7h.12l.06.28.26.45a1.67,1.67,0,0,0,1.38.66h.92V7.83h0ZM43.84,16.82h-.78V16h1.59Zm19-.86h1.59v.86h-.77Zm-9-5.33-.52-.54,0-.05-.34-.34H54.7l-.52.46a.58.58,0,0,0-.17.29Zm2.39-1.08a.67.67,0,0,0,0-.42L56.13,9l.16-.22a.28.28,0,0,1,.23-.11H61.3a.28.28,0,0,1,.23.1l.81.94H56.16l.1-.1ZM55.1,8.67h-.76V8.55H55a1.42,1.42,0,0,0,.2,0Zm-1.78,0h-.75l-.14-.18a1.27,1.27,0,0,0,.28.06h.61Zm-1.78.43a.67.67,0,0,0,0,.37l-.08.14.1.1H45.32l.82-1a.28.28,0,0,1,.22-.09h4.78a.29.29,0,0,1,.24.12l.19.26Zm1.94,1.64H54v1.13h-.48Zm8.1-5.17a.5.5,0,0,1,.5.44l.25,2.12v0a1.34,1.34,0,0,0-1-.46H56.52a1.28,1.28,0,0,0-.47.1,1.26,1.26,0,0,0,.05-.28V5.57ZM52.71,3.39l2.37,0v4a.06.06,0,0,1-.06.06l-2.37-.06ZM45.59,6a.51.51,0,0,1,.5-.44h5.54V7.46a.94.94,0,0,0,.06.3,1.47,1.47,0,0,0-.55-.12H46.36a1.3,1.3,0,0,0-1,.46h0Zm-26,3a.65.65,0,0,1-.44.2V8.86h.54Zm2.27,1.11,0-1.26h1.22ZM26,8.94V7.83H19.13V6.75h8.41V8.94Zm7.64,1.89c-1.12-1-2-1.87-2.81-1.87H28.56V7.1h2.56c1.3,0,2.58,1.12,3.81,2.21s2.45,2.17,3.78,2.17h2.91v2.11H38C36.52,13.59,34.9,12.06,33.59,10.83Zm14.32,3.54H42.64V10.85h5.27Zm1-.86v-1.9h3.53v.57a.71.71,0,0,0,.71.72h1.1a.71.71,0,0,0,.71-.72v-.57h3.7v1.9ZM59.7,10.85h5.24v3.52H59.7Zm14.29,0c-1.3,1.23-2.93,2.76-4.41,2.76H66V11.48h2.91c1.33,0,2.52-1.06,3.79-2.17s2.5-2.21,3.8-2.21H79V9H76.8C76,9,75.11,9.79,74,10.84ZM80,6.75h8.41V7.83H81.63V8.94H80Zm5.71,3.37L84.49,8.86h1.23Zm2.71-.91A.6.6,0,0,1,88,9l-.11-.15h.54Z"/>
+        <path d="M107.55.56A.78.78,0,0,0,106.8,0H83.17V.51h0V0H65a.76.76,0,0,0-.74.56.76.76,0,0,0,.35.88,13.19,13.19,0,0,0,2.28.48l9.73,1.19a7.25,7.25,0,0,0,.93.05,7.87,7.87,0,0,0,4.07-1.07L82,1.85a2.4,2.4,0,0,1,1.22-.31V1.7a1.13,1.13,0,0,0-.52.94V5h6.47V2.64a1.13,1.13,0,0,0-.52-.94V1.54a2.38,2.38,0,0,1,1.22.31l.38.24a7.84,7.84,0,0,0,4.07,1.07,7.25,7.25,0,0,0,.93-.05l9.71-1.19a13.08,13.08,0,0,0,2.29-.48A.79.79,0,0,0,107.55.56ZM81,1.22a7,7,0,0,1-4.34.87L68,1H81.34ZM88.1,4H83.67V2.64a.14.14,0,0,1,.14-.13H88a.13.13,0,0,1,.14.13Zm7-1.88a7,7,0,0,1-4.34-.87L90.44,1H103.8Z"/>
+      </g>
+    </symbol>
+    <symbol id="ic-base" viewBox="0 0 96 116">
+      <g stroke="currentColor" fill="none" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="41" y="2" width="14" height="17" rx="2.5" fill="currentColor" stroke="none"/>
+        <rect x="36" y="19" width="24" height="30" rx="4" fill="currentColor" stroke="none"/>
+        <rect x="42" y="26" width="12" height="1.8" rx="0.9" fill="#ffffff" stroke="none"/>
+        <rect x="42" y="30" width="8" height="1.8" rx="0.9" fill="#ffffff" stroke="none"/>
+        <circle cx="48" cy="40" r="2.7" fill="#ffffff" stroke="none"/>
+        <path d="M48 49 V56"/>
+        <path d="M39 56 H57 L55 63 H41 Z" fill="#ffffff"/>
+        <path d="M42 63 L23 108 M45.5 63 L26.5 108"/>
+        <path d="M54 63 L73 108 M50.5 63 L69.5 108"/>
+        <path d="M48 63 V109" stroke-width="2"/>
+        <path d="M31 88 L38 85 M65 88 L58 85" stroke-width="2"/>
+        <path d="M24.5 108 L23 114 M71.5 108 L73 114 M48 109 V114" stroke-width="2.2"/>
+      </g>
+    </symbol>
+    <symbol id="ic-base2" viewBox="0 0 96 116">
+      <g stroke="currentColor" fill="none" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M37 20 Q37 13 48 12 Q59 13 59 20 L63 25 L61 40 Q59 46 54 48 L42 48 Q37 46 35 40 L33 25 Z" fill="currentColor" stroke="none"/>
+        <path d="M34.5 24.5 H61.5" stroke="#ffffff" stroke-width="1.6"/>
+        <circle cx="40.5" cy="33.5" r="1.1" fill="#ffffff" stroke="none"/>
+        <circle cx="45.5" cy="33.5" r="1.1" fill="#ffffff" stroke="none"/>
+        <circle cx="50.5" cy="33.5" r="1.1" fill="#ffffff" stroke="none"/>
+        <circle cx="55.5" cy="33.5" r="1.1" fill="#ffffff" stroke="none"/>
+        <circle cx="48" cy="41.5" r="2.7" fill="none" stroke="#ffffff" stroke-width="1.5"/>
+        <path d="M48 48 V56"/>
+        <path d="M39 56 H57 L55 63 H41 Z" fill="#ffffff"/>
+        <path d="M42 63 L23 108 M45.5 63 L26.5 108"/>
+        <path d="M54 63 L73 108 M50.5 63 L69.5 108"/>
+        <path d="M48 63 V109" stroke-width="2"/>
+        <path d="M31 88 L38 85 M65 88 L58 85" stroke-width="2"/>
+        <path d="M24.5 108 L23 114 M71.5 108 L73 114 M48 109 V114" stroke-width="2.2"/>
+      </g>
+    </symbol>
+    <symbol id="ic-sat" viewBox="0 0 90 44">
+      <g stroke="currentColor" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="36" y="12" width="18" height="16" rx="2" fill="#ffffff"/>
+        <rect x="8" y="15" width="22" height="10"/>
+        <rect x="60" y="15" width="22" height="10"/>
+        <path d="M15 15 v10 M23 15 v10 M67 15 v10 M75 15 v10"/>
+        <path d="M30 20 h6 M54 20 h6"/>
+        <path d="M45 28 v6"/>
+      </g>
+    </symbol>
+    <symbol id="ic-tower" viewBox="0 0 64 92">
+      <g stroke="currentColor" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M20 90 L29 18 L35 18 L44 90"/>
+        <path d="M22 74 L42 60 M42 74 L22 60 M25 48 L39 36 M39 48 L25 36"/>
+        <path d="M16 90 H48"/>
+        <path d="M32 18 V8"/>
+        <path d="M24 12 a 10 10 0 0 1 16 0" stroke-width="2"/>
+        <path d="M19 16 a 16 16 0 0 1 26 0" stroke-width="2"/>
+      </g>
+    </symbol>
+    <symbol id="ic-laptop" viewBox="-1 13 56 39.5"><g id="ffly-laptop"><polygon points="19.99 47.52 52.67 47.52 34.92 36.91 2.24 36.91 19.99 47.52" style="fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px"/><polygon points="29.17 47.52 41.94 47.52 35 43.37 22.23 43.37 29.17 47.52" style="fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px"/><path d="M2.24,36.91H34.92l-1.5-22.1a.8.8,0,0,0-.79-.74H1.54a.79.79,0,0,0-.79.85Z" style="fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px"/><line x1="27.46" y1="30.33" x2="11.22" y2="19.43" style="fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px"/><line x1="10.02" y1="23.24" x2="7.12" y2="21.29" style="fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px"/><line x1="21.52" y1="30.96" x2="12.03" y2="24.59" style="fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px"/><line x1="34.31" y1="39.94" x2="13.44" y2="39.94" style="fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px"/><path d="M2.24,36.91V39a3.09,3.09,0,0,0,1.51,2.66L18.2,50.39a2.74,2.74,0,0,0,1.42.4H50.44a2.23,2.23,0,0,0,2.23-2.23v-1" style="fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px"/><circle cx="16.77" cy="16.72" r="0.81" style="fill:currentColor"/></g></symbol>
+    <symbol id="ic-marker" viewBox="0 0 24 24">
+      <g stroke="currentColor" fill="none" stroke-width="2" stroke-linecap="round">
+        <circle cx="12" cy="12" r="7"/>
+        <path d="M12 2 V22 M2 12 H22"/>
+      </g>
+    </symbol>
+  </defs>
+<rect width="960" height="306" rx="8" fill="#ffffff"/>
+
+      <!-- terrain -->
+      <path d="M0 252 H960" stroke="#9aa0a2" stroke-width="1.5" fill="none"/>
+      <path d="M0 270 C180 262 340 278 520 270 S 840 262 960 272" stroke="#e3e3e3" stroke-width="1.5" fill="none"/>
+      <path d="M0 289 C240 281 480 295 720 286 S 900 289 960 285" stroke="#e3e3e3" stroke-width="1.5" fill="none"/>
+      <!-- satellites -->
+      <use href="#ic-sat" x="205" y="20" width="90" height="44" color="#9aa0a2"/>
+      <use href="#ic-sat" x="575" y="8" width="90" height="44" color="#9aa0a2"/>
+      <use href="#ic-sat" x="815" y="46" width="74" height="36" color="#9aa0a2"/>
+      <!-- GNSS signals -->
+      <g stroke="#c1c6c7" stroke-width="1.5" stroke-dasharray="3 7" fill="none">
+        <path d="M255 66 L608 99"/>
+        <path d="M622 54 L620 96"/>
+        <path d="M847 84 L648 100"/>
+      </g>
+      <text x="310" y="34" font-size="12" fill="#999999">GNSS signals</text>
+      <!-- base station -->
+      <use href="#ic-base" x="132" y="133" width="98" height="119" color="#e8590c"/>
+      <text x="180" y="278" text-anchor="middle" font-size="12" fill="#666666">base station</text>
+      <!-- known point -->
+      <use href="#ic-marker" x="487" y="239" width="26" height="26" color="#8a9092"/>
+      <text x="500" y="281" text-anchor="middle" font-size="12" fill="#999999">known point</text>
+      <!-- live corrections -->
+      <path d="M196 140 Q 385 50 530 100" stroke="#e8590c" stroke-width="2" stroke-dasharray="7 5" fill="none"/>
+      <polygon points="532,101 519.4,101.6 522,92.9" fill="#e8590c"/>
+      <text x="330" y="66" font-size="12" fill="#e8590c">live corrections</text>
+      <!-- aircraft -->
+      <use href="#ic-drone" x="535" y="104" width="170" height="57" color="#000000"/>
+    
+</svg>
