@@ -10,7 +10,7 @@ Flux L1 features a Livox Avia sensor that has been evaluated to be **Class 1 las
 
 ## Laser Radiation
 
-<figure><img src="../../.gitbook/assets/Class 1.png" alt="" width="375"><figcaption><p>Class 1 Laser Product</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Class 1.png" alt="" width="375"><figcaption><p>Class 1 Laser Product</p></figcaption></figure>
 
 The XT32M2X, Ouster OS1, and Livox Avia sensors featured in Flux emit Class 1 invisible laser radiation.
 
@@ -24,7 +24,7 @@ Use of controls, or adjustments, or performance of procedures other than those s
 
 ## Hot Surfaces
 
-<figure><img src="../../.gitbook/assets/Hot Surfaces.png" alt="" width="375"><figcaption><p>Hot Surfaces</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Hot Surfaces.png" alt="" width="375"><figcaption><p>Hot Surfaces</p></figcaption></figure>
 
 {% hint style="danger" %}
 Flux can get **very hot** - use caution when handling Flux or removing it from the payload connector
